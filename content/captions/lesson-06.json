@@ -1,0 +1,668 @@
+[
+  {
+    "start": 0,
+    "end": 3.32,
+    "text": "A convincing circuit diagram is only a starting",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 3.32,
+    "end": 3.84,
+    "text": "point.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 4.42,
+    "end": 8.22,
+    "text": "This workflow combines an AI agent, schematic editing,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 8.8,
+    "end": 11.2,
+    "text": "and circuit simulation, so a design",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 11.2,
+    "end": 13.74,
+    "text": "proposal can be examined against its requirements.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 14.86,
+    "end": 17.62,
+    "text": "The agent uses the design requirements to propose",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 17.62,
+    "end": 18.72,
+    "text": "a circuit topology.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 19.48,
+    "end": 23.46,
+    "text": "KiCad, through the Konnect interface, supports schematic editing",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 23.46,
+    "end": 24.04,
+    "text": "and checks.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 24.04,
+    "end": 27.78,
+    "text": "The simulation tool then evaluates performance measures including",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 27.78,
+    "end": 29.18,
+    "text": "amplifier gain and bandwidth.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 30.14,
+    "end": 33.62,
+    "text": "Compare the simulated results with the design specifications.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 34.0,
+    "end": 36.92,
+    "text": "Check gain and bandwidth against their targets, and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 36.92,
+    "end": 38.2,
+    "text": "keep the underlying outputs.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 38.68,
+    "end": 40.64,
+    "text": "If evidence is missing or a requirement is",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 40.64,
+    "end": 42.54,
+    "text": "not met, the design has not passed.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 43.24,
+    "end": 46.2,
+    "text": "Without supporting evidence, the design has not passed.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 46.54,
+    "end": 48.18,
+    "text": "The goal is a traceable workflow.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 48.18,
+    "end": 51.66,
+    "text": "propose a design, check the schematic, run the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 51.66,
+    "end": 54.84,
+    "text": "simulation, and review the results before accepting the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 54.84,
+    "end": 55.18,
+    "text": "design.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 57.91366666666667,
+    "end": 61.87766666666667,
+    "text": "Before asking AI to design a circuit, define\nsuccess.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 62.23866666666667,
+    "end": 64.98166666666667,
+    "text": "A simulation that runs is only a starting\npoint.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 65.24266666666666,
+    "end": 67.66466666666668,
+    "text": "The final verdict needs measured results.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 68.84566666666667,
+    "end": 70.66766666666666,
+    "text": "Set the gain target at ten,",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 71.02766666666668,
+    "end": 72.64866666666667,
+    "text": "with a five percent tolerance.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 73.06966666666668,
+    "end": 74.93066666666667,
+    "text": "Acceptable gain is nine point five",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 74.93066666666667,
+    "end": 76.79166666666667,
+    "text": "to ten point five volts per volt.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 77.11266666666667,
+    "end": 79.17366666666666,
+    "text": "Require a bandwidth of at least",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 79.17366666666666,
+    "end": 80.61466666666666,
+    "text": "one hundred fifty kilohertz,",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 80.97566666666667,
+    "end": 83.07666666666667,
+    "text": "measured at the first three-decibel crossing",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 83.07666666666667,
+    "end": 85.05866666666667,
+    "text": "from the simulated low-frequency gain.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 86.29966666666667,
+    "end": 88.84166666666667,
+    "text": "Keep the simulation assumptions explicit.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 89.02166666666668,
+    "end": 91.46366666666667,
+    "text": "The example uses an open-loop gain",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 91.50366666666667,
+    "end": 92.88466666666667,
+    "text": "of one hundred thousand",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 93.16466666666668,
+    "end": 95.44666666666667,
+    "text": "and a single-pole gain-bandwidth product",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 95.54666666666667,
+    "end": 96.68666666666667,
+    "text": "of one megahertz.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 97.04766666666667,
+    "end": 99.46866666666668,
+    "text": "Then sweep from ten hertz to ten megahertz,",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 99.66966666666667,
+    "end": 101.51066666666668,
+    "text": "with a one-volt AC input.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 101.63066666666667,
+    "end": 104.31266666666667,
+    "text": "Check whether those assumptions can support\nthe targets.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 105.35266666666666,
+    "end": 107.77366666666667,
+    "text": "Check the circuit before trusting the verdict.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 107.85366666666667,
+    "end": 109.53466666666667,
+    "text": "Inspect the schematic and model,",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 109.77466666666666,
+    "end": 111.61566666666667,
+    "text": "including the electrical rules check.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 112.01566666666668,
+    "end": 113.61666666666667,
+    "text": "Then measure gain and bandwidth",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 113.61666666666667,
+    "end": 115.07666666666667,
+    "text": "from the simulator's output.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 115.41666666666667,
+    "end": 117.81766666666667,
+    "text": "Compare both with the acceptance criteria",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 117.81766666666667,
+    "end": 119.91866666666667,
+    "text": "before declaring the design successful.",
+    "origin": "Amplifier_Acceptance_Professional.srt"
+  },
+  {
+    "start": 122.12166666666667,
+    "end": 125.13266666666667,
+    "text": "A reliable AI circuit workflow gives each",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 125.13266666666667,
+    "end": 126.37666666666667,
+    "text": "tool a clear job.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 127.33966666666667,
+    "end": 130.42166666666668,
+    "text": "DeepSeek and OpenCode help propose circuit\ndesigns,",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 130.58166666666668,
+    "end": 133.16266666666667,
+    "text": "select components, and decide what to\ninvestigate",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 133.16266666666667,
+    "end": 135.34366666666668,
+    "text": "next. Their role is to coordinate the",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 135.34366666666668,
+    "end": 138.58566666666667,
+    "text": "workflow. A convincing explanation still\nneeds evidence",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 138.58566666666667,
+    "end": 139.86566666666667,
+    "text": "from the engineering tools.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 140.96666666666667,
+    "end": 143.06766666666667,
+    "text": "MCP provides the tool interface.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 143.34766666666667,
+    "end": 145.90866666666668,
+    "text": "The agent discovers available actions,\nsupplies their",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 145.90866666666668,
+    "end": 148.77066666666667,
+    "text": "parameters, and receives results or error\nmessages.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 148.99066666666667,
+    "end": 151.43166666666667,
+    "text": "That makes the handoff inspectable,\ninstead of",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 151.43166666666667,
+    "end": 153.19266666666667,
+    "text": "hiding it inside a conversation.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 154.29266666666666,
+    "end": 157.69466666666668,
+    "text": "KiCad, connected through Konnect in this\nworkflow,",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 157.81466666666668,
+    "end": 160.11566666666667,
+    "text": "handles the schematic and connectivity\nchecks.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 160.43566666666666,
+    "end": 162.37666666666667,
+    "text": "It also provides the circuit description\nfor",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 162.37666666666667,
+    "end": 165.31766666666667,
+    "text": "simulation. Passing an electrical rules\ncheck does",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 165.31766666666667,
+    "end": 167.03866666666667,
+    "text": "not prove that an amplifier meets its",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 167.03866666666667,
+    "end": 168.2386666666667,
+    "text": "performance requirements.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 169.55966666666666,
+    "end": 172.94166666666666,
+    "text": "ngspice performs the numerical circuit\nanalysis.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 173.48266666666666,
+    "end": 175.88366666666667,
+    "text": "An AC sweep can show gain across",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 175.88366666666667,
+    "end": 178.52566666666667,
+    "text": "frequency and help assess bandwidth.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 179.1256666666667,
+    "end": 181.60766666666666,
+    "text": "Those results depend on the netlist,\ndevice",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 181.60766666666666,
+    "end": 183.34866666666667,
+    "text": "models, and analysis settings.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 183.9286666666667,
+    "end": 186.85066666666665,
+    "text": "Model validity, convergence, and\nperformance against the",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 186.85066666666665,
+    "end": 189.27266666666668,
+    "text": "design requirements remain separate\nchecks.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 190.65366666666668,
+    "end": 192.29466666666667,
+    "text": "Let AI coordinate.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 192.79466666666667,
+    "end": 194.73666666666668,
+    "text": "Let engineering tools calculate.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 195.19666666666666,
+    "end": 197.89866666666666,
+    "text": "Keep the inputs, checks, and results\ntraceable.",
+    "origin": "AI_Circuit_Workflow.srt"
+  },
+  {
+    "start": 200.20166666666665,
+    "end": 202.10666666666665,
+    "text": "Simulation is just the beginning",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 202.10766666666666,
+    "end": 203.17066666666668,
+    "text": "of board design.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 204.05266666666665,
+    "end": 206.01366666666667,
+    "text": "Before layout, check the circuit",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 206.01366666666667,
+    "end": 208.73466666666667,
+    "text": "against its required gain and bandwidth",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 208.91566666666665,
+    "end": 210.17566666666667,
+    "text": "in ngspice.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 210.65566666666666,
+    "end": 212.69666666666666,
+    "text": "Keep the simulation log, netlist,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 212.71666666666667,
+    "end": 213.77766666666668,
+    "text": "and model checksum.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 213.93766666666667,
+    "end": 215.75866666666667,
+    "text": "Those records preserve the evidence",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 215.75866666666667,
+    "end": 216.71866666666668,
+    "text": "behind the result.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 217.52066666666667,
+    "end": 220.18366666666668,
+    "text": "Next, capture the production schematic.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 220.62466666666666,
+    "end": 223.10766666666666,
+    "text": "Use the real operational amplifier part,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 223.38766666666666,
+    "end": 224.78966666666668,
+    "text": "appropriate power supplies,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 225.07066666666668,
+    "end": 226.41166666666666,
+    "text": "decoupling capacitors,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 226.61266666666666,
+    "end": 227.97366666666667,
+    "text": "and the feedback connections.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 228.21466666666666,
+    "end": 230.25766666666667,
+    "text": "The physical implementation needs details",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 230.25766666666667,
+    "end": 231.41866666666667,
+    "text": "beyond the simulation.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 232.47966666666667,
+    "end": 233.92066666666668,
+    "text": "Then move into KiCad",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 233.92066666666668,
+    "end": 235.98166666666668,
+    "text": "for component placement and routing.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 236.20166666666665,
+    "end": 238.26266666666666,
+    "text": "Autorouting can be an optional part",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 238.26266666666666,
+    "end": 239.26266666666666,
+    "text": "of that workflow.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 239.30366666666666,
+    "end": 240.92366666666666,
+    "text": "Review the resulting layout.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 240.92366666666666,
+    "end": 243.34566666666666,
+    "text": "Identify and verify any separately named",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 243.34566666666666,
+    "end": 245.02566666666667,
+    "text": "routing tool before relying on it.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 245.82666666666665,
+    "end": 248.18966666666665,
+    "text": "Finally, run the board design rule check.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 248.54966666666667,
+    "end": 249.57066666666668,
+    "text": "Review noise,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 249.77066666666667,
+    "end": 251.71266666666668,
+    "text": "how current returns through the board,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 251.93366666666668,
+    "end": 253.03366666666668,
+    "text": "signal coupling,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 253.05466666666666,
+    "end": 254.71566666666666,
+    "text": "and manufacturing requirements.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 255.11666666666667,
+    "end": 256.53766666666667,
+    "text": "Use the rule check alongside",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 256.53766666666667,
+    "end": 258.07966666666664,
+    "text": "the wider engineering review.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 258.91966666666667,
+    "end": 261.46066666666667,
+    "text": "AI can assist with\nplanning and automation.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 261.64166666666665,
+    "end": 263.32166666666666,
+    "text": "Use each tool for its purpose.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 263.38166666666666,
+    "end": 264.8226666666667,
+    "text": "The assistant coordinates.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 264.98266666666666,
+    "end": 267.36366666666663,
+    "text": "ngspice measures circuit behavior,",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 267.36366666666663,
+    "end": 269.32466666666664,
+    "text": "and KiCad supports the board checks.",
+    "origin": "Simulation_to_PCB.srt"
+  },
+  {
+    "start": 269.48466666666667,
+    "end": 271.4856666666667,
+    "text": "Verification remains essential.",
+    "origin": "Simulation_to_PCB.srt"
+  }
+]

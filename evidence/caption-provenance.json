@@ -1,0 +1,159 @@
+[
+  {
+    "lesson": "01",
+    "cues": 126,
+    "canonicalAudioMatchedCues": 100,
+    "asrGapCues": 26,
+    "textCorrections": [
+      {
+        "from": "DeepSig",
+        "to": "DeepSeek"
+      },
+      {
+        "from": "The working look",
+        "to": "The working loop"
+      }
+    ],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "02",
+    "cues": 212,
+    "canonicalAudioMatchedCues": 183,
+    "asrGapCues": 29,
+    "textCorrections": [
+      {
+        "from": "open code",
+        "to": "OpenCode"
+      },
+      {
+        "from": "open do",
+        "to": "Ubuntu"
+      },
+      {
+        "from": "open code",
+        "to": "OpenCode"
+      },
+      {
+        "from": "deep seek",
+        "to": "DeepSeek"
+      }
+    ],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "03",
+    "cues": 224,
+    "canonicalAudioMatchedCues": 224,
+    "asrGapCues": 0,
+    "textCorrections": [],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "04",
+    "cues": 101,
+    "canonicalAudioMatchedCues": 101,
+    "asrGapCues": 0,
+    "textCorrections": [],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "05",
+    "cues": 221,
+    "canonicalAudioMatchedCues": 159,
+    "asrGapCues": 62,
+    "textCorrections": [
+      {
+        "from": "The references for the host focus supporting knowledge.",
+        "to": "The references folder holds focused supporting knowledge."
+      },
+      {
+        "from": "The access folder",
+        "to": "The assets folder"
+      },
+      {
+        "from": "OCCAR",
+        "to": "ORCA"
+      },
+      {
+        "from": "OCCAR",
+        "to": "ORCA"
+      },
+      {
+        "from": "OCCAR",
+        "to": "ORCA"
+      }
+    ],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "05a",
+    "cues": 59,
+    "canonicalAudioMatchedCues": 59,
+    "asrGapCues": 0,
+    "textCorrections": [],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "06",
+    "cues": 111,
+    "canonicalAudioMatchedCues": 90,
+    "asrGapCues": 21,
+    "textCorrections": [
+      {
+        "from": "the connect interface",
+        "to": "the Konnect interface"
+      }
+    ],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "06a",
+    "cues": 55,
+    "canonicalAudioMatchedCues": 55,
+    "asrGapCues": 0,
+    "textCorrections": [],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "07",
+    "cues": 135,
+    "canonicalAudioMatchedCues": 111,
+    "asrGapCues": 24,
+    "textCorrections": [
+      {
+        "from": "500 PS",
+        "to": "500 ps"
+      }
+    ],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  },
+  {
+    "lesson": "08",
+    "cues": 118,
+    "canonicalAudioMatchedCues": 118,
+    "asrGapCues": 0,
+    "textCorrections": [],
+    "method": "canonical existing captions with three-window acoustic clock matching; offline Whisper small.en for uncovered speech",
+    "timing": "acoustic; no evenly distributed word estimates",
+    "perceptualListeningReview": "not performed; ASR gap wording remains a targeted review item"
+  }
+]

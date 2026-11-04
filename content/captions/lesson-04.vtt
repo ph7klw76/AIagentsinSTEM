@@ -1,0 +1,421 @@
+WEBVTT
+
+1
+00:00:00.362 --> 00:00:02.309
+Code can run perfectly
+
+2
+00:00:02.491 --> 00:00:04.237
+and still get the physics wrong.
+
+3
+00:00:04.940 --> 00:00:06.481
+Start with material properties.
+
+4
+00:00:06.821 --> 00:00:08.843
+A correct formula still fails
+
+5
+00:00:08.983 --> 00:00:10.824
+if the constants or units are wrong.
+
+6
+00:00:11.144 --> 00:00:12.585
+Check the source, units,
+
+7
+00:00:12.645 --> 00:00:13.966
+and temperature dependence.
+
+8
+00:00:15.107 --> 00:00:17.188
+Next, check the physical model.
+
+9
+00:00:17.789 --> 00:00:19.610
+A steady state assumption can miss
+
+10
+00:00:19.610 --> 00:00:21.711
+a process that changes over time.
+
+11
+00:00:22.031 --> 00:00:23.512
+Choose assumptions that match
+
+12
+00:00:23.512 --> 00:00:24.993
+the system you want to study.
+
+13
+00:00:26.153 --> 00:00:28.314
+Then review the boundary conditions.
+
+14
+00:00:28.875 --> 00:00:31.296
+Walls, sources, constraints,
+
+15
+00:00:31.536 --> 00:00:33.877
+and initial states define the problem.
+
+16
+00:00:34.458 --> 00:00:35.958
+If they are inconsistent,
+
+17
+00:00:36.118 --> 00:00:37.879
+you are solving a different problem.
+
+18
+00:00:38.841 --> 00:00:40.964
+Now test the numerical setup.
+
+19
+00:00:41.184 --> 00:00:44.048
+Refine the mesh, check the time step,
+
+20
+00:00:44.269 --> 00:00:46.212
+and inspect solver tolerances.
+
+21
+00:00:46.873 --> 00:00:49.497
+A successful run alone does not establish
+
+22
+00:00:49.497 --> 00:00:50.839
+numerical reliability.
+
+23
+00:00:51.760 --> 00:00:54.203
+Finally, question the interpretation.
+
+24
+00:00:54.583 --> 00:00:56.065
+A solver can converge
+
+25
+00:00:56.145 --> 00:00:58.727
+while the model remains physically wrong.
+
+26
+00:00:58.948 --> 00:01:01.951
+Compare the result with
+theory, measurements,
+
+27
+00:01:02.071 --> 00:01:03.752
+or a suitable benchmark.
+
+28
+00:01:04.913 --> 00:01:07.536
+AI can accelerate scientific computing.
+
+29
+00:01:08.017 --> 00:01:10.339
+Scientific expertise still has to
+
+30
+00:01:10.339 --> 00:01:13.362
+verify the calculation
+and validate the model.
+
+31
+00:01:13.763 --> 00:01:16.025
+Working code is the
+beginning of that review.
+
+32
+00:01:19.180 --> 00:01:21.403
+Scientific work needs more than code.
+
+33
+00:01:21.964 --> 00:01:23.686
+It needs a checkable workflow.
+
+34
+00:01:24.867 --> 00:01:25.948
+Start with the method.
+
+35
+00:01:26.668 --> 00:01:29.591
+A skill document records the steps,
+physical
+
+36
+00:01:29.591 --> 00:01:31.933
+assumptions, and acceptance criteria.
+
+37
+00:01:32.513 --> 00:01:35.135
+It gives the assistant a reusable
+procedure,
+
+38
+00:01:35.395 --> 00:01:37.677
+so the task follows an explicit scientific
+
+39
+00:01:37.677 --> 00:01:40.319
+method instead of an improvised answer.
+
+40
+00:01:41.360 --> 00:01:43.901
+Next, connect that method to the tools.
+
+41
+00:01:44.081 --> 00:01:46.322
+An MCP server gives the assistant a
+
+42
+00:01:46.322 --> 00:01:48.743
+structured way to call scientific
+software.
+
+43
+00:01:48.983 --> 00:01:51.984
+The physics solver performs the numerical
+calculation.
+
+44
+00:01:52.385 --> 00:01:54.545
+A successful tool call still needs a
+
+45
+00:01:54.545 --> 00:01:56.886
+correctly defined model and inputs.
+
+46
+00:01:58.087 --> 00:02:00.007
+Then verify the result.
+
+47
+00:02:00.388 --> 00:02:03.829
+Check units, physical behavior, and
+numerical accuracy
+
+48
+00:02:04.129 --> 00:02:06.730
+using suitable reference cases and mesh
+checks.
+
+49
+00:02:07.030 --> 00:02:09.751
+Save the inputs, software versions, and
+outputs.
+
+50
+00:02:10.051 --> 00:02:12.652
+These records make the workflow traceable
+and
+
+51
+00:02:12.652 --> 00:02:15.293
+repeatable. They do not guarantee
+correctness by
+
+52
+00:02:15.293 --> 00:02:15.913
+themselves.
+
+53
+00:02:17.274 --> 00:02:19.479
+Connect the method, tools, and checks.
+
+54
+00:02:19.940 --> 00:02:21.844
+Make the evidence reproducible.
+
+55
+00:02:24.008 --> 00:02:25.371
+OpenCode has finished.
+
+56
+00:02:25.452 --> 00:02:27.096
+Let's inspect the evidence
+
+57
+00:02:27.096 --> 00:02:28.579
+behind the calculation.
+
+58
+00:02:29.501 --> 00:02:31.443
+After submitting the prepared prompt,
+
+59
+00:02:31.784 --> 00:02:34.628
+OpenCode organizes the
+run into five stages:
+
+60
+00:02:34.848 --> 00:02:37.252
+connection, model setup, simulation,
+
+61
+00:02:37.252 --> 00:02:38.774
+validation, and visualization.
+
+62
+00:02:39.095 --> 00:02:40.697
+Use that structure to inspect
+
+63
+00:02:40.697 --> 00:02:42.219
+the evidence behind the answer.
+
+64
+00:02:43.220 --> 00:02:45.721
+This example is a ten millimeter steel bar
+
+65
+00:02:45.721 --> 00:02:48.083
+with a one millimeter
+square cross section.
+
+66
+00:02:48.523 --> 00:02:49.964
+The prescribed extension is
+
+67
+00:02:49.964 --> 00:02:51.924
+zero point zero one millimeters.
+
+68
+00:02:52.345 --> 00:02:54.506
+The report lists the material properties,
+
+69
+00:02:54.506 --> 00:02:55.926
+mesh, and boundary conditions.
+
+70
+00:02:56.608 --> 00:02:58.750
+There are two complementary runs.
+
+71
+00:02:59.031 --> 00:03:00.654
+The direct CalculiX benchmark
+
+72
+00:03:00.654 --> 00:03:01.955
+prescribes the extension.
+
+73
+00:03:02.416 --> 00:03:04.439
+The MCP cross-check applies
+
+74
+00:03:04.439 --> 00:03:05.921
+an equivalent axial force.
+
+75
+00:03:06.282 --> 00:03:08.005
+Keep those loading methods separate
+
+76
+00:03:08.005 --> 00:03:09.326
+when you compare the results.
+
+77
+00:03:09.947 --> 00:03:12.629
+The direct test reports consistent results
+
+78
+00:03:12.629 --> 00:03:14.190
+across three meshes.
+
+79
+00:03:14.551 --> 00:03:16.532
+For the force-controlled cross-check,
+
+80
+00:03:16.653 --> 00:03:18.154
+compare midspan stress
+
+81
+00:03:18.214 --> 00:03:20.475
+and average end displacement with theory.
+
+82
+00:03:21.016 --> 00:03:23.538
+The report warns that raw maxima include
+
+83
+00:03:23.538 --> 00:03:25.720
+constraint and load-distribution effects.
+
+84
+00:03:26.700 --> 00:03:28.422
+The validation dashboard brings
+
+85
+00:03:28.422 --> 00:03:29.603
+those checks together:
+
+86
+00:03:29.943 --> 00:03:32.486
+axial displacement, lateral contraction,
+
+87
+00:03:32.886 --> 00:03:35.128
+stress, and comparison with theory.
+
+88
+00:03:35.209 --> 00:03:37.611
+Keep the plot labels and
+the loading assumptions
+
+89
+00:03:37.611 --> 00:03:39.493
+visible as you review the result.
+
+90
+00:03:40.374 --> 00:03:43.157
+Next, open the simulation folder in Linux.
+
+91
+00:03:43.758 --> 00:03:47.221
+It contains the input
+deck, mesh, solver logs,
+
+92
+00:03:47.341 --> 00:03:48.903
+extracted results, and plots.
+
+93
+00:03:49.383 --> 00:03:51.566
+These files let you trace the calculation
+
+94
+00:03:51.566 --> 00:03:52.667
+and inspect the setup.
+
+95
+00:03:53.647 --> 00:03:55.288
+Open the input file to review
+
+96
+00:03:55.288 --> 00:03:57.229
+the material and boundary conditions,
+
+97
+00:03:57.469 --> 00:03:59.930
+then check the solver log for warnings.
+
+98
+00:04:00.391 --> 00:04:02.332
+This example is a small strain,
+
+99
+00:04:02.332 --> 00:04:03.632
+linear elastic check.
+
+100
+00:04:03.832 --> 00:04:05.373
+Good automation leaves evidence
+
+101
+00:04:05.373 --> 00:04:06.073
+you can review.

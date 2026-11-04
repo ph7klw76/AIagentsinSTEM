@@ -1,0 +1,531 @@
+1
+00:00:00,400 --> 00:00:04,242
+Before trusting a simulation, test its
+numerical behavior.
+
+2
+00:00:04,723 --> 00:00:07,985
+This case follows an AI-assisted investigation
+
+3
+00:00:07,985 --> 00:00:12,227
+of a beta-DDM bilayer at seventy-five degrees
+Celsius.
+
+4
+00:00:12,647 --> 00:00:15,809
+The original phase diagram marks a lamellar
+target
+
+5
+00:00:15,809 --> 00:00:17,570
+at twenty percent water by mass.
+
+6
+00:00:17,970 --> 00:00:19,711
+That reference guides the question;
+
+7
+00:00:20,031 --> 00:00:22,593
+the simulation must still establish its
+behavior.
+
+8
+00:00:23,753 --> 00:00:25,774
+The molecular view raises the question
+
+9
+00:00:25,774 --> 00:00:27,454
+of water inside the membrane.
+
+10
+00:00:28,274 --> 00:00:30,675
+In the separate single-snapshot analysis,
+
+11
+00:00:30,955 --> 00:00:33,396
+forty-three waters occupy the local core,
+
+12
+00:00:33,776 --> 00:00:36,077
+including two in the strict deep subset.
+
+13
+00:00:36,637 --> 00:00:39,298
+This shows occupancy in one configuration.
+
+14
+00:00:39,718 --> 00:00:41,818
+It does not establish entry history,
+
+15
+00:00:42,139 --> 00:00:45,239
+a continuous pore, or complete membrane
+crossings.
+
+16
+00:00:46,300 --> 00:00:49,941
+The C2 energy slide compares mixed and double
+precision
+
+17
+00:00:50,281 --> 00:00:52,122
+over twenty-five picoseconds,
+
+18
+00:00:52,362 --> 00:00:54,582
+with the same checkpoint, force field,
+
+19
+00:00:54,582 --> 00:00:56,563
+and half-femtosecond time step.
+
+20
+00:00:56,903 --> 00:00:59,544
+Mixed precision shows a large energy loss.
+
+21
+00:00:59,844 --> 00:01:03,085
+The double-precision trace stays near zero on
+this scale,
+
+22
+00:01:03,285 --> 00:01:05,285
+with small fluctuations remaining.
+
+23
+00:01:05,806 --> 00:01:09,226
+The reported drift differs by several orders
+of magnitude.
+
+24
+00:01:10,267 --> 00:01:14,048
+The five-picosecond diagnostic table tests
+alternatives
+
+25
+00:01:14,148 --> 00:01:16,029
+from the same prepared checkpoint.
+
+26
+00:01:16,509 --> 00:01:19,630
+A smaller mixed-precision time step worsens
+the drift.
+
+27
+00:01:19,830 --> 00:01:22,150
+Tighter LINCS settings remain insufficient.
+
+28
+00:01:22,370 --> 00:01:25,331
+Leapfrog improves the result but still misses
+the screen.
+
+29
+00:01:25,671 --> 00:01:28,472
+Double precision falls below the stated drift
+limit.
+
+30
+00:01:28,692 --> 00:01:31,353
+These are results for this tested model and
+profile,
+
+31
+00:01:31,353 --> 00:01:33,573
+rather than universal simulation settings.
+
+32
+00:01:34,713 --> 00:01:38,396
+An earlier matched CPU and MPI comparison
+
+33
+00:01:38,656 --> 00:01:41,038
+also supports the precision diagnosis.
+
+34
+00:01:41,639 --> 00:01:44,101
+Its reported whole-box drift is about
+
+35
+00:01:44,101 --> 00:01:46,923
+three thousand six hundred and seventy-eight
+times lower
+
+36
+00:01:46,923 --> 00:01:47,964
+in double precision.
+
+37
+00:01:48,324 --> 00:01:52,047
+Rounding during constrained integration is a
+plausible contributor.
+
+38
+00:01:52,347 --> 00:01:55,510
+But the newer C2 tests also changed parallel
+layout.
+
+39
+00:01:55,790 --> 00:01:58,952
+The exact algorithmic contribution remains
+unproven.
+
+40
+00:01:59,933 --> 00:02:04,875
+The tested execution profile uses GROMACS
+twenty twenty-four point two,
+
+41
+00:02:04,975 --> 00:02:08,097
+double precision, and a half-femtosecond time
+step.
+
+42
+00:02:08,537 --> 00:02:12,819
+The thermostat and barostat are off for these
+NVE diagnostics.
+
+43
+00:02:13,199 --> 00:02:16,080
+All four systems pass the unchanged drift
+screen
+
+44
+00:02:16,080 --> 00:02:17,801
+over twenty-five picoseconds.
+
+45
+00:02:18,121 --> 00:02:21,222
+That addresses numerical conservation in this
+test.
+
+46
+00:02:21,522 --> 00:02:23,343
+Equilibration remains separate:
+
+47
+00:02:23,543 --> 00:02:26,945
+the slide reports pressure near four thousand
+three hundred bar,
+
+48
+00:02:27,045 --> 00:02:29,326
+and continuing thermal relaxation in C2.
+
+49
+00:02:30,767 --> 00:02:33,948
+The later water analysis covers twenty
+nanoseconds
+
+50
+00:02:33,988 --> 00:02:35,808
+at seventy-five degrees Celsius.
+
+51
+00:02:36,268 --> 00:02:39,449
+Its primary local core is the central sixty
+percent,
+
+52
+00:02:39,629 --> 00:02:43,770
+with fixed leaflet identities and a visible
+boundary-sensitivity band.
+
+53
+00:02:44,330 --> 00:02:47,291
+Core occupancy increases during the recorded
+window.
+
+54
+00:02:48,191 --> 00:02:51,472
+Most counted core waters remain close to sugar
+headgroups,
+
+55
+00:02:51,632 --> 00:02:54,553
+while density is much lower near the bilayer
+center.
+
+56
+00:02:55,393 --> 00:02:57,873
+Definitions matter when describing
+penetration.
+
+57
+00:02:58,873 --> 00:03:01,954
+The strict deep subset uses the central forty
+percent
+
+58
+00:03:01,954 --> 00:03:04,275
+and a distance greater than half a nanometre
+
+59
+00:03:04,395 --> 00:03:06,115
+from the nearest sugar oxygen.
+
+60
+00:03:06,475 --> 00:03:09,376
+Its plotted mean is zero point three three six
+
+61
+00:03:09,376 --> 00:03:10,857
+water molecules per frame.
+
+62
+00:03:11,457 --> 00:03:12,777
+This is a low average,
+
+63
+00:03:12,918 --> 00:03:15,938
+not zero occupancy or an upper bound on every
+frame.
+
+64
+00:03:16,379 --> 00:03:19,019
+The trace includes frames with four deep
+waters.
+
+65
+00:03:20,080 --> 00:03:24,063
+The original trajectory projections make those
+counts visible.
+
+66
+00:03:24,544 --> 00:03:27,126
+They show two local-core waters initially,
+
+67
+00:03:27,386 --> 00:03:29,307
+nineteen at ten nanoseconds,
+
+68
+00:03:29,348 --> 00:03:31,329
+and twenty-four at twenty nanoseconds.
+
+69
+00:03:31,709 --> 00:03:34,832
+The selected frame at seventeen point six
+three nanoseconds
+
+70
+00:03:34,832 --> 00:03:36,493
+contains four deep waters.
+
+71
+00:03:37,014 --> 00:03:38,695
+Counts vary across frames.
+
+72
+00:03:38,795 --> 00:03:42,358
+Projected overlap alone establishes neither a
+continuous pore
+
+73
+00:03:42,358 --> 00:03:44,399
+nor a complete crossing or residence time.
+
+74
+00:03:45,420 --> 00:03:48,942
+The recorded support message permits a
+user-directory build
+
+75
+00:03:49,262 --> 00:03:51,503
+while central installations are on hold.
+
+76
+00:03:51,904 --> 00:03:55,926
+The AI agent reports checking cluster
+requirements and source checksums,
+
+77
+00:03:56,126 --> 00:03:58,928
+then preparing a double-precision MPI build
+
+78
+00:03:58,928 --> 00:04:01,129
+and submitting build and validation jobs.
+
+79
+00:04:01,489 --> 00:04:03,950
+This illustrates practical workflow
+assistance.
+
+80
+00:04:04,211 --> 00:04:06,212
+The recorded progress report should be read
+
+81
+00:04:06,212 --> 00:04:08,673
+alongside the actual build and test outputs.
+
+82
+00:04:09,613 --> 00:04:12,534
+The recording then turns to model
+parameterization.
+
+83
+00:04:12,954 --> 00:04:17,276
+Sobtop supports force-field assignment and
+GROMACS topology preparation.
+
+84
+00:04:17,696 --> 00:04:20,877
+Quantum calculations and charge fitting are
+separate steps.
+
+85
+00:04:21,137 --> 00:04:23,518
+The useful workflow connects these stages
+
+86
+00:04:23,718 --> 00:04:25,959
+while preserving the source of each parameter
+
+87
+00:04:25,959 --> 00:04:27,799
+and verifying the assembled model.
+
+88
+00:04:28,880 --> 00:04:32,583
+The charge-derivation slide begins with
+molecular identity:
+
+89
+00:04:33,023 --> 00:04:37,146
+eighty-one atoms, eighty-two bonds, and ten
+stereocentres.
+
+90
+00:04:37,847 --> 00:04:41,009
+Three gas-phase conformers provide
+electrostatic potentials
+
+91
+00:04:41,009 --> 00:04:43,150
+for a joint, two-stage RESP fit,
+
+92
+00:04:43,231 --> 00:04:45,572
+with equal weights for the three conformers.
+
+93
+00:04:46,033 --> 00:04:49,435
+The reported stages converge in seven and six
+iterations,
+
+94
+00:04:49,435 --> 00:04:51,396
+giving a neutral molecular total.
+
+95
+00:04:51,937 --> 00:04:55,539
+The original table preserves the detailed
+method and charge range.
+
+96
+00:04:56,740 --> 00:05:00,143
+Those new charges are combined with source
+GAFF2
+
+97
+00:05:00,363 --> 00:05:02,185
+bonded and Lennard-Jones terms.
+
+98
+00:05:02,465 --> 00:05:04,787
+Compatible water and sodium parameters
+
+99
+00:05:04,787 --> 00:05:06,709
+and the separate phosphate charge models
+
+100
+00:05:06,889 --> 00:05:09,491
+must remain consistent with the same
+conventions.
+
+101
+00:05:09,872 --> 00:05:13,434
+The source slide explicitly preserves AMBER
+scaling
+
+102
+00:05:13,635 --> 00:05:15,556
+and the original bonded coefficients.
+
+103
+00:05:15,737 --> 00:05:19,079
+A coherent assembly requires more than a new
+set of charges.
+
+104
+00:05:20,120 --> 00:05:22,962
+The verification slide reports that all
+
+105
+00:05:23,082 --> 00:05:26,524
+one hundred and ninety-four energy and force
+comparisons pass.
+
+106
+00:05:27,144 --> 00:05:30,446
+The tests cover the molecule, phosphates, and
+cross interactions
+
+107
+00:05:30,446 --> 00:05:32,808
+in separate representations of the same model.
+
+108
+00:05:33,368 --> 00:05:36,510
+This supports numerical agreement for the
+tested configurations.
+
+109
+00:05:36,770 --> 00:05:39,972
+Experimental force-field accuracy and
+equilibrium phase behavior
+
+110
+00:05:39,972 --> 00:05:41,333
+remain different questions.
+
+111
+00:05:42,413 --> 00:05:44,414
+Traceable evidence is the main gain.
+
+112
+00:05:44,794 --> 00:05:48,016
+The original provenance table links molecular
+identity,
+
+113
+00:05:48,276 --> 00:05:51,498
+charge fitting, parameter sources, and
+verification.
+
+114
+00:05:52,018 --> 00:05:55,880
+The recorded folders also retain preflight
+checks and failed attempts.
+
+115
+00:05:56,420 --> 00:05:58,601
+AI can help organize this work,
+
+116
+00:05:58,762 --> 00:06:01,643
+but each scientific claim still needs its own
+evidence.
+
+117
+00:06:02,003 --> 00:06:04,785
+Check the numerics, define the water
+observable,
+
+118
+00:06:04,945 --> 00:06:07,186
+and preserve an auditable model history.

@@ -1,0 +1,462 @@
+1
+00:00:00,000 --> 00:00:03,320
+A convincing circuit diagram is only a starting
+
+2
+00:00:03,320 --> 00:00:03,840
+point.
+
+3
+00:00:04,420 --> 00:00:08,220
+This workflow combines an AI agent, schematic editing,
+
+4
+00:00:08,800 --> 00:00:11,200
+and circuit simulation, so a design
+
+5
+00:00:11,200 --> 00:00:13,740
+proposal can be examined against its requirements.
+
+6
+00:00:14,860 --> 00:00:17,620
+The agent uses the design requirements to propose
+
+7
+00:00:17,620 --> 00:00:18,720
+a circuit topology.
+
+8
+00:00:19,480 --> 00:00:23,460
+KiCad, through the Konnect interface, supports schematic editing
+
+9
+00:00:23,460 --> 00:00:24,040
+and checks.
+
+10
+00:00:24,040 --> 00:00:27,780
+The simulation tool then evaluates performance measures including
+
+11
+00:00:27,780 --> 00:00:29,180
+amplifier gain and bandwidth.
+
+12
+00:00:30,140 --> 00:00:33,620
+Compare the simulated results with the design specifications.
+
+13
+00:00:34,000 --> 00:00:36,920
+Check gain and bandwidth against their targets, and
+
+14
+00:00:36,920 --> 00:00:38,200
+keep the underlying outputs.
+
+15
+00:00:38,680 --> 00:00:40,640
+If evidence is missing or a requirement is
+
+16
+00:00:40,640 --> 00:00:42,540
+not met, the design has not passed.
+
+17
+00:00:43,240 --> 00:00:46,200
+Without supporting evidence, the design has not passed.
+
+18
+00:00:46,540 --> 00:00:48,180
+The goal is a traceable workflow.
+
+19
+00:00:48,180 --> 00:00:51,660
+propose a design, check the schematic, run the
+
+20
+00:00:51,660 --> 00:00:54,840
+simulation, and review the results before accepting the
+
+21
+00:00:54,840 --> 00:00:55,180
+design.
+
+22
+00:00:57,914 --> 00:01:01,878
+Before asking AI to design a circuit, define
+success.
+
+23
+00:01:02,239 --> 00:01:04,982
+A simulation that runs is only a starting
+point.
+
+24
+00:01:05,243 --> 00:01:07,665
+The final verdict needs measured results.
+
+25
+00:01:08,846 --> 00:01:10,668
+Set the gain target at ten,
+
+26
+00:01:11,028 --> 00:01:12,649
+with a five percent tolerance.
+
+27
+00:01:13,070 --> 00:01:14,931
+Acceptable gain is nine point five
+
+28
+00:01:14,931 --> 00:01:16,792
+to ten point five volts per volt.
+
+29
+00:01:17,113 --> 00:01:19,174
+Require a bandwidth of at least
+
+30
+00:01:19,174 --> 00:01:20,615
+one hundred fifty kilohertz,
+
+31
+00:01:20,976 --> 00:01:23,077
+measured at the first three-decibel crossing
+
+32
+00:01:23,077 --> 00:01:25,059
+from the simulated low-frequency gain.
+
+33
+00:01:26,300 --> 00:01:28,842
+Keep the simulation assumptions explicit.
+
+34
+00:01:29,022 --> 00:01:31,464
+The example uses an open-loop gain
+
+35
+00:01:31,504 --> 00:01:32,885
+of one hundred thousand
+
+36
+00:01:33,165 --> 00:01:35,447
+and a single-pole gain-bandwidth product
+
+37
+00:01:35,547 --> 00:01:36,687
+of one megahertz.
+
+38
+00:01:37,048 --> 00:01:39,469
+Then sweep from ten hertz to ten megahertz,
+
+39
+00:01:39,670 --> 00:01:41,511
+with a one-volt AC input.
+
+40
+00:01:41,631 --> 00:01:44,313
+Check whether those assumptions can support
+the targets.
+
+41
+00:01:45,353 --> 00:01:47,774
+Check the circuit before trusting the verdict.
+
+42
+00:01:47,854 --> 00:01:49,535
+Inspect the schematic and model,
+
+43
+00:01:49,775 --> 00:01:51,616
+including the electrical rules check.
+
+44
+00:01:52,016 --> 00:01:53,617
+Then measure gain and bandwidth
+
+45
+00:01:53,617 --> 00:01:55,077
+from the simulator's output.
+
+46
+00:01:55,417 --> 00:01:57,818
+Compare both with the acceptance criteria
+
+47
+00:01:57,818 --> 00:01:59,919
+before declaring the design successful.
+
+48
+00:02:02,122 --> 00:02:05,133
+A reliable AI circuit workflow gives each
+
+49
+00:02:05,133 --> 00:02:06,377
+tool a clear job.
+
+50
+00:02:07,340 --> 00:02:10,422
+DeepSeek and OpenCode help propose circuit
+designs,
+
+51
+00:02:10,582 --> 00:02:13,163
+select components, and decide what to
+investigate
+
+52
+00:02:13,163 --> 00:02:15,344
+next. Their role is to coordinate the
+
+53
+00:02:15,344 --> 00:02:18,586
+workflow. A convincing explanation still
+needs evidence
+
+54
+00:02:18,586 --> 00:02:19,866
+from the engineering tools.
+
+55
+00:02:20,967 --> 00:02:23,068
+MCP provides the tool interface.
+
+56
+00:02:23,348 --> 00:02:25,909
+The agent discovers available actions,
+supplies their
+
+57
+00:02:25,909 --> 00:02:28,771
+parameters, and receives results or error
+messages.
+
+58
+00:02:28,991 --> 00:02:31,432
+That makes the handoff inspectable,
+instead of
+
+59
+00:02:31,432 --> 00:02:33,193
+hiding it inside a conversation.
+
+60
+00:02:34,293 --> 00:02:37,695
+KiCad, connected through Konnect in this
+workflow,
+
+61
+00:02:37,815 --> 00:02:40,116
+handles the schematic and connectivity
+checks.
+
+62
+00:02:40,436 --> 00:02:42,377
+It also provides the circuit description
+for
+
+63
+00:02:42,377 --> 00:02:45,318
+simulation. Passing an electrical rules
+check does
+
+64
+00:02:45,318 --> 00:02:47,039
+not prove that an amplifier meets its
+
+65
+00:02:47,039 --> 00:02:48,239
+performance requirements.
+
+66
+00:02:49,560 --> 00:02:52,942
+ngspice performs the numerical circuit
+analysis.
+
+67
+00:02:53,483 --> 00:02:55,884
+An AC sweep can show gain across
+
+68
+00:02:55,884 --> 00:02:58,526
+frequency and help assess bandwidth.
+
+69
+00:02:59,126 --> 00:03:01,608
+Those results depend on the netlist,
+device
+
+70
+00:03:01,608 --> 00:03:03,349
+models, and analysis settings.
+
+71
+00:03:03,929 --> 00:03:06,851
+Model validity, convergence, and
+performance against the
+
+72
+00:03:06,851 --> 00:03:09,273
+design requirements remain separate
+checks.
+
+73
+00:03:10,654 --> 00:03:12,295
+Let AI coordinate.
+
+74
+00:03:12,795 --> 00:03:14,737
+Let engineering tools calculate.
+
+75
+00:03:15,197 --> 00:03:17,899
+Keep the inputs, checks, and results
+traceable.
+
+76
+00:03:20,202 --> 00:03:22,107
+Simulation is just the beginning
+
+77
+00:03:22,108 --> 00:03:23,171
+of board design.
+
+78
+00:03:24,053 --> 00:03:26,014
+Before layout, check the circuit
+
+79
+00:03:26,014 --> 00:03:28,735
+against its required gain and bandwidth
+
+80
+00:03:28,916 --> 00:03:30,176
+in ngspice.
+
+81
+00:03:30,656 --> 00:03:32,697
+Keep the simulation log, netlist,
+
+82
+00:03:32,717 --> 00:03:33,778
+and model checksum.
+
+83
+00:03:33,938 --> 00:03:35,759
+Those records preserve the evidence
+
+84
+00:03:35,759 --> 00:03:36,719
+behind the result.
+
+85
+00:03:37,521 --> 00:03:40,184
+Next, capture the production schematic.
+
+86
+00:03:40,625 --> 00:03:43,108
+Use the real operational amplifier part,
+
+87
+00:03:43,388 --> 00:03:44,790
+appropriate power supplies,
+
+88
+00:03:45,071 --> 00:03:46,412
+decoupling capacitors,
+
+89
+00:03:46,613 --> 00:03:47,974
+and the feedback connections.
+
+90
+00:03:48,215 --> 00:03:50,258
+The physical implementation needs details
+
+91
+00:03:50,258 --> 00:03:51,419
+beyond the simulation.
+
+92
+00:03:52,480 --> 00:03:53,921
+Then move into KiCad
+
+93
+00:03:53,921 --> 00:03:55,982
+for component placement and routing.
+
+94
+00:03:56,202 --> 00:03:58,263
+Autorouting can be an optional part
+
+95
+00:03:58,263 --> 00:03:59,263
+of that workflow.
+
+96
+00:03:59,304 --> 00:04:00,924
+Review the resulting layout.
+
+97
+00:04:00,924 --> 00:04:03,346
+Identify and verify any separately named
+
+98
+00:04:03,346 --> 00:04:05,026
+routing tool before relying on it.
+
+99
+00:04:05,827 --> 00:04:08,190
+Finally, run the board design rule check.
+
+100
+00:04:08,550 --> 00:04:09,571
+Review noise,
+
+101
+00:04:09,771 --> 00:04:11,713
+how current returns through the board,
+
+102
+00:04:11,934 --> 00:04:13,034
+signal coupling,
+
+103
+00:04:13,055 --> 00:04:14,716
+and manufacturing requirements.
+
+104
+00:04:15,117 --> 00:04:16,538
+Use the rule check alongside
+
+105
+00:04:16,538 --> 00:04:18,080
+the wider engineering review.
+
+106
+00:04:18,920 --> 00:04:21,461
+AI can assist with
+planning and automation.
+
+107
+00:04:21,642 --> 00:04:23,322
+Use each tool for its purpose.
+
+108
+00:04:23,382 --> 00:04:24,823
+The assistant coordinates.
+
+109
+00:04:24,983 --> 00:04:27,364
+ngspice measures circuit behavior,
+
+110
+00:04:27,364 --> 00:04:29,325
+and KiCad supports the board checks.
+
+111
+00:04:29,485 --> 00:04:31,486
+Verification remains essential.

@@ -1,0 +1,1328 @@
+[
+  {
+    "start": 0.40000000000000235,
+    "end": 2.9820000000000024,
+    "text": "Connecting an AI agent to ORCA",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 3.2030000000000025,
+    "end": 4.344000000000002,
+    "text": "is only the beginning.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 4.945000000000002,
+    "end": 7.948000000000002,
+    "text": "A useful workflow combines tool access,",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 8.229000000000003,
+    "end": 10.331000000000003,
+    "text": "scientific method, and evidence.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 11.653000000000002,
+    "end": 14.096000000000002,
+    "text": "The slide shows three custom tool wrappers:",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 14.457000000000003,
+    "end": 15.959000000000003,
+    "text": "prepare an ORCA input,",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 16.340000000000003,
+    "end": 19.023000000000003,
+    "text": "run the calculation, and inspect the output.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 19.504,
+    "end": 21.367,
+    "text": "They connect the agent to the software.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 21.588,
+    "end": 23.891000000000002,
+    "text": "Those names belong to the custom server.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 25.093000000000004,
+    "end": 26.934,
+    "text": "The skill adds the procedure.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 27.195000000000004,
+    "end": 28.716,
+    "text": "It guides valid input",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 28.816000000000003,
+    "end": 30.698000000000004,
+    "text": "and the choice of electronic state",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 30.698000000000004,
+    "end": 32.039,
+    "text": "and calculation settings,",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 32.260000000000005,
+    "end": 35.483000000000004,
+    "text": "including TD-DFT where appropriate.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 35.823,
+    "end": 37.265,
+    "text": "Then check convergence",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 37.345,
+    "end": 39.347,
+    "text": "and, when the task calls for them,",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 39.367000000000004,
+    "end": 40.668,
+    "text": "Hessians and spectra.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 41.109,
+    "end": 43.431000000000004,
+    "text": "A result needs scientific interpretation.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 44.572,
+    "end": 46.534,
+    "text": "Build the workflow around the question.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 47.195,
+    "end": 50.278000000000006,
+    "text": "Load the ORCA skill, prepare the input,",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 50.679,
+    "end": 53.621,
+    "text": "run through MCP, and inspect the output.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 54.122,
+    "end": 56.685,
+    "text": "Report the settings, evidence, and\nlimitations.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 57.305,
+    "end": 58.927,
+    "text": "That lets the researcher focus",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 58.927,
+    "end": 60.148,
+    "text": "on the scientific question",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 60.509,
+    "end": 63.151,
+    "text": "while the agent helps manage the calculation.",
+    "origin": "ORCA_Workflow_Professional.srt"
+  },
+  {
+    "start": 65.35366666666668,
+    "end": 68.18066666666668,
+    "text": "Make one scientific task into a skill",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 68.46166666666667,
+    "end": 69.70366666666668,
+    "text": "an agent can follow.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 70.60566666666668,
+    "end": 72.02666666666667,
+    "text": "Keep the scope focused.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 72.28666666666668,
+    "end": 76.64866666666667,
+    "text": "Geometry optimization, excited-state\ncalculations, and vibrational",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 76.64866666666667,
+    "end": 78.36966666666667,
+    "text": "analysis are different tasks.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 78.73066666666668,
+    "end": 80.79066666666668,
+    "text": "Build a separate skill for each one,",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 80.81166666666668,
+    "end": 82.65166666666667,
+    "text": "so the agent knows exactly when to",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 82.67166666666668,
+    "end": 83.07266666666668,
+    "text": "use it.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 83.93266666666668,
+    "end": 85.75366666666667,
+    "text": "Put the scientific method in the skill",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 85.75366666666667,
+    "end": 89.91566666666668,
+    "text": "document. Specify the procedure, decision\nrules, and",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 89.91566666666668,
+    "end": 92.73666666666668,
+    "text": "required checks. This tells the agent how",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 92.73666666666668,
+    "end": 95.01766666666668,
+    "text": "to approach the task, and what evidence",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 95.01766666666668,
+    "end": 96.73866666666667,
+    "text": "it needs before reporting a result.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 97.67966666666668,
+    "end": 101.32566666666668,
+    "text": "Keep supporting material alongside it:\ntechnical references,",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 101.58566666666667,
+    "end": 103.94966666666667,
+    "text": "example inputs, and reusable scripts.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 104.20966666666668,
+    "end": 105.93266666666668,
+    "text": "The agent should be able to find",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 105.93266666666668,
+    "end": 108.43666666666667,
+    "text": "the relevant files and prepare the\ncalculation",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 108.43666666666667,
+    "end": 109.29766666666669,
+    "text": "without guessing.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 110.25966666666667,
+    "end": 113.68266666666668,
+    "text": "Then connect execution through an MCP\nserver.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 114.10266666666668,
+    "end": 116.18466666666669,
+    "text": "It lets the agent call ORCA and",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 116.18466666666669,
+    "end": 117.58566666666667,
+    "text": "retrieve the actual output.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 118.18566666666668,
+    "end": 120.92866666666669,
+    "text": "A completed run is not enough: inspect",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 120.92866666666669,
+    "end": 123.06966666666668,
+    "text": "the evidence required by the skill before",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 123.06966666666668,
+    "end": 125.59166666666667,
+    "text": "treating the result as scientifically\ncredible.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 126.75266666666667,
+    "end": 128.2146666666667,
+    "text": "Skills guide the science.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 128.7146666666667,
+    "end": 130.35666666666668,
+    "text": "MCP connects the tools.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 130.79766666666666,
+    "end": 131.79766666666666,
+    "text": "Keep the evidence.",
+    "origin": "ORCA_Agent_Skills.srt"
+  },
+  {
+    "start": 135.16199999999998,
+    "end": 136.545,
+    "text": "Give scientific skills",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 136.646,
+    "end": 138.672,
+    "text": "a clear home in your project.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 139.334,
+    "end": 141.617,
+    "text": "Start with a project-local skills folder",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 141.617,
+    "end": 144.021,
+    "text": "in a path your agent actually scans.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 144.201,
+    "end": 146.905,
+    "text": "The example places it under dot agents,",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 147.006,
+    "end": 147.90699999999998,
+    "text": "then skills.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 148.128,
+    "end": 149.92999999999998,
+    "text": "Give each scientific workflow",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 149.92999999999998,
+    "end": 150.952,
+    "text": "its own folder.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 151.974,
+    "end": 153.15499999999997,
+    "text": "Inside that folder,",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 153.415,
+    "end": 155.498,
+    "text": "the skill file defines the procedure.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 155.759,
+    "end": 157.881,
+    "text": "References hold syntax and rules.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 158.28199999999998,
+    "end": 159.964,
+    "text": "Assets hold input templates",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 159.98399999999998,
+    "end": 161.30599999999998,
+    "text": "and molecular coordinates.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 161.62699999999998,
+    "end": 163.589,
+    "text": "Scripts provide validation checks.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 163.79,
+    "end": 165.03099999999998,
+    "text": "Keep these supporting files",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 165.03099999999998,
+    "end": 165.87199999999999,
+    "text": "with the workflow.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 166.773,
+    "end": 168.754,
+    "text": "That structure supports two goals:",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 168.99399999999997,
+    "end": 171.17499999999998,
+    "text": "discoverability and isolation.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 171.535,
+    "end": 173.136,
+    "text": "The agent can find the skill,",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 173.49599999999998,
+    "end": 175.71699999999998,
+    "text": "while each workflow stays self-contained.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 176.13799999999998,
+    "end": 178.29899999999998,
+    "text": "Related workflows can\nhave separate folders",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 178.29899999999998,
+    "end": 180.039,
+    "text": "without mixing their supporting files.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 181.04,
+    "end": 183.661,
+    "text": "Keep the execution integration separate.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 183.962,
+    "end": 187.363,
+    "text": "Here, the MCP server\nprovides access to ORCA,",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 187.64299999999997,
+    "end": 190.225,
+    "text": "while the skill defines\nthe scientific procedure.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 190.625,
+    "end": 191.986,
+    "text": "These two roles belong",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 191.986,
+    "end": 193.726,
+    "text": "in separate parts of the project.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 194.427,
+    "end": 196.60899999999998,
+    "text": "Finally, version the instructions,",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 196.60899999999998,
+    "end": 197.81,
+    "text": "templates, and checks.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 197.951,
+    "end": 199.892,
+    "text": "Keep large simulation outputs",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 199.89299999999997,
+    "end": 201.194,
+    "text": "out of that repository.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 201.43399999999997,
+    "end": 203.536,
+    "text": "A clear structure makes the library",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 203.536,
+    "end": 206.759,
+    "text": "reusable, maintainable,\nand easier to audit.",
+    "origin": "Scientific_Skill_Repository.srt"
+  },
+  {
+    "start": 209.51899999999998,
+    "end": 213.659,
+    "text": "A useful skill needs clear organization separate the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 213.659,
+    "end": 216.379,
+    "text": "instructions from supporting material so a",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 216.379,
+    "end": 219.539,
+    "text": "scientific workflow is easier to understand reuse and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 219.539,
+    "end": 219.91899999999998,
+    "text": "check.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 221.059,
+    "end": 222.499,
+    "text": "Start with the main skill file.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 222.79899999999998,
+    "end": 223.039,
+    "text": "It",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 223.039,
+    "end": 225.97899999999998,
+    "text": "explains when to use the skill, which steps",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 225.97899999999998,
+    "end": 228.13899999999998,
+    "text": "to follow and what must be checked.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 228.659,
+    "end": 229.599,
+    "text": "Keep that operating",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 229.599,
+    "end": 230.819,
+    "text": "procedure concise.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 231.899,
+    "end": 235.11899999999997,
+    "text": "The references folder holds focused supporting knowledge.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 235.45899999999997,
+    "end": 236.539,
+    "text": "In this ORCA example,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 236.539,
+    "end": 240.399,
+    "text": "that includes input syntax, calculation methods, and validation",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 240.399,
+    "end": 241.039,
+    "text": "guidance.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 241.57899999999998,
+    "end": 242.819,
+    "text": "Load the relevant detail",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 242.819,
+    "end": 244.439,
+    "text": "when the task needs it.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 244.85899999999998,
+    "end": 248.659,
+    "text": "The assets folder stores reusable starting material, input",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 248.659,
+    "end": 249.259,
+    "text": "templates,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 249.599,
+    "end": 251.879,
+    "text": "molecular coordinates, and example files.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 252.819,
+    "end": 255.939,
+    "text": "Label examples clearly, and adapt their settings to",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 255.939,
+    "end": 257.079,
+    "text": "the actual calculation.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 258.019,
+    "end": 261.739,
+    "text": "The scripts folder turns repeatable checks into executable",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 261.739,
+    "end": 262.279,
+    "text": "steps.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 262.919,
+    "end": 263.19899999999996,
+    "text": "A script",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 263.19899999999996,
+    "end": 266.55899999999997,
+    "text": "can inspect an input file, extract real results,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 266.759,
+    "end": 268.479,
+    "text": "or report a specific error.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 269.19899999999996,
+    "end": 270.099,
+    "text": "Check failures before",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 270.099,
+    "end": 270.459,
+    "text": "proceed.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 271.05899999999997,
+    "end": 273.49899999999997,
+    "text": "Only the main skill file is required.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 273.839,
+    "end": 276.07899999999995,
+    "text": "The supporting folders are optional, keep",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 276.07899999999995,
+    "end": 280.259,
+    "text": "instructions concise, organize detailed knowledge separately, and automate",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 280.259,
+    "end": 281.419,
+    "text": "checks where practical",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 281.419,
+    "end": 283.599,
+    "text": "that makes the workflow easier to maintain and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 283.599,
+    "end": 283.779,
+    "text": "review.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 286.08166666666665,
+    "end": 288.73066666666665,
+    "text": "A scientific skill file guides decisions",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 288.95166666666665,
+    "end": 290.57766666666663,
+    "text": "and requires evidence.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 291.3206666666666,
+    "end": 293.58366666666666,
+    "text": "Start with the name and description.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 294.00466666666665,
+    "end": 296.22866666666664,
+    "text": "They tell the agent what the skill does",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 296.50966666666665,
+    "end": 297.81166666666667,
+    "text": "and when to load it.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 298.3736666666666,
+    "end": 301.15766666666667,
+    "text": "Keep that purpose clear and specific.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 302.2796666666666,
+    "end": 304.5806666666666,
+    "text": "Next, define what must be known",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 304.5806666666666,
+    "end": 306.04166666666663,
+    "text": "before the calculation.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 306.12166666666667,
+    "end": 307.7416666666667,
+    "text": "In this chemistry example,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 308.04266666666666,
+    "end": 311.08366666666666,
+    "text": "require the molecular geometry, charge,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 311.08366666666666,
+    "end": 312.5636666666666,
+    "text": "spin multiplicity,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 312.82466666666664,
+    "end": 315.1046666666666,
+    "text": "and number of excited states.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 315.3856666666666,
+    "end": 317.16566666666665,
+    "text": "Ask for missing information.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 318.28666666666663,
+    "end": 320.24966666666666,
+    "text": "Then write the workflow in order.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 320.66966666666667,
+    "end": 322.45166666666665,
+    "text": "Consult the syntax reference,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 322.73266666666666,
+    "end": 323.89366666666666,
+    "text": "prepare the input,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 324.05366666666663,
+    "end": 325.4556666666666,
+    "text": "and run the input checker.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 325.71666666666664,
+    "end": 327.83866666666665,
+    "text": "In this example, obtain approval",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 328.01866666666666,
+    "end": 330.8016666666666,
+    "text": "before invoking the ORCA tool through MCP.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 331.24266666666665,
+    "end": 333.68566666666663,
+    "text": "Inspect the real output before reporting.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 334.62666666666667,
+    "end": 336.90866666666665,
+    "text": "Finally, define the evidence rules.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 337.3686666666666,
+    "end": 339.75066666666663,
+    "text": "Specify the completion\nand scientific checks",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 339.75066666666663,
+    "end": 341.07166666666666,
+    "text": "required for a result.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 341.41166666666663,
+    "end": 343.35366666666664,
+    "text": "Report what the output supports,",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 343.41366666666664,
+    "end": 344.89466666666664,
+    "text": "without inventing spectra",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 344.9146666666667,
+    "end": 346.91666666666663,
+    "text": "or claiming unverified success.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 347.21666666666664,
+    "end": 349.17866666666663,
+    "text": "Clear decision gates make the workflow",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 349.17866666666663,
+    "end": 350.93966666666665,
+    "text": "more disciplined and reproducible.",
+    "origin": "Skill_File_Anatomy.srt"
+  },
+  {
+    "start": 354.04066666666665,
+    "end": 357.14366666666666,
+    "text": "Give your AI focused references it can",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 357.1636666666667,
+    "end": 358.06466666666665,
+    "text": "check and use.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 359.2066666666667,
+    "end": 361.20866666666666,
+    "text": "Keep the skill document focused on the",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 361.20866666666666,
+    "end": 365.2336666666667,
+    "text": "workflow. Move detailed documentation into\nsmall reference",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 365.2336666666667,
+    "end": 368.65766666666667,
+    "text": "files: one for input syntax, another for",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 368.65766666666667,
+    "end": 371.8616666666667,
+    "text": "method selection, and another for\nvalidation checks.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 372.36266666666666,
+    "end": 374.6046666666667,
+    "text": "That makes the relevant guidance easier to",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 374.6046666666667,
+    "end": 374.9856666666667,
+    "text": "find.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 376.0866666666667,
+    "end": 378.30966666666666,
+    "text": "Preserve links to the official manual and",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 378.30966666666666,
+    "end": 379.87166666666667,
+    "text": "identify the software version.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 380.29266666666666,
+    "end": 382.71566666666666,
+    "text": "Each reference should explain the valid\nsyntax,",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 382.99666666666667,
+    "end": 385.23966666666666,
+    "text": "the prerequisites, and the limitations.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 385.73966666666666,
+    "end": 388.14366666666666,
+    "text": "The original documentation remains the\nplace to",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 388.14366666666666,
+    "end": 389.5046666666667,
+    "text": "verify the details.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 390.3666666666667,
+    "end": 393.5676666666667,
+    "text": "For example, consider percent max core one",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 393.5676666666667,
+    "end": 396.4886666666667,
+    "text": "thousand. In ORCA, this sets roughly one",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 396.4886666666667,
+    "end": 399.30966666666666,
+    "text": "thousand megabytes per processing core for\nthe",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 399.30966666666666,
+    "end": 400.7096666666667,
+    "text": "dominant scratch arrays.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 400.98966666666666,
+    "end": 402.29066666666665,
+    "text": "It is not a limit on the",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 402.29066666666665,
+    "end": 403.9306666666667,
+    "text": "entire calculation's memory.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 404.3906666666667,
+    "end": 406.6716666666667,
+    "text": "Other allocations can add to that amount,",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 406.9116666666667,
+    "end": 409.61266666666666,
+    "text": "so parallel jobs need careful memory\nplanning.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 410.89366666666666,
+    "end": 412.49666666666667,
+    "text": "Keep instructions focused.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 412.8376666666667,
+    "end": 416.1236666666667,
+    "text": "Make the supporting details precise,\ntraceable, and",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 416.14366666666666,
+    "end": 416.6036666666667,
+    "text": "usable.",
+    "origin": "ORCA_Curated_References.srt"
+  },
+  {
+    "start": 418.9676666666667,
+    "end": 422.8546666666667,
+    "text": "A reusable ORCA skill needs more than\ninstructions.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 423.3566666666667,
+    "end": 428.1256666666667,
+    "text": "Three support folders make the workflow easier\nto maintain.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 429.0666666666667,
+    "end": 432.1496666666667,
+    "text": "References hold version-specific guidance.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 432.5506666666667,
+    "end": 435.57366666666667,
+    "text": "The example documents ORCA input syntax",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 435.5936666666667,
+    "end": 437.8756666666667,
+    "text": "and points back to the official manual.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 438.3966666666667,
+    "end": 441.0196666666667,
+    "text": "That gives the agent a source to consult.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 442.0596666666667,
+    "end": 444.6226666666667,
+    "text": "Assets provide a reusable starting point.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 445.0636666666667,
+    "end": 448.7266666666667,
+    "text": "In this example, the template requests ten\nexcited states.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 449.0076666666667,
+    "end": 451.0896666666667,
+    "text": "It reads a separate geometry file.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 451.3296666666667,
+    "end": 453.6316666666667,
+    "text": "Adapt the settings to the scientific question.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 454.7936666666667,
+    "end": 457.49666666666667,
+    "text": "Scripts perform repeatable input checks.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 457.8166666666667,
+    "end": 460.1796666666667,
+    "text": "The example checks keywords, blocks,",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 460.1796666666667,
+    "end": 462.02066666666667,
+    "text": "and whether the geometry file exists.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 462.3816666666667,
+    "end": 464.8436666666667,
+    "text": "It reports passes, warnings, or errors.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 465.1846666666667,
+    "end": 467.1466666666667,
+    "text": "It does not run ORCA.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 468.0466666666667,
+    "end": 470.4886666666667,
+    "text": "Keep the three support roles distinct.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 470.4886666666667,
+    "end": 473.75166666666667,
+    "text": "References explain. Assets provide templates.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 474.0516666666667,
+    "end": 475.4526666666667,
+    "text": "Scripts check the input.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 475.5536666666667,
+    "end": 478.1756666666667,
+    "text": "A passed check does not prove scientific\naccuracy.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 478.5156666666667,
+    "end": 481.1976666666667,
+    "text": "Run ORCA, then evaluate the output",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 481.1976666666667,
+    "end": 482.67966666666666,
+    "text": "before trusting the result.",
+    "origin": "ORCA_Support_Files_Professional.srt"
+  },
+  {
+    "start": 484.49966666666666,
+    "end": 487.7196666666667,
+    "text": "Build a workflow you can test and review.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 488.55966666666666,
+    "end": 490.41966666666667,
+    "text": "Start with one working ORCA skill.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 490.8396666666667,
+    "end": 492.07966666666664,
+    "text": "Then connect it to",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 492.07966666666664,
+    "end": 495.13966666666664,
+    "text": "the tools needed for a specific scientific task.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 495.7796666666667,
+    "end": 498.5996666666667,
+    "text": "First place the skill and its supporting files",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 498.5996666666667,
+    "end": 500.01966666666664,
+    "text": "inside your project.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 500.37966666666665,
+    "end": 503.1596666666667,
+    "text": "Then run the python input checker on the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 503.1596666666667,
+    "end": 504.0396666666667,
+    "text": "example input.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 504.4796666666667,
+    "end": 505.67966666666666,
+    "text": "This is an offline",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 505.67966666666666,
+    "end": 506.69966666666664,
+    "text": "pre-flight check.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 507.1596666666667,
+    "end": 508.45966666666664,
+    "text": "It does not run ORCA.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 509.19966666666664,
+    "end": 512.7996666666667,
+    "text": "Next, connect ORCA through an authorized MCP tool,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 513.1396666666667,
+    "end": 516.5196666666667,
+    "text": "install ORCA separately, and deliberately choose the file",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 516.5196666666667,
+    "end": 518.9396666666667,
+    "text": "access and CPU resources the agent may",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 518.9396666666667,
+    "end": 519.3596666666666,
+    "text": "use.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 519.6196666666667,
+    "end": 521.4596666666666,
+    "text": "Keep execution under your control.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 522.1996666666666,
+    "end": 524.5996666666666,
+    "text": "Give the agent a specific scientific task.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 524.9996666666667,
+    "end": 526.0396666666667,
+    "text": "Ask for a vertical",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 526.0396666666667,
+    "end": 529.7196666666666,
+    "text": "absorption input with 10 excited states using your",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 529.7196666666666,
+    "end": 530.7996666666667,
+    "text": "molecular geometry.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 531.2796666666667,
+    "end": 532.4996666666667,
+    "text": "Have it check the input,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 532.4996666666667,
+    "end": 535.1196666666667,
+    "text": "explain its choices, and ask before execution.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 535.9196666666667,
+    "end": 538.5396666666667,
+    "text": "Extend the library one tested workflow at a",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 538.5396666666667,
+    "end": 538.8996666666667,
+    "text": "time,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 539.1396666666667,
+    "end": 540.8996666666667,
+    "text": "add geometry optimization,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 541.4796666666666,
+    "end": 544.0996666666666,
+    "text": "vibrational analysis, or excited state dynamics",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 544.0996666666666,
+    "end": 546.3596666666666,
+    "text": "only after the first workflow is ready.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 546.7396666666666,
+    "end": 548.8196666666666,
+    "text": "Check each addition before you rely on it.",
+    "origin": "offline-whisper-small-en; review required"
+  }
+]

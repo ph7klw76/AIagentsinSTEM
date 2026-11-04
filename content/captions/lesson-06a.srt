@@ -1,0 +1,241 @@
+1
+00:00:00,361 --> 00:00:02,783
+Here is the practical test: can an
+
+2
+00:00:02,904 --> 00:00:05,667
+AI agent move from a prompt in
+
+3
+00:00:05,728 --> 00:00:08,571
+OpenCode to a circuit whose performance we
+
+4
+00:00:08,571 --> 00:00:09,552
+can verify?
+
+5
+00:00:10,414 --> 00:00:12,616
+Start with a clear installation task.
+
+6
+00:00:13,016 --> 00:00:15,599
+Detect the operating system, find the
+existing
+
+7
+00:00:15,599 --> 00:00:17,541
+tools, and check their connections.
+
+8
+00:00:18,222 --> 00:00:21,005
+In this recording, two Ubuntu environments
+caused
+
+9
+00:00:21,005 --> 00:00:24,208
+confusion. The useful result is an
+identified
+
+10
+00:00:24,208 --> 00:00:27,332
+working environment, with versions and
+connection tests
+
+11
+00:00:27,332 --> 00:00:28,073
+documented.
+
+12
+00:00:28,993 --> 00:00:31,554
+Next, ask for a small test circuit.
+
+13
+00:00:31,895 --> 00:00:33,835
+Tool discovery is only one check.
+
+14
+00:00:34,136 --> 00:00:36,576
+The agent should create a schematic, run
+
+15
+00:00:36,597 --> 00:00:39,658
+electrical rules checking, export its
+connections, and
+
+16
+00:00:39,658 --> 00:00:41,739
+test the result with ngspice.
+
+17
+00:00:42,159 --> 00:00:44,320
+Keep the reports, including any fixes.
+
+18
+00:00:45,721 --> 00:00:47,903
+Now make the engineering target explicit.
+
+19
+00:00:48,403 --> 00:00:50,205
+We need a voltage gain between nine
+
+20
+00:00:50,205 --> 00:00:52,087
+point five and ten point five, and
+
+21
+00:00:52,087 --> 00:00:54,490
+a minus three decibel bandwidth of at
+
+22
+00:00:54,490 --> 00:00:56,371
+least one hundred and fifty kilohertz.
+
+23
+00:00:57,072 --> 00:00:59,855
+The specified op-amp model has an
+open-loop
+
+24
+00:00:59,855 --> 00:01:01,877
+gain of one hundred thousand and a
+
+25
+00:01:01,957 --> 00:01:03,799
+one megahertz gain-bandwidth product.
+
+26
+00:01:04,940 --> 00:01:07,704
+A single non-inverting stage reaches a
+gain
+
+27
+00:01:07,704 --> 00:01:10,508
+of about ten, but its simulated bandwidth
+
+28
+00:01:10,568 --> 00:01:12,370
+is only about one hundred kilohertz.
+
+29
+00:01:12,771 --> 00:01:13,832
+It misses the target.
+
+30
+00:01:14,253 --> 00:01:16,135
+This is why the prompt should require
+
+31
+00:01:16,135 --> 00:01:18,879
+feasibility analysis before a pass
+declaration.
+
+32
+00:01:20,020 --> 00:01:23,185
+The recorded design uses two cascaded
+stages.
+
+33
+00:01:23,385 --> 00:01:26,069
+Each has a twenty-two kilohm feedback
+resistor
+
+34
+00:01:26,369 --> 00:01:28,232
+and a ten kilohm resistor to ground.
+
+35
+00:01:28,592 --> 00:01:30,395
+The op-amp model stays the same.
+
+36
+00:01:30,515 --> 00:01:32,618
+We change the circuit architecture, then
+rerun
+
+37
+00:01:32,618 --> 00:01:33,139
+the checks.
+
+38
+00:01:34,440 --> 00:01:36,801
+For this edit, I reran the original
+
+39
+00:01:36,801 --> 00:01:39,522
+circuit files. The fresh simulation gives
+a
+
+40
+00:01:39,522 --> 00:01:41,462
+gain of about ten point two four
+
+41
+00:01:41,823 --> 00:01:43,663
+and a bandwidth of about two hundred
+
+42
+00:01:43,663 --> 00:01:44,664
+and one kilohertz.
+
+43
+00:01:45,044 --> 00:01:46,304
+Both meet the targets.
+
+44
+00:01:46,604 --> 00:01:49,285
+The KiCad netlist matches the original
+circuit,
+
+45
+00:01:49,645 --> 00:01:52,586
+and electrical rules checking reports zero
+violations.
+
+46
+00:01:53,927 --> 00:01:57,009
+These are small-signal results from a
+simplified,
+
+47
+00:01:57,009 --> 00:02:00,091
+single-pole model. They do not establish
+real
+
+48
+00:02:00,091 --> 00:02:03,133
+hardware performance, output limits, or
+noise.
+
+49
+00:02:03,913 --> 00:02:08,016
+The evidence chain matters: editable
+schematic, exported
+
+50
+00:02:08,016 --> 00:02:11,898
+netlist, documented model, solver data,
+and a
+
+51
+00:02:11,898 --> 00:02:13,979
+comparison with the original requirements.
+
+52
+00:02:15,280 --> 00:02:18,383
+A professional engineering prompt defines
+the task,
+
+53
+00:02:18,704 --> 00:02:20,846
+the checks, and the evidence required for
+
+54
+00:02:20,846 --> 00:02:23,929
+success. Let the agent coordinate the
+work.
+
+55
+00:02:24,350 --> 00:02:26,972
+Let verified results determine the
+conclusion.

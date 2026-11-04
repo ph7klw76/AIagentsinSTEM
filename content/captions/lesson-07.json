@@ -1,0 +1,812 @@
+[
+  {
+    "start": 0.5406666666666627,
+    "end": 3.103666666666663,
+    "text": "One scientific workflow can connect",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 3.223666666666663,
+    "end": 4.905666666666662,
+    "text": "many specialized tools.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 5.806666666666663,
+    "end": 7.688666666666663,
+    "text": "Start with organic electronics",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 7.688666666666663,
+    "end": 9.089666666666663,
+    "text": "and materials research.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 9.269666666666662,
+    "end": 11.190666666666663,
+    "text": "FreeCAD provides a geometry",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 11.190666666666663,
+    "end": 12.491666666666664,
+    "text": "and scripting environment.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 12.672666666666663,
+    "end": 15.274666666666663,
+    "text": "Its Python interface offers a way to begin",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 15.274666666666663,
+    "end": 17.595666666666663,
+    "text": "without a dedicated integration server.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 17.816666666666663,
+    "end": 20.578666666666663,
+    "text": "An agent can help prepare stress, thermal,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 20.578666666666663,
+    "end": 22.639666666666663,
+    "text": "airflow, and electrostatic studies.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 22.900666666666663,
+    "end": 24.86166666666666,
+    "text": "For example, study heat spreading",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 24.86166666666666,
+    "end": 27.103666666666662,
+    "text": "through an organic light emitting device.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 27.423666666666662,
+    "end": 29.104666666666663,
+    "text": "The selected numerical solver",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 29.104666666666663,
+    "end": 30.505666666666663,
+    "text": "performs the calculation.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 31.48666666666666,
+    "end": 34.129666666666665,
+    "text": "Electronic design\nincludes digital circuits,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 34.39066666666666,
+    "end": 35.431666666666665,
+    "text": "analog circuits,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 35.651666666666664,
+    "end": 37.193666666666665,
+    "text": "photonic integrated circuits,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 37.193666666666665,
+    "end": 38.75566666666666,
+    "text": "and printed circuit boards.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 39.01566666666666,
+    "end": 41.41866666666666,
+    "text": "Each branch needs a suitable tool chain.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 41.81966666666666,
+    "end": 43.94166666666666,
+    "text": "The agent helps connect the steps,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 44.221666666666664,
+    "end": 46.28466666666666,
+    "text": "while the specialized software handles",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 46.28466666666666,
+    "end": 47.40566666666666,
+    "text": "its part of the work.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 48.60666666666666,
+    "end": 51.50966666666666,
+    "text": "In a laboratory, an agent could coordinate",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 51.54966666666666,
+    "end": 53.91266666666666,
+    "text": "sample handling, instrument control,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 54.11266666666666,
+    "end": 55.25366666666666,
+    "text": "mobile navigation,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 55.43366666666666,
+    "end": 57.43566666666666,
+    "text": "and camera guided manipulation.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 58.03666666666666,
+    "end": 60.01866666666666,
+    "text": "Frameworks such as ROS 2",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 60.15866666666666,
+    "end": 61.63966666666666,
+    "text": "help connect the pieces.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 61.92066666666666,
+    "end": 64.72266666666667,
+    "text": "Real hardware also needs suitable drivers,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 64.88366666666667,
+    "end": 67.24566666666666,
+    "text": "sensors, and careful safety checks.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 68.40666666666667,
+    "end": 71.30766666666665,
+    "text": "Different optics problems\nneed different models.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 71.74766666666667,
+    "end": 73.86866666666666,
+    "text": "Ray tracing supports lens design.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 74.30866666666665,
+    "end": 77.44966666666667,
+    "text": "Electromagnetic simulation\ndescribes wave behavior.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 77.82966666666667,
+    "end": 80.83066666666667,
+    "text": "Periodic diffraction\nmodels help study gratings,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 81.17066666666665,
+    "end": 84.75166666666667,
+    "text": "while beam propagation methods\naddress coherent light.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 85.13166666666666,
+    "end": 86.45266666666666,
+    "text": "Choose the modeling approach",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 86.45266666666666,
+    "end": 88.03266666666667,
+    "text": "to match the physical problem.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 89.21266666666665,
+    "end": 91.61366666666666,
+    "text": "The same pattern connects these examples.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 91.97366666666667,
+    "end": 93.97466666666665,
+    "text": "The agent coordinates the workflow.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 94.33466666666666,
+    "end": 96.91566666666665,
+    "text": "Numerical software\nperforms the calculations.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 97.17566666666667,
+    "end": 98.99566666666666,
+    "text": "Researchers check the assumptions,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 99.19566666666665,
+    "end": 100.39666666666665,
+    "text": "inspect the outputs,",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 100.59666666666666,
+    "end": 102.53766666666667,
+    "text": "and decide what the results support.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 102.89766666666665,
+    "end": 104.77766666666665,
+    "text": "That division of work can extend",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 104.83766666666665,
+    "end": 106.27866666666665,
+    "text": "AI assisted computing",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 106.27866666666665,
+    "end": 107.95866666666666,
+    "text": "across science and engineering.",
+    "origin": "Scientific_AI_Workflows.srt"
+  },
+  {
+    "start": 111.12166666666667,
+    "end": 113.55066666666667,
+    "text": "An AI agent needs a usable interface",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 113.65166666666667,
+    "end": 115.13666666666667,
+    "text": "to your scientific software.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 116.11966666666667,
+    "end": 117.68066666666667,
+    "text": "The software does not have to be",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 117.68066666666667,
+    "end": 118.86066666666667,
+    "text": "written in Python.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 119.20066666666668,
+    "end": 121.70166666666667,
+    "text": "What matters is the interface: a Python",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 122.02266666666668,
+    "end": 125.10366666666667,
+    "text": "API, a command line, or the application's",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 125.16366666666667,
+    "end": 126.32366666666667,
+    "text": "own scripting tools.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 126.54366666666667,
+    "end": 129.30566666666667,
+    "text": "Available operations and permissions\ndetermine what the",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 129.30566666666667,
+    "end": 130.90566666666666,
+    "text": "agent can actually automate.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 131.98666666666668,
+    "end": 134.16866666666667,
+    "text": "That opens the door to tools such",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 134.16866666666667,
+    "end": 137.45066666666668,
+    "text": "as KiCad, ngspice, FreeCAD, and OpenFOAM.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 137.89166666666668,
+    "end": 139.73266666666666,
+    "text": "Each exposes different controls.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 140.09266666666667,
+    "end": 142.43466666666666,
+    "text": "Choose the interface the software\nsupports, and",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 142.43466666666666,
+    "end": 145.09666666666666,
+    "text": "inspect the inputs and returned files\ninstead",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 145.09666666666666,
+    "end": 147.29866666666666,
+    "text": "of assuming every application works the\nsame",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 147.29866666666666,
+    "end": 147.57866666666666,
+    "text": "way.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 148.45966666666666,
+    "end": 151.22066666666666,
+    "text": "When a simulation outgrows your laptop,\nthe",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 151.22066666666666,
+    "end": 153.72266666666667,
+    "text": "workflow can extend to an authorized\ncomputing",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 153.72266666666667,
+    "end": 156.3036666666667,
+    "text": "cluster. An agent can help prepare job",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 156.3036666666667,
+    "end": 159.66466666666668,
+    "text": "scripts, submit through the scheduler,\nmonitor progress,",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 159.70466666666667,
+    "end": 161.70566666666667,
+    "text": "and organize outputs for analysis.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 162.76666666666668,
+    "end": 165.42966666666666,
+    "text": "For a molecular dynamics example in\nGROMACS,",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 165.66966666666667,
+    "end": 168.27266666666668,
+    "text": "prepare the system and minimize its\nenergy.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 168.63366666666667,
+    "end": 171.59666666666666,
+    "text": "Next, establish the intended equilibrium\nconditions.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 172.1376666666667,
+    "end": 174.88066666666668,
+    "text": "Then run the production simulation and\nanalyze",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 174.88066666666668,
+    "end": 177.54366666666667,
+    "text": "the data. Check the inputs and scientific",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 177.54366666666667,
+    "end": 179.1856666666667,
+    "text": "criteria at each handoff.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 180.32666666666665,
+    "end": 182.36866666666668,
+    "text": "Use local SSH authentication.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 182.84866666666667,
+    "end": 185.17166666666668,
+    "text": "Keep passwords and private keys out of",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 185.23166666666668,
+    "end": 186.25266666666667,
+    "text": "prompts and logs.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 186.4526666666667,
+    "end": 189.21566666666666,
+    "text": "Verify job completion and inspect the\noutputs.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 189.55566666666667,
+    "end": 192.2986666666667,
+    "text": "Automation does not replace scientific\nvalidation.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 193.75966666666667,
+    "end": 195.74166666666667,
+    "text": "Connect through the right interface.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 196.00166666666667,
+    "end": 197.88366666666667,
+    "text": "Scale through the right resources.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 198.18366666666668,
+    "end": 199.80566666666667,
+    "text": "Keep the science verifiable.",
+    "origin": "AI_Interfaces_to_HPC.srt"
+  },
+  {
+    "start": 202.21966666666668,
+    "end": 205.66166666666666,
+    "text": "AI can help beyond the first simulation\nscript.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 206.04166666666669,
+    "end": 208.82366666666667,
+    "text": "It can also help coordinate what happens next.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 209.40366666666668,
+    "end": 212.08466666666666,
+    "text": "The key is to separate building the workflow",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 212.08466666666666,
+    "end": 213.80566666666667,
+    "text": "from monitoring its progress.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 214.90666666666667,
+    "end": 217.72766666666666,
+    "text": "Codex is the engineering assistant in this\nexample.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 218.08866666666668,
+    "end": 220.68966666666668,
+    "text": "It can help write Python and SLURM scripts,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 221.04966666666667,
+    "end": 222.43066666666667,
+    "text": "connect permitted tools,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 222.43066666666667,
+    "end": 224.91166666666666,
+    "text": "and add file handling and validation checks.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 225.23166666666668,
+    "end": 227.15266666666668,
+    "text": "The goal is a reproducible workflow",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 227.15266666666668,
+    "end": 228.55266666666668,
+    "text": "for the researcher to review.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 229.51266666666666,
+    "end": 233.97466666666668,
+    "text": "For GROMACS, that workflow moves from system\npreparation",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 233.97466666666668,
+    "end": 237.01566666666668,
+    "text": "to energy minimization, equilibration,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 237.17566666666667,
+    "end": 239.11666666666667,
+    "text": "production dynamics, and analysis.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 239.67666666666668,
+    "end": 241.49766666666667,
+    "text": "Scripts organize these stages;",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 241.83766666666668,
+    "end": 243.77866666666668,
+    "text": "the researcher still checks the model,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 243.77866666666668,
+    "end": 244.93866666666668,
+    "text": "settings, and results.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 245.97966666666667,
+    "end": 248.44266666666667,
+    "text": "Dot provides the coordination role.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 248.78266666666667,
+    "end": 250.78466666666668,
+    "text": "With a permitted status integration",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 250.82566666666668,
+    "end": 252.44666666666666,
+    "text": "or scheduled report configured,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 252.90766666666667,
+    "end": 255.52966666666669,
+    "text": "it can follow progress, flag failures,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 255.71066666666667,
+    "end": 257.51166666666666,
+    "text": "and bring back completed results.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 258.1526666666667,
+    "end": 259.87466666666666,
+    "text": "Define what it should monitor,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 259.99466666666666,
+    "end": 260.91566666666665,
+    "text": "when it should check,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 261.37666666666667,
+    "end": 263.57866666666666,
+    "text": "and which changes need your attention.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 264.7796666666667,
+    "end": 268.6816666666667,
+    "text": "Keep credentials in approved local or cluster\nsecret storage.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 268.94166666666666,
+    "end": 270.9626666666667,
+    "text": "Share sanitized status information,",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 271.16266666666667,
+    "end": 273.4036666666667,
+    "text": "and keep scientific decisions with the\nresearcher.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 273.6446666666667,
+    "end": 275.1046666666667,
+    "text": "Codex builds the workflow.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 275.1046666666667,
+    "end": 276.4856666666667,
+    "text": "Dot helps keep it moving.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 276.4856666666667,
+    "end": 277.5056666666667,
+    "text": "You remain in control.",
+    "origin": "GROMACS_Workflow_Professional.srt"
+  },
+  {
+    "start": 278.7056666666667,
+    "end": 281.5056666666667,
+    "text": "A failed job needs a diagnosis.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 282.08566666666667,
+    "end": 285.90566666666666,
+    "text": "This recording follows a GROMACS simulation on DICC",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 285.90566666666666,
+    "end": 289.02566666666667,
+    "text": "with an AI assistant helping to interpret",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 289.02566666666667,
+    "end": 290.2256666666667,
+    "text": "the status reports.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 291.1656666666667,
+    "end": 294.08566666666667,
+    "text": "The first problem was a launch failure.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 294.3856666666667,
+    "end": 298.3656666666667,
+    "text": "OpenMP could not bind its processes to CPU",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 298.3656666666667,
+    "end": 301.9256666666667,
+    "text": "cores that points to the computing setup rather",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 301.9256666666667,
+    "end": 303.6256666666667,
+    "text": "than proving molecular instability.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 303.6256666666667,
+    "end": 307.52566666666667,
+    "text": "After the launch settings were corrected, the display",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 307.52566666666667,
+    "end": 309.9456666666667,
+    "text": "update reported that a 16-core",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 309.9456666666667,
+    "end": 313.0656666666667,
+    "text": "binding check passed and the first 500 ps",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 313.0656666666667,
+    "end": 315.02566666666667,
+    "text": "of the NPT stage completed.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 315.4256666666667,
+    "end": 317.90566666666666,
+    "text": "Those milestones still need the underlying outputs.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 318.8256666666667,
+    "end": 321.1256666666667,
+    "text": "Later, the monitoring connection dropped.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 321.58566666666667,
+    "end": 323.9456666666667,
+    "text": "The latest progress could no longer be confirmed.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 324.5656666666667,
+    "end": 327.28566666666666,
+    "text": "A failed connection does not by itself establish",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 327.28566666666666,
+    "end": 328.4456666666667,
+    "text": "a failed simulation.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 328.4456666666667,
+    "end": 331.7656666666667,
+    "text": "keep the last verified progress separate from the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 331.7656666666667,
+    "end": 332.8856666666667,
+    "text": "unknown current state.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 333.8256666666667,
+    "end": 336.1856666666667,
+    "text": "Good monitoring makes uncertainty explicit.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 336.8256666666667,
+    "end": 339.2456666666667,
+    "text": "An AI assistant can help organize evidence,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 339.7256666666667,
+    "end": 342.3656666666667,
+    "text": "distinguish operational problems from simulation behavior,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 342.78566666666666,
+    "end": 343.9456666666667,
+    "text": "and guide the next check.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 344.7256666666667,
+    "end": 346.96566666666666,
+    "text": "Scientific conclusions depend on the underlying outputs.",
+    "origin": "offline-whisper-small-en; review required"
+  }
+]

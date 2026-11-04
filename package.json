@@ -1,0 +1,21 @@
+{
+  "name": "ai-agents-in-stem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:upstream": "node scripts/prepare-upstream.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@lumieducation/h5p-html-exporter": "10.0.4",
+    "@lumieducation/h5p-server": "10.0.4",
+    "adm-zip": "0.5.16",
+    "h5p-standalone": "3.8.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

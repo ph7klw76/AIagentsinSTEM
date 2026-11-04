@@ -1,0 +1,647 @@
+{
+  "timestamp": "2026-11-04T09:14:53.187181+00:00",
+  "context": "finished local v02 editions, not YouTube streaming",
+  "method": "independent decoded AAC/WAV correlation; exact RGB checks at four events; full decode frame counter",
+  "results": [
+    {
+      "lesson": "01",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_01_1080p30_v02.mp4",
+      "sourceSha256": "ea816601917eab332da2bc6a8bd9117899edb9f9bc0820173550c1efb6d09b6b",
+      "decodedFrames": 9408,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 35.91566666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999966025352478,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 166.09566666666666,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999975562095642,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 265.55566666666664,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999693632125854,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "899596ccec45afc62dc22a7dddae42cf4ffa2f9fc2b7c3f29ea9730d1111d3ec",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 145,
+          "decodedRgbSha256": "48897749973af1a07ae3d68284ddfae9cb37d6dd6e82a7fc99c6917286a1eae5",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 270,
+          "decodedRgbSha256": "63c099feae9d1f2cfa984c3dfbba122c8d7817c40374b6ef1ed509382aac586c",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 305.6,
+          "decodedRgbSha256": "5f95e72aa0dcafeaee18491eafb8bcf107e322a39a0a7af1dbff51ee11017ff9",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q01",
+        "time": 270,
+        "review": 145,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "02",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_02_1080p30_v02.mp4",
+      "sourceSha256": "c0b62e5037bd87e2609bd42624f45842bbca42d6b6a3af6973457d38398779f9",
+      "decodedFrames": 15807,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 45.59466666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999971389770508,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 288.802,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999960660934448,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 443.36566666666664,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999971389770508,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "d615538ee19cfa42690f23a11b47901c372830f9236362add24ce092e9c81ce2",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 445,
+          "decodedRgbSha256": "7849ff7f127ba77a1746ec7528970d4a9a850dbdece17bac1375dc8e236c855b",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 490,
+          "decodedRgbSha256": "38878cbedc7ac35596481578b7172c0a1f5546e44b95834aba478cc9ce1b63e4",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 518.9,
+          "decodedRgbSha256": "b5de69dc9111c6a7eb19b9ab9e18a257c0643d74f1e03317fedcfefc39a5e655",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q02",
+        "time": 490,
+        "review": 445,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "03",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_03_1080p30_v02.mp4",
+      "sourceSha256": "83231be2d9d2202c22d55100aa6ce39befa9f78f57fbe61dfc3ad4d8de1c93e2",
+      "decodedFrames": 16660,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 56.48966666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999971985816956,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 266.8506666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999972581863403,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 475.5136666666666,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999979138374329,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "eb8917cf9f4c82c91ea206ac5934ffec699851f96f8a80e5ff82e1a183f8e474",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 377.467,
+          "decodedRgbSha256": "54452034286cf5991d852c5d12c5c1516d704c48748c8fb640a29736da7d5e04",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 429,
+          "decodedRgbSha256": "51098ff94831689045f7fdae941877b5b7022404dd5e84e5bcb373064c1483de",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 547.3333333333334,
+          "decodedRgbSha256": "74658e2ec27de6ef82c8a6af7cf8b4dab639441f4c2e0f1d31125c33fced9f2a",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q03",
+        "time": 429,
+        "review": 377.467,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "04",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_04_1080p30_v02.mp4",
+      "sourceSha256": "aa2790abe08621a87345593c7d736bad353b85c8816215e4e8e54efd26b95f91",
+      "decodedFrames": 7486,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 21.781,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999967813491821,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 132.40166666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999755620956421,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 209.69266666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999971985816956,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "91fc81040d58a9b1a1a2db8a2a31aa8db07af922142f221c1bc9ec177ed31eb9",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 79,
+          "decodedRgbSha256": "ccac55177b00f74bbc1fcc02cadecf97e5b17bc3cc2ceeb40bf87fad7c89a832",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 134,
+          "decodedRgbSha256": "97b23fe7baa52d8e27da1a16d8d3ff123d0adfdb97ba4d4860a5e0fd41a5eefd",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 241.53333333333333,
+          "decodedRgbSha256": "a4d3a68f3c286cd3f775d2e5f3ff36d4a4b5016137b4ef64afa8727ba7dfa030",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q04",
+        "time": 134,
+        "review": 79,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "05",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_05_1080p30_v02.mp4",
+      "sourceSha256": "8198acf2309a24c2e9ccee64d9aebc6d3a1c923f41b6f4ed0c3ca7efe8b53d65",
+      "decodedFrames": 16554,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 57.055,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999973177909851,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 266.509,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999955892562866,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 467.7966666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999980330467224,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "1a59a2c36e46d3a3144888fe0535e65e1e70f2926376c7449c3314b645d7b00a",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 418.467,
+          "decodedRgbSha256": "d0063dba0265c20faac5ee05c08b5902cfb6d0cbbf9b4eb8819f83b555cc140a",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 500,
+          "decodedRgbSha256": "2d89a995079cff27f006b1478efbc68329072d309ec53747c6f26d414fc76450",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 543.8,
+          "decodedRgbSha256": "fcbb813a7e5336802419a649a8483bc74a23813798e492e0a6474ebbabfe9587",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q05",
+        "time": 500,
+        "review": 418.467,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "05a",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_05a_1080p30_v02.mp4",
+      "sourceSha256": "79523278b3c53ce6522f8c92e1958ae9278bfa3f1f4c2cfc07913e291105b38c",
+      "decodedFrames": 4962,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 14.56966666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999977946281433,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 83.10666666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999982118606567,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 139.74466666666666,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999979138374329,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "bd9a968a4804a9eefe23b138348cff4998de8efa625b80301de760ebf2e92705",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 65,
+          "decodedRgbSha256": "e52394b94b38b3fd68617f57f024d286356cf72a34a2636c289d67d6b9509138",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 114,
+          "decodedRgbSha256": "5f96a879eaf7d9fef2d7742526d577d0683641fb4ec9056c2dfcdd66093235d5",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 157.4,
+          "decodedRgbSha256": "816b59102641c076c89650b38d23db599370b03d8db404578fb55c23520c6641",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q05A",
+        "time": 114,
+        "review": 65,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "06",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_06_1080p30_v02.mp4",
+      "sourceSha256": "c42e8fdc36640e74dddb9811d2cfa9c177bdab095732735e3c2d8e878918939c",
+      "decodedFrames": 8256,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 29.89,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999979734420776,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 143.09766666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999780058860779,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 235.95166666666665,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999969601631165,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "f840bf112fd7050e98320ddee6ce460181f932dc3beed0a39a78277b5c3ff21f",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 58,
+          "decodedRgbSha256": "4d72b2612bf3b133a86d674ec596cf876a5084683eaf682c07118b6bbcbb135f",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 183,
+          "decodedRgbSha256": "766c46d9ac997725985df8c00bdc857688f72b25bf81685fc0ba7b81c0dc1bcd",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 267.2,
+          "decodedRgbSha256": "d5177617ea1d56c4552aaabd376c0e60d85b949a00ceb203bc89ab0ae974d302",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q06",
+        "time": 183,
+        "review": 58,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "06a",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_06a_1080p30_v02.mp4",
+      "sourceSha256": "d1e1f4610071223f662423030653f368180dfc23e673e26d3de448114dd9d4d8",
+      "decodedFrames": 4498,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 12.766,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999971985816956,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 70.318,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.999997615814209,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 113.67699999999999,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999979734420776,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "d00e9dbfe03de4c795a974406d0ddfcb168cf0b214e0d8d1a0e85db1febe4019",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 57,
+          "decodedRgbSha256": "063ece46502976085e99a22f1339cc1e4a9226047bcade85c37db94d35faf199",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 99,
+          "decodedRgbSha256": "7d37ccdde08eb76768a5201b13524164bb18a8bc08763ab12c6b476872a50685",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 141.93333333333334,
+          "decodedRgbSha256": "3647bbaae5582f38e2d67431cff4a45638ad56922780a551c267643a3d16bf94",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q06A",
+        "time": 99,
+        "review": 57,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "07",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_07_1080p30_v02.mp4",
+      "sourceSha256": "c04255d21f1e600bf7e13c327975e1cde3e8fea58d19df85c06810e6cb26370c",
+      "decodedFrames": 10505,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 28.854666666666663,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999978542327881,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 162.51666666666668,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999966025352478,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 285.65566666666666,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999973177909851,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "43f5399ac017ab1d3ec46ba6176bdd026ea24f543d70ca8d58acf8aa7f81be1e",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 280,
+          "decodedRgbSha256": "5e9670614ad2658746f7d5d11951f42f878b9b7fb221c25b4d2fa87341a05600",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 312,
+          "decodedRgbSha256": "138c06927a638800f56319e9895f818372c6e34576f83dcf2e1366046c043871",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 342.1666666666667,
+          "decodedRgbSha256": "4c4498a587809d5b1a812b01261ec04cde4f9173c1223b79929589e21ea7adc5",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q07",
+        "time": 312,
+        "review": 280,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    },
+    {
+      "lesson": "08",
+      "status": "pass",
+      "finalFile": "AIagentsSTEM_08_1080p30_v02.mp4",
+      "sourceSha256": "e187650bfc2ab1e6aa72dd7283f5acc75b0e256d574664539bf51d2cdcc0c8e4",
+      "decodedFrames": 11099,
+      "fullAudioVideoDecode": "pass; no errors",
+      "audioAlignment": [
+        {
+          "timeSeconds": 33.52566666666666,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999976754188538,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 184.14466666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999967217445374,
+          "sampleRate": 16000
+        },
+        {
+          "timeSeconds": 306.63866666666667,
+          "lagMs": 0.0,
+          "normalizedCorrelation": 0.9999961256980896,
+          "sampleRate": 16000
+        }
+      ],
+      "criticalVisualEvents": [
+        {
+          "event": "opening",
+          "timeSeconds": 8,
+          "decodedRgbSha256": "58ecbca197e930c491abca367402b484aa8c77e5b96178510c2d86fbfec31e15",
+          "matchesOriginal": true
+        },
+        {
+          "event": "review",
+          "timeSeconds": 150,
+          "decodedRgbSha256": "de3bb0ff14c9885e24f520ca8c520232d35e7b767a65c478ef654c4aa2fe418e",
+          "matchesOriginal": true
+        },
+        {
+          "event": "checkpoint",
+          "timeSeconds": 294,
+          "decodedRgbSha256": "920c88ae2f9bb8aca5421d5ff6bd5e15a30c43b90e9f599a69a33b09e9e7c594",
+          "matchesOriginal": true
+        },
+        {
+          "event": "closing",
+          "timeSeconds": 361.96666666666664,
+          "decodedRgbSha256": "d5bf4b27e03760c821296c0c570aac3b88e859cc621365fa22845f9d22509261",
+          "matchesOriginal": true
+        }
+      ],
+      "originalUnchanged": true,
+      "mediaTimeDeltaSeconds": 0,
+      "newQuestions": {
+        "id": "Q08",
+        "time": 294,
+        "review": 150,
+        "previousSchedule": null,
+        "delta": null,
+        "note": "Newly authored checkpoint; no previous H5P schedule existed in the empty repository."
+      }
+    }
+  ]
+}

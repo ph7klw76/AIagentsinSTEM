@@ -1,0 +1,356 @@
+[
+  {
+    "start": 0.3606666666666698,
+    "end": 2.8836666666666697,
+    "text": "A cluster connection is only the\nbeginning.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 3.34466666666667,
+    "end": 5.426666666666669,
+    "text": "In OpenCode, the useful goal is a",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 5.426666666666669,
+    "end": 8.83166666666667,
+    "text": "repeatable ORCA workflow: submit a small\ncalculation,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 9.27266666666667,
+    "end": 11.61566666666667,
+    "text": "inspect what really happened, and save the",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 11.61566666666667,
+    "end": 13.83866666666667,
+    "text": "verified procedure as a reusable skill.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 14.81966666666667,
+    "end": 17.68366666666667,
+    "text": "The recording starts by checking Slurm,\nthe",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 17.68366666666667,
+    "end": 19.46466666666667,
+    "text": "available partitions, and the queue.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 19.96566666666667,
+    "end": 22.02766666666667,
+    "text": "This confirms access to the scheduler.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 22.36866666666667,
+    "end": 24.77066666666667,
+    "text": "The calculation still needs the right\nsoftware",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 24.77066666666667,
+    "end": 26.47266666666667,
+    "text": "environment on a compute node.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 27.05366666666667,
+    "end": 28.91566666666667,
+    "text": "A working connection is one piece of",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 28.95566666666667,
+    "end": 31.57866666666667,
+    "text": "evidence, not the final scientific result.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 33.13966666666667,
+    "end": 36.32066666666667,
+    "text": "Use a small water geometry optimization as",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 36.32066666666667,
+    "end": 40.16166666666667,
+    "text": "the test. The recorded request specifies\nfour",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 40.16166666666667,
+    "end": 42.50266666666667,
+    "text": "processors and eight gigabytes of memory.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 42.94266666666667,
+    "end": 44.94366666666667,
+    "text": "Match the ORCA process count to the",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 44.94366666666667,
+    "end": 48.16466666666667,
+    "text": "Slurm allocation, and budget memory per\nprocess",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 48.16466666666667,
+    "end": 51.90566666666667,
+    "text": "with headroom. Keep the calculation\nmethod, basis,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 51.92566666666667,
+    "end": 54.10566666666667,
+    "text": "charge, and input geometry explicit.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 55.18666666666667,
+    "end": 57.86666666666667,
+    "text": "The first attempts fail during startup.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 58.08766666666667,
+    "end": 61.62866666666667,
+    "text": "OpenCode traces the problem through module\navailability,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 61.90866666666667,
+    "end": 64.70966666666666,
+    "text": "missing MPI libraries, and a launcher\nwrapper",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 64.70966666666666,
+    "end": 66.56966666666666,
+    "text": "that shadows the intended program.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 66.96966666666667,
+    "end": 69.23066666666666,
+    "text": "These fixes belong to this recorded\ncluster",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 69.23066666666666,
+    "end": 72.19166666666668,
+    "text": "environment. Recheck current modules and\npaths before",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 72.19166666666668,
+    "end": 73.45166666666667,
+    "text": "reusing them elsewhere.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 73.69166666666668,
+    "end": 76.57266666666668,
+    "text": "Preserve the scientific input while\nrepairing execution.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 77.79266666666668,
+    "end": 79.93466666666667,
+    "text": "A submitted job is not yet a",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 79.93466666666667,
+    "end": 83.35666666666667,
+    "text": "successful calculation. Read the ORCA\noutput and",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 83.35666666666667,
+    "end": 84.21666666666667,
+    "text": "the error log.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 84.59666666666668,
+    "end": 88.97966666666667,
+    "text": "Require normal termination and the\nexpected optimization-completion",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 88.97966666666667,
+    "end": 91.62066666666666,
+    "text": "marker, then inspect the final energy and",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 91.62066666666666,
+    "end": 94.94266666666667,
+    "text": "geometry. The recording reports a\ncompleted water",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 94.94266666666667,
+    "end": 98.76466666666667,
+    "text": "optimization. That supports this test\ncase; broader",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 98.76466666666667,
+    "end": 101.18566666666668,
+    "text": "chemistry still needs its own validation.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 102.48666666666666,
+    "end": 105.06766666666667,
+    "text": "Now convert the tested workflow into a",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 105.06766666666667,
+    "end": 108.60966666666667,
+    "text": "skill document. The recording shows an\norca-slurm",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 108.60966666666667,
+    "end": 111.45166666666667,
+    "text": "folder containing SKILL dot M D, a",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 111.45166666666667,
+    "end": 114.69366666666667,
+    "text": "batch-script template, a water input, and\nreference",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 114.69366666666667,
+    "end": 118.15566666666668,
+    "text": "notes. Store the preflight checks,\nresource settings,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 118.33566666666667,
+    "end": 121.31666666666666,
+    "text": "verification rules, and known failures\ntogether.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 121.81766666666667,
+    "end": 124.21866666666666,
+    "text": "The next task can reuse an inspectable",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 124.21866666666666,
+    "end": 124.81866666666667,
+    "text": "procedure.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 125.91966666666667,
+    "end": 128.64266666666668,
+    "text": "For the next job, ask OpenCode to",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 128.66266666666667,
+    "end": 131.2456666666667,
+    "text": "use the orca-slurm skill and describe the",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 131.2456666666667,
+    "end": 132.32666666666665,
+    "text": "calculation you want.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 132.52666666666664,
+    "end": 134.6086666666667,
+    "text": "Check that the skill is actually available",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 134.64866666666666,
+    "end": 137.61166666666668,
+    "text": "and loaded. Its instructions guide the\nagent,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 137.77266666666668,
+    "end": 139.85466666666667,
+    "text": "while the connected tools perform the\nwork.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 139.99466666666666,
+    "end": 142.47766666666666,
+    "text": "Keep permissions, resource limits, and the\nfinal",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 142.47766666666666,
+    "end": 143.93866666666668,
+    "text": "verification gate in place.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 145.13966666666664,
+    "end": 147.28266666666667,
+    "text": "When a new failure reveals a useful",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 147.28266666666667,
+    "end": 149.72466666666668,
+    "text": "fix, update the skill with the cause,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 149.80466666666666,
+    "end": 151.42666666666668,
+    "text": "the correction, and the evidence.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 151.86666666666667,
+    "end": 154.72966666666667,
+    "text": "The improvement comes from maintaining\nthose instructions.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 155.09066666666666,
+    "end": 157.17266666666666,
+    "text": "Keep the original inputs and reports.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 157.39266666666668,
+    "end": 159.91566666666665,
+    "text": "Test a small case, verify the outcome,",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 160.13566666666668,
+    "end": 161.95766666666668,
+    "text": "then preserve what worked for the next",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  },
+  {
+    "start": 161.95766666666668,
+    "end": 162.3586666666667,
+    "text": "run.",
+    "origin": "OpenCode_ORCA_Reusable_Skill.srt"
+  }
+]

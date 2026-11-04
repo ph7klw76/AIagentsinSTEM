@@ -1,0 +1,758 @@
+[
+  {
+    "start": 0.41966666666666624,
+    "end": 3.6026666666666665,
+    "text": "Imagine describing an engineering problem\nin plain",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 3.6026666666666665,
+    "end": 6.044666666666666,
+    "text": "language, and having an AI help you",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 6.044666666666666,
+    "end": 8.065666666666667,
+    "text": "build a numerical simulation.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 9.086666666666666,
+    "end": 11.891666666666666,
+    "text": "We'll use DeepSeek to plan the work.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 12.812666666666667,
+    "end": 15.096666666666666,
+    "text": "OpenCode coordinates execution.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 16.579666666666665,
+    "end": 19.664666666666665,
+    "text": "The Model Context Protocol connects the\ntools.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 20.806666666666665,
+    "end": 23.610666666666667,
+    "text": "The key is to keep three responsibilities",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 23.670666666666666,
+    "end": 24.091666666666665,
+    "text": "clear.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 25.334666666666667,
+    "end": 26.156666666666666,
+    "text": "AI plans.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 26.920666666666666,
+    "end": 28.929666666666666,
+    "text": "Numerical solvers compute.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 29.793666666666667,
+    "end": 31.537666666666667,
+    "text": "Researchers validate.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 33.22066666666666,
+    "end": 36.16566666666667,
+    "text": "AI can prepare files and coordinate a",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 36.16566666666667,
+    "end": 40.251666666666665,
+    "text": "calculation. The solver solves the\nmathematical model.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 40.87266666666666,
+    "end": 42.99666666666667,
+    "text": "That alone does not prove the model",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 42.99666666666667,
+    "end": 44.278666666666666,
+    "text": "is physically correct.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 45.260666666666665,
+    "end": 48.93066666666667,
+    "text": "We still check assumptions, units,\nboundary conditions,",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 49.37266666666666,
+    "end": 51.23766666666667,
+    "text": "and whether the results make sense.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 52.22066666666666,
+    "end": 54.24666666666667,
+    "text": "The goal is a workflow that's easier",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 54.24666666666667,
+    "end": 57.13466666666666,
+    "text": "to use, easier to reproduce, and easier",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 57.13466666666666,
+    "end": 57.91666666666667,
+    "text": "to inspect.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 59.14066666666666,
+    "end": 61.42566666666667,
+    "text": "Let AI help with the work.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 61.986666666666665,
+    "end": 65.57466666666667,
+    "text": "Keep scientific judgment and evidence at\nthe",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 65.57466666666667,
+    "end": 66.01566666666668,
+    "text": "center.",
+    "origin": "Scientific_AI_Introduction_Professional.srt"
+  },
+  {
+    "start": 67.54066666666668,
+    "end": 70.44566666666668,
+    "text": "An AI answer can sound convincing,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 70.74666666666668,
+    "end": 72.48866666666667,
+    "text": "and still be physically wrong.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 72.88966666666668,
+    "end": 75.53466666666668,
+    "text": "Before we use AI agents for science,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 75.81566666666667,
+    "end": 77.81866666666667,
+    "text": "we need to understand that distinction.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 78.67966666666668,
+    "end": 80.88166666666667,
+    "text": "Probabilistic and generative tools,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 81.28166666666668,
+    "end": 83.42266666666669,
+    "text": "from ChatGPT and DeepSeek",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 83.42266666666669,
+    "end": 86.36466666666668,
+    "text": "to neural networks and stochastic\noptimizers,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 86.48566666666667,
+    "end": 89.42666666666668,
+    "text": "help us recognize patterns, generate code,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 89.64766666666668,
+    "end": 91.50866666666667,
+    "text": "and propose candidate solutions.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 91.88866666666668,
+    "end": 94.29066666666668,
+    "text": "Their strength is exploring possibilities.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 94.67066666666668,
+    "end": 97.47266666666668,
+    "text": "Physical correctness still has to be\nestablished.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 98.23266666666667,
+    "end": 100.43566666666668,
+    "text": "This becomes especially important",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 100.79666666666668,
+    "end": 102.05766666666668,
+    "text": "in complex systems,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 102.49866666666668,
+    "end": 104.62066666666668,
+    "text": "where many particles interact",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 104.90166666666667,
+    "end": 107.88566666666668,
+    "text": "and an analytical solution may not exist.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 108.68666666666668,
+    "end": 111.32866666666668,
+    "text": "Numerical solvers have a different job.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 111.48866666666669,
+    "end": 115.15166666666667,
+    "text": "Methods such as FDTD and RCWA,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 115.51166666666668,
+    "end": 118.11366666666669,
+    "text": "and circuit simulators such as SPICE,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 118.41466666666668,
+    "end": 120.11566666666667,
+    "text": "use mathematical models",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 120.27566666666668,
+    "end": 121.87666666666668,
+    "text": "and established algorithms",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 122.13666666666668,
+    "end": 124.25866666666667,
+    "text": "to calculate reproducible results",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 124.25866666666667,
+    "end": 125.77966666666669,
+    "text": "under controlled conditions.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 126.58066666666667,
+    "end": 128.84366666666668,
+    "text": "But reproducible does not automatically",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 128.84366666666668,
+    "end": 129.82466666666667,
+    "text": "mean accurate.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 130.32566666666668,
+    "end": 132.66966666666667,
+    "text": "We still need numerical verification:",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 133.13066666666668,
+    "end": 134.93266666666668,
+    "text": "are the equations solved correctly?",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 135.43366666666668,
+    "end": 136.75566666666668,
+    "text": "And physical validation:",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 136.75566666666668,
+    "end": 138.77866666666668,
+    "text": "does the model represent the real system?",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 139.49966666666668,
+    "end": 140.8416666666667,
+    "text": "So here is the key message.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 141.26166666666668,
+    "end": 142.74366666666668,
+    "text": "Let AI propose.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 143.1036666666667,
+    "end": 144.42466666666667,
+    "text": "Let solvers compute.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 144.58566666666667,
+    "end": 146.04666666666668,
+    "text": "And let scientists validate.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 146.48766666666668,
+    "end": 147.96866666666668,
+    "text": "By combining these strengths,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 148.00866666666667,
+    "end": 150.23066666666668,
+    "text": "we build a more reliable scientific\nworkflow,",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 150.39166666666668,
+    "end": 151.93266666666668,
+    "text": "without relying on AI alone.",
+    "origin": "Scientific_AI_Limits_1080p30.srt"
+  },
+  {
+    "start": 154.21366666666665,
+    "end": 156.87566666666666,
+    "text": "Why use deterministic numerical solvers",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 156.89566666666667,
+    "end": 159.35866666666666,
+    "text": "in an AI-assisted scientific workflow?",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 159.79966666666667,
+    "end": 162.04166666666666,
+    "text": "Because a useful answer must also be",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 162.10166666666666,
+    "end": 165.54566666666665,
+    "text": "reproducible, inspectable, and physically\ndefensible.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 166.34566666666666,
+    "end": 168.08766666666665,
+    "text": "First, reproducibility.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 168.46766666666667,
+    "end": 170.58966666666666,
+    "text": "With the same inputs, solver version,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 170.59066666666666,
+    "end": 171.77166666666665,
+    "text": "and numerical settings,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 172.07166666666666,
+    "end": 173.91366666666667,
+    "text": "we should reproduce the calculation",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 173.91366666666667,
+    "end": 175.55466666666666,
+    "text": "within an appropriate tolerance.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 175.89566666666667,
+    "end": 176.99666666666667,
+    "text": "Record those conditions",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 176.99666666666667,
+    "end": 178.93866666666665,
+    "text": "so another researcher can repeat the work.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 179.55966666666666,
+    "end": 180.88066666666666,
+    "text": "Second, transparency.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 181.22066666666666,
+    "end": 183.50166666666667,
+    "text": "We can inspect the governing equations,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 183.72166666666666,
+    "end": 185.44266666666667,
+    "text": "boundary conditions, solver logs,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 185.60266666666666,
+    "end": 187.00366666666667,
+    "text": "and convergence behavior.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 187.40366666666665,
+    "end": 189.16466666666668,
+    "text": "That gives us an evidence trail,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 189.18466666666666,
+    "end": 190.76566666666668,
+    "text": "rather than asking a language model",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 190.76566666666668,
+    "end": 192.32566666666668,
+    "text": "to invent a numerical result.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 192.84566666666666,
+    "end": 194.16666666666666,
+    "text": "Third, portability.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 194.74666666666667,
+    "end": 197.94866666666667,
+    "text": "Many open-source solvers can run on a\nlaptop,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 198.28866666666664,
+    "end": 199.66966666666667,
+    "text": "a laboratory server,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 199.80966666666666,
+    "end": 202.03066666666666,
+    "text": "or a high-performance computing cluster.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 202.53066666666666,
+    "end": 205.05166666666668,
+    "text": "The right platform depends on the\nworkload.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 205.89366666666666,
+    "end": 207.19466666666665,
+    "text": "Fourth, education.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 207.43566666666666,
+    "end": 209.31866666666667,
+    "text": "Students should see how the physics,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 209.31866666666667,
+    "end": 211.56166666666667,
+    "text": "assumptions, and numerical methods",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 211.86266666666666,
+    "end": 212.90366666666665,
+    "text": "produce a result.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 213.12466666666666,
+    "end": 215.76866666666666,
+    "text": "An inspectable workflow makes those\nchoices",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 215.80866666666665,
+    "end": 217.63166666666666,
+    "text": "easier to understand and question.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 218.35266666666666,
+    "end": 220.95366666666666,
+    "text": "But deterministic does not automatically",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 220.95366666666666,
+    "end": 221.89466666666667,
+    "text": "mean accurate.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 222.03466666666665,
+    "end": 223.69566666666665,
+    "text": "Open-source tools still require",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 223.69566666666665,
+    "end": 226.27666666666664,
+    "text": "version pinning, mesh and convergence\nchecks,",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 226.45666666666665,
+    "end": 227.85766666666666,
+    "text": "and physical validation.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 228.05766666666665,
+    "end": 230.23866666666666,
+    "text": "Commercial software can also be the better\nchoice",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 230.23866666666666,
+    "end": 231.73866666666666,
+    "text": "for certification workflows.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 232.53966666666668,
+    "end": 234.68066666666667,
+    "text": "The division of responsibility is simple.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 235.10166666666666,
+    "end": 236.82166666666666,
+    "text": "AI plans and coordinates.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 237.08266666666665,
+    "end": 238.80266666666665,
+    "text": "Numerical solvers calculate.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 239.06366666666668,
+    "end": 240.84366666666665,
+    "text": "Scientists verify and validate.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 241.02466666666666,
+    "end": 243.06566666666666,
+    "text": "Together, these roles make AI-assisted",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 243.06566666666666,
+    "end": 244.92566666666664,
+    "text": "scientific computing more trustworthy.",
+    "origin": "Why_Numerical_Solvers_Matter_1080p30.srt"
+  },
+  {
+    "start": 247.36566666666664,
+    "end": 251.62566666666663,
+    "text": "In the architecture shown here, DeepSeek helps with",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 251.62566666666663,
+    "end": 254.58566666666664,
+    "text": "planning, and OpenCode organizes files",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 254.58566666666664,
+    "end": 255.90566666666663,
+    "text": "and tool execution.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 256.46566666666666,
+    "end": 260.40566666666666,
+    "text": "The model context protocol, or MCP, connects the",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 260.40566666666666,
+    "end": 264.2056666666666,
+    "text": "application to callable tools, those tools",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 264.2056666666666,
+    "end": 265.3856666666666,
+    "text": "invoke the solver.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 265.80566666666664,
+    "end": 267.7056666666666,
+    "text": "I then inspect the return evidence.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 268.2056666666666,
+    "end": 270.54566666666665,
+    "text": "The protocol itself does not calculate the physics.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 273.04566666666665,
+    "end": 275.78566666666666,
+    "text": "The working loop is to plan, prepare, run,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 276.04566666666665,
+    "end": 276.8256666666666,
+    "text": "inspect and report.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 277.0056666666666,
+    "end": 278.12566666666663,
+    "text": "Before accepting a result,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 278.30566666666664,
+    "end": 280.7656666666667,
+    "text": "I asked whether units are consistent, whether a",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 280.7656666666667,
+    "end": 283.2656666666667,
+    "text": "simple reference case agrees, and whether numerical",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 283.2656666666667,
+    "end": 284.86566666666664,
+    "text": "refinement changes the conclusion.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 285.22566666666665,
+    "end": 286.90566666666666,
+    "text": "A failed check belongs in the report.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 287.18566666666663,
+    "end": 288.22566666666665,
+    "text": "It should never disappear",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 288.22566666666665,
+    "end": 289.74566666666664,
+    "text": "behind a polished animation.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 292.42566666666664,
+    "end": 295.84566666666666,
+    "text": "Before trusting an impressive image, ask for its",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 295.84566666666666,
+    "end": 296.62566666666663,
+    "text": "inputs and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 296.62566666666663,
+    "end": 297.8256666666666,
+    "text": "one meaningful check.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 298.3856666666666,
+    "end": 301.34566666666666,
+    "text": "Let the assistant coordinate the workflow, let numerical",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 301.34566666666666,
+    "end": 302.92566666666664,
+    "text": "tools produce traceable",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 302.92566666666664,
+    "end": 305.7056666666666,
+    "text": "evidence, and keep responsibility for interpretation.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 306.34566666666666,
+    "end": 307.8856666666666,
+    "text": "You can apply that habit immediately,",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 308.2656666666667,
+    "end": 310.60566666666665,
+    "text": "choose one result, and see whether someone else",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 310.60566666666665,
+    "end": 312.80566666666664,
+    "text": "could reconstruct the chain that produced it.",
+    "origin": "offline-whisper-small-en; review required"
+  }
+]

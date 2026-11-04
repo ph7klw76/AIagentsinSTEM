@@ -1,0 +1,608 @@
+[
+  {
+    "start": 0.362,
+    "end": 2.309,
+    "text": "Code can run perfectly",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 2.491,
+    "end": 4.237,
+    "text": "and still get the physics wrong.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 4.94,
+    "end": 6.481,
+    "text": "Start with material properties.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 6.821,
+    "end": 8.843,
+    "text": "A correct formula still fails",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 8.983,
+    "end": 10.824,
+    "text": "if the constants or units are wrong.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 11.144,
+    "end": 12.585,
+    "text": "Check the source, units,",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 12.645,
+    "end": 13.966,
+    "text": "and temperature dependence.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 15.107,
+    "end": 17.188,
+    "text": "Next, check the physical model.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 17.789,
+    "end": 19.61,
+    "text": "A steady state assumption can miss",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 19.61,
+    "end": 21.711,
+    "text": "a process that changes over time.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 22.031,
+    "end": 23.512,
+    "text": "Choose assumptions that match",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 23.512,
+    "end": 24.993,
+    "text": "the system you want to study.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 26.153,
+    "end": 28.314,
+    "text": "Then review the boundary conditions.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 28.875,
+    "end": 31.296,
+    "text": "Walls, sources, constraints,",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 31.536,
+    "end": 33.877,
+    "text": "and initial states define the problem.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 34.458,
+    "end": 35.958,
+    "text": "If they are inconsistent,",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 36.118,
+    "end": 37.879,
+    "text": "you are solving a different problem.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 38.841,
+    "end": 40.964,
+    "text": "Now test the numerical setup.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 41.184,
+    "end": 44.048,
+    "text": "Refine the mesh, check the time step,",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 44.269,
+    "end": 46.212,
+    "text": "and inspect solver tolerances.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 46.873,
+    "end": 49.497,
+    "text": "A successful run alone does not establish",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 49.497,
+    "end": 50.839,
+    "text": "numerical reliability.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 51.76,
+    "end": 54.203,
+    "text": "Finally, question the interpretation.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 54.583,
+    "end": 56.065,
+    "text": "A solver can converge",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 56.145,
+    "end": 58.727,
+    "text": "while the model remains physically wrong.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 58.948,
+    "end": 61.951,
+    "text": "Compare the result with\ntheory, measurements,",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 62.071,
+    "end": 63.752,
+    "text": "or a suitable benchmark.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 64.913,
+    "end": 67.536,
+    "text": "AI can accelerate scientific computing.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 68.017,
+    "end": 70.339,
+    "text": "Scientific expertise still has to",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 70.339,
+    "end": 73.362,
+    "text": "verify the calculation\nand validate the model.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 73.763,
+    "end": 76.025,
+    "text": "Working code is the\nbeginning of that review.",
+    "origin": "Working_Code_Wrong_Physics.srt"
+  },
+  {
+    "start": 79.17966666666666,
+    "end": 81.40266666666666,
+    "text": "Scientific work needs more than code.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 81.96366666666667,
+    "end": 83.68566666666666,
+    "text": "It needs a checkable workflow.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 84.86666666666667,
+    "end": 85.94766666666666,
+    "text": "Start with the method.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 86.66766666666666,
+    "end": 89.59066666666666,
+    "text": "A skill document records the steps,\nphysical",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 89.59066666666666,
+    "end": 91.93266666666666,
+    "text": "assumptions, and acceptance criteria.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 92.51266666666666,
+    "end": 95.13466666666667,
+    "text": "It gives the assistant a reusable\nprocedure,",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 95.39466666666667,
+    "end": 97.67666666666666,
+    "text": "so the task follows an explicit scientific",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 97.67666666666666,
+    "end": 100.31866666666667,
+    "text": "method instead of an improvised answer.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 101.35966666666667,
+    "end": 103.90066666666667,
+    "text": "Next, connect that method to the tools.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 104.08066666666667,
+    "end": 106.32166666666666,
+    "text": "An MCP server gives the assistant a",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 106.32166666666666,
+    "end": 108.74266666666666,
+    "text": "structured way to call scientific\nsoftware.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 108.98266666666666,
+    "end": 111.98366666666666,
+    "text": "The physics solver performs the numerical\ncalculation.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 112.38466666666667,
+    "end": 114.54466666666667,
+    "text": "A successful tool call still needs a",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 114.54466666666667,
+    "end": 116.88566666666667,
+    "text": "correctly defined model and inputs.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 118.08666666666667,
+    "end": 120.00666666666666,
+    "text": "Then verify the result.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 120.38766666666666,
+    "end": 123.82866666666666,
+    "text": "Check units, physical behavior, and\nnumerical accuracy",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 124.12866666666667,
+    "end": 126.72966666666667,
+    "text": "using suitable reference cases and mesh\nchecks.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 127.02966666666666,
+    "end": 129.75066666666666,
+    "text": "Save the inputs, software versions, and\noutputs.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 130.05066666666667,
+    "end": 132.65166666666667,
+    "text": "These records make the workflow traceable\nand",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 132.65166666666667,
+    "end": 135.29266666666666,
+    "text": "repeatable. They do not guarantee\ncorrectness by",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 135.29266666666666,
+    "end": 135.91266666666667,
+    "text": "themselves.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 137.27366666666666,
+    "end": 139.47866666666667,
+    "text": "Connect the method, tools, and checks.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 139.93966666666665,
+    "end": 141.84366666666665,
+    "text": "Make the evidence reproducible.",
+    "origin": "Teach_AI_Scientific_Workflows.srt"
+  },
+  {
+    "start": 144.00766666666667,
+    "end": 145.37066666666666,
+    "text": "OpenCode has finished.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 145.45166666666665,
+    "end": 147.09566666666666,
+    "text": "Let's inspect the evidence",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 147.09566666666666,
+    "end": 148.57866666666666,
+    "text": "behind the calculation.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 149.50066666666666,
+    "end": 151.44266666666667,
+    "text": "After submitting the prepared prompt,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 151.78366666666668,
+    "end": 154.62766666666667,
+    "text": "OpenCode organizes the\nrun into five stages:",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 154.84766666666667,
+    "end": 157.25166666666667,
+    "text": "connection, model setup, simulation,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 157.25166666666667,
+    "end": 158.77366666666666,
+    "text": "validation, and visualization.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 159.09466666666665,
+    "end": 160.69666666666666,
+    "text": "Use that structure to inspect",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 160.69666666666666,
+    "end": 162.21866666666665,
+    "text": "the evidence behind the answer.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 163.21966666666665,
+    "end": 165.72066666666666,
+    "text": "This example is a ten millimeter steel bar",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 165.72066666666666,
+    "end": 168.08266666666665,
+    "text": "with a one millimeter\nsquare cross section.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 168.52266666666665,
+    "end": 169.96366666666665,
+    "text": "The prescribed extension is",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 169.96366666666665,
+    "end": 171.92366666666666,
+    "text": "zero point zero one millimeters.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 172.34466666666665,
+    "end": 174.50566666666666,
+    "text": "The report lists the material properties,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 174.50566666666666,
+    "end": 175.92566666666667,
+    "text": "mesh, and boundary conditions.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 176.60766666666666,
+    "end": 178.74966666666666,
+    "text": "There are two complementary runs.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 179.03066666666666,
+    "end": 180.65366666666665,
+    "text": "The direct CalculiX benchmark",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 180.65366666666665,
+    "end": 181.95466666666667,
+    "text": "prescribes the extension.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 182.41566666666665,
+    "end": 184.43866666666668,
+    "text": "The MCP cross-check applies",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 184.43866666666668,
+    "end": 185.92066666666665,
+    "text": "an equivalent axial force.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 186.28166666666667,
+    "end": 188.00466666666665,
+    "text": "Keep those loading methods separate",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 188.00466666666665,
+    "end": 189.32566666666668,
+    "text": "when you compare the results.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 189.94666666666666,
+    "end": 192.62866666666667,
+    "text": "The direct test reports consistent results",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 192.62866666666667,
+    "end": 194.18966666666665,
+    "text": "across three meshes.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 194.55066666666667,
+    "end": 196.53166666666667,
+    "text": "For the force-controlled cross-check,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 196.65266666666668,
+    "end": 198.15366666666665,
+    "text": "compare midspan stress",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 198.21366666666665,
+    "end": 200.47466666666668,
+    "text": "and average end displacement with theory.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 201.01566666666668,
+    "end": 203.53766666666667,
+    "text": "The report warns that raw maxima include",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 203.53766666666667,
+    "end": 205.71966666666665,
+    "text": "constraint and load-distribution effects.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 206.69966666666667,
+    "end": 208.42166666666668,
+    "text": "The validation dashboard brings",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 208.42166666666668,
+    "end": 209.60266666666666,
+    "text": "those checks together:",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 209.94266666666667,
+    "end": 212.48566666666665,
+    "text": "axial displacement, lateral contraction,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 212.88566666666668,
+    "end": 215.12766666666667,
+    "text": "stress, and comparison with theory.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 215.20866666666666,
+    "end": 217.61066666666665,
+    "text": "Keep the plot labels and\nthe loading assumptions",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 217.61066666666665,
+    "end": 219.49266666666665,
+    "text": "visible as you review the result.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 220.37366666666668,
+    "end": 223.15666666666667,
+    "text": "Next, open the simulation folder in Linux.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 223.75766666666667,
+    "end": 227.22066666666666,
+    "text": "It contains the input\ndeck, mesh, solver logs,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 227.34066666666666,
+    "end": 228.90266666666668,
+    "text": "extracted results, and plots.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 229.38266666666667,
+    "end": 231.56566666666666,
+    "text": "These files let you trace the calculation",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 231.56566666666666,
+    "end": 232.66666666666666,
+    "text": "and inspect the setup.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 233.64666666666665,
+    "end": 235.28766666666667,
+    "text": "Open the input file to review",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 235.28766666666667,
+    "end": 237.22866666666667,
+    "text": "the material and boundary conditions,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 237.46866666666665,
+    "end": 239.92966666666666,
+    "text": "then check the solver log for warnings.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 240.39066666666668,
+    "end": 242.33166666666665,
+    "text": "This example is a small strain,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 242.33166666666665,
+    "end": 243.63166666666666,
+    "text": "linear elastic check.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 243.83166666666665,
+    "end": 245.37266666666665,
+    "text": "Good automation leaves evidence",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 245.37266666666665,
+    "end": 246.07266666666666,
+    "text": "you can review.",
+    "origin": "OpenCode_Result_Review.srt"
+  }
+]

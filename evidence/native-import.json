@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-11-04T08:58:15.922Z",
+  "engine": "@lumieducation/h5p-server 10.0.4",
+  "coreApi": "1.28",
+  "context": "isolated filesystem H5P host; no LMS authentication or grade reporting",
+  "results": [
+    {
+      "filename": "lesson-01-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "1. AI, solvers and scientific responsibility — independent practice",
+      "installedLibraries": 53,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-01.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "1. AI, solvers and scientific responsibility",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-02-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "2. Build a reproducible computing environment — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-02.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "2. Build a reproducible computing environment",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-03-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "3. Tools, skills and checked agent workflows — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-03.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "3. Tools, skills and checked agent workflows",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-04-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "4. Working code can still contain wrong physics — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-04.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "4. Working code can still contain wrong physics",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-05-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "5. ORCA: access, method and supporting evidence — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-05.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "5. ORCA: access, method and supporting evidence",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-05a-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "5.1. ORCA demonstration: verify before saving the skill — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-05a.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "5.1. ORCA demonstration: verify before saving the skill",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-06-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "6. Circuit design with measurable acceptance criteria — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-06.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "6. Circuit design with measurable acceptance criteria",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-06a-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "6.1. Circuit demonstration: a failed requirement is evidence — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-06a.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "6.1. Circuit demonstration: a failed requirement is evidence",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-07-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "7. Match the model to the physics — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-07.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "7. Match the model to the physics",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-08-practice.h5p",
+      "mainLibrary": "H5P.MultiChoice",
+      "title": "8. Bilayer case study: define the observable — independent practice",
+      "installedLibraries": 0,
+      "status": "pass"
+    },
+    {
+      "filename": "lesson-08.h5p",
+      "mainLibrary": "H5P.InteractiveVideo",
+      "title": "8. Bilayer case study: define the observable",
+      "installedLibraries": 0,
+      "status": "pass"
+    }
+  ]
+}
