@@ -11,7 +11,7 @@ for(const l of cfg.lessons){
   const logs=diagnostics(page);
   await page.goto(context==='embedded'?'/__preview/index.html':`/__preview/exports/lesson-${l.id}.html`);
   const result=await exerciseLesson(adapter(page,logs),l,{context,edition:'local',viewport:info.project.name,runner:'playwright',outputDir:info.outputPath('learning-path')});
-  result.environment='CI synthetic native-MP4 fixture, NOT lecture/YouTube playback evidence';
+  result.environment={kind:process.env.CI?'CI synthetic native-MP4 fixture, NOT lecture/YouTube playback evidence':'Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence',browser:await page.context().browser().version(),viewport:page.viewportSize()};
   await fs.writeFile(info.outputPath('evidence.json'),JSON.stringify(result,null,2));expect(result.status,JSON.stringify(result,null,2)).toBe('pass');
  });
  test(`YouTube startup-only ${l.id}: configured source geometry and scripts`,async({page},info)=>{

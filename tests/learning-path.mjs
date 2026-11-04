@@ -28,7 +28,10 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
  const root=context==='embedded'?tab.playwright.frameLocator('#lesson-frame'):tab.playwright;
  const correct=lesson.question.answers.find(a=>a.correct).text;
  const mark=name=>r.events.push({name,time:new Date().toISOString()});
- const jump=()=>tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();
+ // H5P enters fullscreen on touch devices. Return through its accessible control
+ // before using chapter controls outside that fullscreen element.
+ const leaveFullscreen=async()=>{const exit=root.getByRole('button',{name:'Exit Fullscreen',exact:true});if(await exit.count()&&await exit.isVisible()){await exit.press('Enter');r.checks.fullscreenReturns=(r.checks.fullscreenReturns||0)+1;await tab.playwright.waitForTimeout(300)}};
+ const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();let media;for(let i=0;i<100;i++){try{media=await readMedia(root,edition);if(Math.abs(media.time-(lesson.question.time-2))<1&&media.readyState>=2)return}catch{}await tab.playwright.waitForTimeout(250)}throw Error(`Checkpoint seek not ready: ${JSON.stringify(media)}`)};
  const visible=(locator,ms)=>locator.waitFor(runner==='playwright'?{state:'visible',timeout:ms}:{state:'visible',timeoutMs:ms});
  try{
   if(context==='embedded')await tab.playwright.locator(`[data-lesson="${lesson.id}"]`).click();
@@ -63,7 +66,7 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
   await fs.writeFile(`${outputDir}/${r.screenshot}`,await tab.screenshot({fullPage:false}));
   mark('correct-adaptivity-continue');await root.getByRole('button',{name:/Continue with video/}).press('Enter');
   await tab.playwright.waitForTimeout(1000);mark('summary-seek');
-  await tab.playwright.getByRole('button',{name:'Final summary',exact:true}).click();
+  await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Final summary',exact:true}).click();
   await root.getByRole('button',{name:'Play (k)',exact:true}).press('Enter');
   await visible(root.locator('.h5p-interaction.h5p-end-summary'),15000);
   await root.locator('.h5p-interaction.h5p-end-summary').press('Enter');
@@ -90,7 +93,11 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
  const known='AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22';
  const start=r.events.find(e=>e.name==='correct-adaptivity-continue')?.time,end=r.events.find(e=>e.name==='summary-seek')?.time;
  const observed=r.logs.filter(x=>edition==='local'&&x.message===known&&start&&end&&x.timestamp>=start&&x.timestamp<=end);
- const unexpected=r.logs.filter(x=>!observed.includes(x));
+ // YouTube's optional CPU-pressure telemetry can report this exact policy denial.
+ // Keep it as vendor evidence; accept only with the complete streaming path passed.
+ const vendor=r.logs.filter(x=>edition==='youtube'&&r.status==='pass'&&x.message==='Permissions policy violation: compute-pressure is not allowed in this document.'&&/^https:\/\/www\.youtube\.com\/s\/player\/[^/]+\/player_embed\.vflset\//.test(x.url));
+ const unexpected=r.logs.filter(x=>!observed.includes(x)&&!vendor.includes(x));
+ if(vendor.length)r.vendorDiagnostics={events:vendor,scope:'Exact optional YouTube compute-pressure policy denial; all decoded playback, question, review, retry and Summary checks passed. No application errors exempted.'};
  if(observed.length>1||unexpected.length){r.status='fail';r.diagnosticsFailure={unexpected,observedAbortCount:observed.length};}
  if(observed.length)r.nativeAbortObservation={count:observed.length,type:'AbortError',message:known,phase:'correct-answer native adaptivity continuation, before next external seek',interpretation:'observed nonfatal in this bounded phase only; playback, pause, seek, retry and Summary assertions retained'};
  await fs.writeFile(`${outputDir}/${edition}-${viewport}-${context}-${lesson.id}.json`,JSON.stringify(r,null,2)+'\n');
