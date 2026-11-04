@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.local/
+test-results/
+playwright-report/
+__pycache__/
+*.pyc
+*.mp4
+*.wav
+*.mkv
+*.npy
+*.pt
+*.safetensors
+.env*
+!.env.example
