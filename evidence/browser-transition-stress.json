@@ -1,0 +1,680 @@
+{
+  "timestamp": "2026-11-04T11:37:20.034Z",
+  "revision": "503c246ffd42cdb6ba102574e9c18a26857695db",
+  "artifactIdentity": "Export hashes identify the exact tested local build; CI/public build identities are recorded separately.",
+  "results": [
+    {
+      "test": "browser-native-fixture-emb-71fba-edback-review-retry-Summary-desktop",
+      "lesson": "06",
+      "context": "embedded",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:22.903Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 178.763938,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "wrongFeedback": {
+          "answer": "Yes. A matching gain guarantees the required bandwidth.",
+          "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+        },
+        "stablePause": {
+          "time": 178.763938,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "reviewSeek": {
+          "time": 57.627236,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 178.755039,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 527
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:23.836Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:23.860Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:26.648Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:34:30.915Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:34:31.946Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/index.html#lesson-06",
+      "screenshot": "local-desktop-embedded-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:34:37.563Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-native-fixture-emb-71fba-edback-review-retry-Summary-desktop-repeat1",
+      "lesson": "06",
+      "context": "embedded",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:37.511Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 178.77007,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "wrongFeedback": {
+          "answer": "Yes. A matching gain guarantees the required bandwidth.",
+          "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+        },
+        "stablePause": {
+          "time": 178.77007,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "reviewSeek": {
+          "time": 57.620136,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 178.782561,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 527
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:38.590Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:38.618Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:41.405Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:34:45.695Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:34:46.746Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/index.html#lesson-06",
+      "screenshot": "local-desktop-embedded-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:34:52.369Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-native-fixture-emb-71fba-edback-review-retry-Summary-desktop-repeat2",
+      "lesson": "06",
+      "context": "embedded",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:53.174Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 178.743453,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "wrongFeedback": {
+          "answer": "Yes. A matching gain guarantees the required bandwidth.",
+          "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+        },
+        "stablePause": {
+          "time": 178.743453,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "reviewSeek": {
+          "time": 57.631998,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 178.759463,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 275.2
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 527
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:54.167Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:54.193Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:56.959Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:35:01.243Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:35:02.274Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/index.html#lesson-06",
+      "screenshot": "local-desktop-embedded-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:35:07.902Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-native-fixture-sta-c57ba-edback-review-retry-Summary-desktop",
+      "lesson": "07",
+      "context": "standalone",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:22.993Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 318.281538,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "wrongFeedback": {
+          "answer": "The simulation has definitely completed successfully.",
+          "feedback": "A lost connection cannot confirm completion. Obtain a current scheduler status and inspect the expected output files."
+        },
+        "stablePause": {
+          "time": 318.281538,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "reviewSeek": {
+          "time": 277.602676,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 318.314844,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:23.588Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:23.610Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:26.276Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:34:30.172Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:34:31.211Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/exports/lesson-07.html",
+      "screenshot": "local-desktop-standalone-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:34:36.442Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-native-fixture-sta-c57ba-edback-review-retry-Summary-desktop-repeat1",
+      "lesson": "07",
+      "context": "standalone",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:38.846Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 318.291485,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "wrongFeedback": {
+          "answer": "The molecular system is definitely unstable.",
+          "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+        },
+        "stablePause": {
+          "time": 318.291485,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "reviewSeek": {
+          "time": 277.587608,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 318.276504,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:39.265Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:39.285Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:41.945Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:34:45.771Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:34:46.793Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/exports/lesson-07.html",
+      "screenshot": "local-desktop-standalone-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:34:52.077Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-native-fixture-sta-c57ba-edback-review-retry-Summary-desktop-repeat2",
+      "lesson": "07",
+      "context": "standalone",
+      "edition": "local",
+      "viewport": "desktop",
+      "started": "2026-11-04T11:34:53.605Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 318.291607,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "wrongFeedback": {
+          "answer": "The molecular system is definitely unstable.",
+          "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+        },
+        "stablePause": {
+          "time": 318.291607,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "reviewSeek": {
+          "time": 277.623701,
+          "paused": false,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryPause": {
+          "time": 318.324501,
+          "paused": true,
+          "width": 1920,
+          "readyState": 4,
+          "duration": 350.167
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        }
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T11:34:54.028Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T11:34:54.051Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T11:34:56.710Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T11:35:00.640Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T11:35:01.673Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/__preview/exports/lesson-07.html",
+      "screenshot": "local-desktop-standalone-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T11:35:06.891Z",
+      "logs": [],
+      "environment": {
+        "kind": "Finished local v03 lecture MP4, isolated ignored preview; NOT YouTube availability evidence",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "course.config.json",
+      "sha256": "aa6f103169eaa4590b8609efda5e7fc2810922dd40dd8bd8f69c6fe3235b8c42"
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "d7924a9648bc3fb52f653564436816a319a4dcc0f5344e535ed00b51dc0d3fad"
+    },
+    {
+      "path": "web/player-bridge.js",
+      "sha256": "9905741e9329a940a299c2a4c1768adbdbf0019467cd43b6dadc13c40afc612e"
+    },
+    {
+      "path": "tests/learning-path.mjs",
+      "sha256": "e8880e9c5dd578bfecd87099a62253c469acdb1e251c6f1068cd5c5016562879"
+    },
+    {
+      "path": "dist/exports/lesson-01-practice.html",
+      "sha256": "ee8d959efdde71f0b5a319b4e03797e5080db310437fa9391d5ab7a4e4d2b934"
+    },
+    {
+      "path": "dist/exports/lesson-01.html",
+      "sha256": "c990d2bedb2c5937f5bc70093fd297a9d90ba455b444598948c2569fab844dc2"
+    },
+    {
+      "path": "dist/exports/lesson-02-practice.html",
+      "sha256": "f26ba3ca5b7cd6dfad5f1cdf51ae4b7da355b0891b9041753c23a55ddd05f038"
+    },
+    {
+      "path": "dist/exports/lesson-02.html",
+      "sha256": "28c560b0b9738f878247b7f7ae23a7dcf2aa788312b07b791199bf7e183dbd62"
+    },
+    {
+      "path": "dist/exports/lesson-03-practice.html",
+      "sha256": "bb2eabc0cb15af87042813eaabca612d19de7c20b1d20a47a572ced1f126809f"
+    },
+    {
+      "path": "dist/exports/lesson-03.html",
+      "sha256": "f254bd787921925a8fd49357de63805d47a9f6fd414694f677ba67d7c7d05132"
+    },
+    {
+      "path": "dist/exports/lesson-04-practice.html",
+      "sha256": "9869d4412a8cc5312e14e57e3761ad9454ed577a250b356dcba13f63e35a39cc"
+    },
+    {
+      "path": "dist/exports/lesson-04.html",
+      "sha256": "f466f207a387721fda0a15a8eb2bcfaaca6ce8dbbe5d00cfca67c63799c3c3d8"
+    },
+    {
+      "path": "dist/exports/lesson-05-practice.html",
+      "sha256": "e298b941217bfe94c6d88bae2efdee44cce69800d62d0e0b9fb73a2058d998de"
+    },
+    {
+      "path": "dist/exports/lesson-05.html",
+      "sha256": "2085a0b03bdc6a2679297ac1ce60d10fa86f342690131179781c970e399057ab"
+    },
+    {
+      "path": "dist/exports/lesson-05a-practice.html",
+      "sha256": "eba5c960813ce45c6ef34a0093be6c31d81933876af0f8336083a0503d1da0b1"
+    },
+    {
+      "path": "dist/exports/lesson-05a.html",
+      "sha256": "016340797ff450e85a0a6be9a441b22b3db3bd918fbf31985eabc913d4452817"
+    },
+    {
+      "path": "dist/exports/lesson-06-practice.html",
+      "sha256": "5ed3c79d0a375164ff9aa0f038db80a83e421ea07885d903498707582aad88bf"
+    },
+    {
+      "path": "dist/exports/lesson-06.html",
+      "sha256": "bcfa390f052345fab05e0ce30807d32c15dadbbfc5ad4a739caee72046dfeeaf"
+    },
+    {
+      "path": "dist/exports/lesson-06a-practice.html",
+      "sha256": "08f7d3e92c5157f59e8f850314ac342ade40b2f2e6193fa7a6a2816fabba3a0f"
+    },
+    {
+      "path": "dist/exports/lesson-06a.html",
+      "sha256": "824e7a6b507af2ba724cc7763f94987fbcf7f54031fbf16c86e19453516949b3"
+    },
+    {
+      "path": "dist/exports/lesson-07-practice.html",
+      "sha256": "94e7760a60bc619bed0e693e582ba7bfb3478986d3e7ea2d2f18765e98522bd4"
+    },
+    {
+      "path": "dist/exports/lesson-07.html",
+      "sha256": "562802ce024f565740783c5f98aad58fad8ddff8c89f94db4e9dd8a56ebc9147"
+    },
+    {
+      "path": "dist/exports/lesson-08-practice.html",
+      "sha256": "12e8cd94671fce02879b7d725745d52dbb68e1daa7d4647faba7ccdc0c0fda87"
+    },
+    {
+      "path": "dist/exports/lesson-08.html",
+      "sha256": "1e80d43b689b46ae2c7f69092b9aeda641818f31257e50988a382dd620fd57f5"
+    }
+  ],
+  "counts": {
+    "executed": 6,
+    "passed": 6,
+    "failed": 0
+  }
+}
