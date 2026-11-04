@@ -31,7 +31,7 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
  // H5P enters fullscreen on touch devices. Return through its accessible control
  // before using chapter controls outside that fullscreen element.
  const leaveFullscreen=async()=>{const exit=root.getByRole('button',{name:'Exit Fullscreen',exact:true});if(await exit.count()&&await exit.isVisible()){await exit.press('Enter');r.checks.fullscreenReturns=(r.checks.fullscreenReturns||0)+1;await tab.playwright.waitForTimeout(300)}};
- const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();let media;for(let i=0;i<100;i++){try{media=await readMedia(root,edition);if(Math.abs(media.time-(lesson.question.time-2))<1&&media.readyState>=2)return}catch{}await tab.playwright.waitForTimeout(250)}throw Error(`Checkpoint seek not ready: ${JSON.stringify(media)}`)};
+ const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();for(let i=0;i<160;i++){if((await root.locator('#player-status').textContent()).startsWith('Ready at '))return;await tab.playwright.waitForTimeout(250)}throw Error('Queued checkpoint did not become ready')};
  const visible=(locator,ms)=>locator.waitFor(runner==='playwright'?{state:'visible',timeout:ms}:{state:'visible',timeoutMs:ms});
  try{
   if(context==='embedded')await tab.playwright.locator(`[data-lesson="${lesson.id}"]`).click();
@@ -42,7 +42,8 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
   r.checks.questionReady=await questionReady(tab,root,correct);
   await visible(root.getByRole('button',{name:'Play (k)',exact:true}),5000);
   await tab.getAXState({emit:false});
-  const paused=await readMedia(root,edition);
+  let paused=await readMedia(root,edition);
+  for(let poll=0;poll<20&&!paused.paused;poll++){await tab.playwright.waitForTimeout(100);paused=await readMedia(root,edition)}
   if(Math.abs(paused.time-lesson.question.time)>.6||!paused.paused||paused.readyState<2)throw Error(`Timed pause failed: ${JSON.stringify(paused)}`);
   r.checks.timedPause=paused;
   const wrong=root.getByRole('radio').filter({hasNotText:correct}).first();

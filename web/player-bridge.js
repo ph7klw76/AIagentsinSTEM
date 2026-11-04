@@ -10,7 +10,7 @@
  function seek(time){
   if(!Number.isFinite(time)||time<0||time>LESSON.duration)return;
   if(!ready){pending=time;status.textContent='Chapter queued while the video loads.';return}
-  player.pause();player.seek(time);status.textContent=`Ready at ${time.toFixed(1)} seconds. Press Play to continue.`;send('seeked',{time});
+  player.seek(time);player.pause();status.textContent=`Ready at ${time.toFixed(1)} seconds. Press Play to continue.`;send('seeked',{time});
  }
  addEventListener('message',event=>{
   if(event.origin!==location.origin||event.source!==parent)return;

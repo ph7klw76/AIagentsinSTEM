@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-04T10:01:32.796Z",
+  "url": "http://127.0.0.1:4173/AIagentsinSTEM/lite/lab/index.html",
+  "context": "local integrated JupyterLite; actual browser Pyodide kernel",
+  "status": "pass",
+  "change": "area_m2 4e-6 → 8e-6",
+  "originalBarEndUm": 11.904761904761905,
+  "observedOutputs": [
+    "",
+    "BAR_END_UM 5.9523809523809526\n"
+  ],
+  "expectedBarEndUm": 5.9523809523809526,
+  "plotsRetained": 3,
+  "screenshot": ".local/browser-qa/jupyterlite-parameter-change.png"
+}
