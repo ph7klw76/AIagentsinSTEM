@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-04T11:09:23.115Z",
+  "context": "ignored finished-v03 MP4 preview",
+  "status": "pass",
+  "url": "http://127.0.0.1:4173/__preview/index.html#lesson-01",
+  "geometry": {
+    "borderBottom": "0px",
+    "clientHeight": 468,
+    "clientWidth": 759,
+    "dpr": 1.5,
+    "scrollHeight": 468,
+    "scrollWidth": 759
+  },
+  "fix": "Remove inherited root HTML border and use border-box sizing, retaining content-driven height and full content visibility"
+}
