@@ -1,0 +1,546 @@
+{
+  "timestamp": "2026-11-04T10:19:42.921Z",
+  "revision": "04233bc122b3d2cf42064621903e3e250cdaac7a",
+  "artifactIdentity": "Export hashes identify the exact tested local build; CI/public build identities are recorded separately.",
+  "results": [
+    {
+      "test": "browser-real-chapter-queue-c4507--visible-playback-and-reset-desktop",
+      "timestamp": "2026-11-04T10:18:22.996Z",
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/#lesson-02",
+      "viewport": "desktop",
+      "status": "pass",
+      "context": "embedded",
+      "sourceId": "ajpn28cfWvQ",
+      "queuedBeforeReady": true,
+      "requestedChapter": {
+        "time": 183.63333333333333,
+        "label": "Install the scientific tools"
+      },
+      "advancingFrames": [
+        {
+          "time": 183.751974,
+          "width": 1280
+        },
+        {
+          "time": 184.397626,
+          "width": 1280
+        }
+      ],
+      "sameFrameSource": "exports/lesson-02.html",
+      "resetTime": 0,
+      "errors": []
+    },
+    {
+      "test": "browser-real-chapter-queue-c4507--visible-playback-and-reset-phone",
+      "timestamp": "2026-11-04T10:18:42.832Z",
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/#lesson-02",
+      "viewport": "phone",
+      "status": "pass",
+      "context": "embedded",
+      "sourceId": "ajpn28cfWvQ",
+      "queuedBeforeReady": true,
+      "requestedChapter": {
+        "time": 183.63333333333333,
+        "label": "Install the scientific tools"
+      },
+      "advancingFrames": [
+        {
+          "time": 183.706703,
+          "width": 854
+        },
+        {
+          "time": 184.339607,
+          "width": 854
+        }
+      ],
+      "sameFrameSource": "exports/lesson-02.html",
+      "resetTime": 0,
+      "errors": []
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-01-desktop",
+      "lesson": "01",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:18:04.777Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 270.986274,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.986274,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.948573,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=http%3A%2F%2F127.0.0.1%3A4173&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&aorigins=http%3A%2F%2F127.0.0.1%3A4173&gporigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:18:06.216Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:18:06.281Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:18:09.200Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:18:13.297Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:18:14.348Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/#lesson-01",
+      "screenshot": "youtube-desktop-embedded-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:18:20.453Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-01-phone",
+      "lesson": "01",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:18:22.208Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 270.982048,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "The result must represent the real system accurately.",
+          "feedback": "Repeating a wrong boundary condition repeats the same wrong result. Repeatability does not establish physical accuracy."
+        },
+        "stablePause": {
+          "time": 270.982048,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 154.015535,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=http%3A%2F%2F127.0.0.1%3A4173&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&aorigins=http%3A%2F%2F127.0.0.1%3A4173&gporigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:18:23.988Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:18:24.033Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:18:27.363Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:18:31.989Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:18:33.036Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/#lesson-01",
+      "screenshot": "youtube-phone-embedded-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:18:39.663Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-01-desktop",
+      "lesson": "01",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:18:04.865Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 270.984552,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.984552,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.841334,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=http%3A%2F%2F127.0.0.1%3A4173&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:18:05.863Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:18:05.886Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:18:08.910Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:18:12.752Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:18:13.782Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/exports/lesson-01.html",
+      "screenshot": "youtube-desktop-standalone-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:18:19.585Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-01-phone",
+      "lesson": "01",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:18:24.707Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 270.982986,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.982986,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.968349,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=http%3A%2F%2F127.0.0.1%3A4173&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4173%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:18:25.707Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:18:25.734Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:18:29.093Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:18:33.375Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:18:34.409Z"
+        }
+      ],
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/exports/lesson-01.html",
+      "screenshot": "youtube-phone-standalone-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:18:40.501Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "course.config.json",
+      "sha256": "aa6f103169eaa4590b8609efda5e7fc2810922dd40dd8bd8f69c6fe3235b8c42"
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "62c26fea0d109e5b6ab1d1775320b38e8434f95f5dcefdda60616443a8fa67eb"
+    },
+    {
+      "path": "web/player-bridge.js",
+      "sha256": "8e192a872b8269567c4fb723f84a21722acb10d2bc6a96f2e7bbc542c1db4957"
+    },
+    {
+      "path": "tests/learning-path.mjs",
+      "sha256": "65c75be36e0b5c035001770bb05d580900af1c026f79df43ff5d4a2d40aefbcf"
+    },
+    {
+      "path": "dist/exports/lesson-01-practice.html",
+      "sha256": "1282bc1c8120e5715828ab58fd40d8148557628698fde6c970b4316c5059efcf"
+    },
+    {
+      "path": "dist/exports/lesson-01.html",
+      "sha256": "288c620af3bc959369d12fc667786e71d01153c9dd608d4966075e24149be2c1"
+    },
+    {
+      "path": "dist/exports/lesson-02-practice.html",
+      "sha256": "f2f6f36e1d954fb967159e8758b885207aeee33a20f9b04d56166777ebc08550"
+    },
+    {
+      "path": "dist/exports/lesson-02.html",
+      "sha256": "c7811300023eece000754dd978f44ec9dda4a35098e0253d35ed188a5637ac0b"
+    },
+    {
+      "path": "dist/exports/lesson-03-practice.html",
+      "sha256": "5c1dd51b00e95216d83886728c99d0d41c363da74ab39f0cf0e1a128a8d40c12"
+    },
+    {
+      "path": "dist/exports/lesson-03.html",
+      "sha256": "d97837649a59d244bc9c6857e744c6b851a2d885070006a31fcb813e7ee7d753"
+    },
+    {
+      "path": "dist/exports/lesson-04-practice.html",
+      "sha256": "49b67fb6fbbf12cf4ebd044672d2412f30fb948b74c090ec4bce840c9c3be48d"
+    },
+    {
+      "path": "dist/exports/lesson-04.html",
+      "sha256": "af0cdffb82b774fee9967db836c6e923b6bc1c0111626844503a191e7b98501b"
+    },
+    {
+      "path": "dist/exports/lesson-05-practice.html",
+      "sha256": "5cf5c2e3f0ea87230445a7e573eec353e3208ad4f4e87820efd443c6ba701462"
+    },
+    {
+      "path": "dist/exports/lesson-05.html",
+      "sha256": "f61648d2adeb7c7add1a922525d00736ffd333a102e8f0d7fc4bb43cb12884c5"
+    },
+    {
+      "path": "dist/exports/lesson-05a-practice.html",
+      "sha256": "034fab4a932682fd10776cdfd3e3ddb0a17be01a9e8c3b902393d994f0365cdb"
+    },
+    {
+      "path": "dist/exports/lesson-05a.html",
+      "sha256": "89de159c65ff692ff9f2f5eb9091f720de28105ea278ed3ad4886d5537108a44"
+    },
+    {
+      "path": "dist/exports/lesson-06-practice.html",
+      "sha256": "2a0a1758a1ce1edac6e3efccdb2dffd6c38f2e9e26ee7ae35545e5fad099ddf2"
+    },
+    {
+      "path": "dist/exports/lesson-06.html",
+      "sha256": "f75abe7fbdeec5a51f127142c1d10be3289735108c67d90b39addad8e05e1141"
+    },
+    {
+      "path": "dist/exports/lesson-06a-practice.html",
+      "sha256": "c03e4a3768546e3af31f031abb98a6ff5ff91911f70718ad7deb494c625c035b"
+    },
+    {
+      "path": "dist/exports/lesson-06a.html",
+      "sha256": "94a66ef22fae611d9319224f699f9b60371de347b4f73042bcf5b6572fea5ae2"
+    },
+    {
+      "path": "dist/exports/lesson-07-practice.html",
+      "sha256": "3fdc29b3fe151c9cfe33ebcce406276fd1cc203a0cebc03f5cfc8ad7a76cd078"
+    },
+    {
+      "path": "dist/exports/lesson-07.html",
+      "sha256": "e79acb64a45db84b1612090cb5b74337c5a159fb7f305b3f56ffcec09d5d0003"
+    },
+    {
+      "path": "dist/exports/lesson-08-practice.html",
+      "sha256": "8fe985bca8f4255d40a0e8244dc17f276c4249aa7c875b903efe4fafec634fc2"
+    },
+    {
+      "path": "dist/exports/lesson-08.html",
+      "sha256": "67cac254a130fb2830402431823bdbf12acbf627ac5235ca8e68144cbf08b77f"
+    }
+  ],
+  "counts": {
+    "executed": 6,
+    "passed": 6,
+    "failed": 0
+  }
+}

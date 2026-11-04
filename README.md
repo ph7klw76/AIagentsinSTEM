@@ -54,7 +54,7 @@ These teaching checks do not validate arbitrary 3D FEM models, ORCA calculations
 
 CI creates ignored synthetic color/silence MP4s to exercise native H5P interactions at the authored timestamps. Those fixtures are **not lecture playback evidence** and never enter Pages or native downloads. Hosted YouTube checks are explicitly **startup-only**; real streaming is checked separately on an accessible network. No timeout is converted into a streaming pass.
 
-The workflow builds and checks feature branches and pull requests. Only a checked push to `main` can deploy through the `github-pages` environment and its required approvals. The public build includes exact resource hashes and its source revision. Media masters, voice profiles, weights, caches, environments and credentials are excluded by both ignore rules and a publication allowlist.
+The workflow builds and checks feature-branch pull requests and pushes to `main`. Only a checked push to `main` can deploy through the `github-pages` environment and its required approvals. The public build includes exact resource hashes and its source revision. Media masters, voice profiles, weights, caches, environments and credentials are excluded by both ignore rules and a publication allowlist.
 
 For a new upload, keep the original IDs for rollback, verify the actual new URL and decoded playback, update central configuration, regenerate and test both native and HTML exports, then publish the reviewed revision. A local MP4, an HTTP 200 response or a source push does not establish that a new YouTube edition is available.
 

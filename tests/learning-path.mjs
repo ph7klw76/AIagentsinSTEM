@@ -31,7 +31,8 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
  // H5P enters fullscreen on touch devices. Return through its accessible control
  // before using chapter controls outside that fullscreen element.
  const leaveFullscreen=async()=>{const exit=root.getByRole('button',{name:'Exit Fullscreen',exact:true});if(await exit.count()&&await exit.isVisible()){await exit.press('Enter');r.checks.fullscreenReturns=(r.checks.fullscreenReturns||0)+1;await tab.playwright.waitForTimeout(300)}};
- const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();for(let i=0;i<160;i++){if((await root.locator('#player-status').textContent()).startsWith('Ready at '))return;await tab.playwright.waitForTimeout(250)}throw Error('Queued checkpoint did not become ready')};
+ const seekReady=async()=>{for(let i=0;i<160;i++){if((await tab.playwright.locator('#player-status').textContent()).startsWith('Ready at '))return;await tab.playwright.waitForTimeout(250)}throw Error('Queued seek did not become ready')};
+ const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();await seekReady()};
  const visible=(locator,ms)=>locator.waitFor(runner==='playwright'?{state:'visible',timeout:ms}:{state:'visible',timeoutMs:ms});
  try{
   if(context==='embedded')await tab.playwright.locator(`[data-lesson="${lesson.id}"]`).click();
@@ -67,7 +68,7 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
   await fs.writeFile(`${outputDir}/${r.screenshot}`,await tab.screenshot({fullPage:false}));
   mark('correct-adaptivity-continue');await root.getByRole('button',{name:/Continue with video/}).press('Enter');
   await tab.playwright.waitForTimeout(1000);mark('summary-seek');
-  await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Final summary',exact:true}).click();
+  await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Final summary',exact:true}).click();await seekReady();
   await root.getByRole('button',{name:'Play (k)',exact:true}).press('Enter');
   await visible(root.locator('.h5p-interaction.h5p-end-summary'),15000);
   await root.locator('.h5p-interaction.h5p-end-summary').press('Enter');

@@ -1,11 +1,11 @@
 const config=await fetch('course.config.json').then(r=>{if(!r.ok)throw new Error('Course configuration unavailable');return r.json()});
 const $=id=>document.getElementById(id);
 const frame=$('lesson-frame'),status=$('player-status');
-let active=0,ready=false,pending=null;
+let active=0,ready=false,pending=null,serial=0,latestSeek=0;
 const time=t=>`${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
 const lesson=()=>config.lessons[active];
 function send(kind,payload={}){frame.contentWindow?.postMessage({channel:'stem-h5p-v1',lesson:lesson().id,kind,...payload},location.origin)}
-function seek(t){if(!ready){pending=t;status.textContent='Chapter queued while the video loads.'}else send('seek',{time:t})}
+function seek(t){const action={time:t,requestId:++serial};latestSeek=action.requestId;if(!ready){pending=action;status.textContent='Chapter queued while the video loads.'}else{status.textContent='Seeking chapter…';send('seek',action)}}
 function load(index){
  active=index;ready=false;pending=null;const l=lesson();
  $('lesson-number').textContent=`LESSON ${l.order} / ${config.lessons.length}`;
@@ -27,14 +27,14 @@ for(const [i,l]of config.lessons.entries()){
 addEventListener('message',e=>{
  if(e.origin!==location.origin||e.source!==frame.contentWindow)return;
  const d=e.data;if(!d||d.channel!=='stem-h5p-v1'||d.lesson!==lesson().id)return;
- if(d.kind==='ready'){ready=true;status.textContent='Player ready. Press Play to begin.';if(d.youtubeId!==lesson().youtubeId){ready=false;status.textContent='Video source mismatch. Please reload.';return}if(pending!==null){const t=pending;pending=null;send('seek',{time:t})}}
+ if(d.kind==='ready'){ready=true;status.textContent='Player ready. Press Play to begin.';if(d.youtubeId!==lesson().youtubeId){ready=false;status.textContent='Video source mismatch. Please reload.';return}if(pending!==null){const action=pending;pending=null;send('seek',action)}}
  if(d.kind==='resize'&&Number.isFinite(d.height)&&d.height>100&&d.height<6000)frame.style.height=`${d.height}px`;
- if(d.kind==='seeked')status.textContent=`Ready at ${time(d.time)}. Press Play to continue.`;
+ if(d.kind==='seeked'&&d.requestId===latestSeek)status.textContent=`Ready at ${time(d.time)}. Press Play to continue.`;
  if(d.kind==='error')status.textContent='Video is unavailable. Reload, open the direct YouTube link, or use independent practice.';
 });
 $('checkpoint').addEventListener('click',()=>seek(lesson().question.time-2));
 $('summary').addEventListener('click',()=>seek(lesson().frames/30-5));
-$('reset').addEventListener('click',()=>send('reset'));
+$('reset').addEventListener('click',()=>{latestSeek=++serial;status.textContent='Resetting the lesson…';send('reset',{requestId:latestSeek})});
 $('previous').addEventListener('click',()=>load(Math.max(0,active-1)));
 $('next').addEventListener('click',()=>load(Math.min(config.lessons.length-1,active+1)));
 const fromHash=config.lessons.findIndex(l=>`#lesson-${l.id}`===location.hash);load(fromHash<0?0:fromHash);

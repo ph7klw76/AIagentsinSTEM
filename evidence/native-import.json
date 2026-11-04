@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-11-04T09:57:22.660Z",
-  "revision": "1cba7d54cbeb4bef78f4cdf336ddfaca308f324f",
+  "timestamp": "2026-11-04T10:18:57.401Z",
+  "revision": "04233bc122b3d2cf42064621903e3e250cdaac7a",
   "engine": "@lumieducation/h5p-server 10.0.4",
   "coreApi": "1.28",
   "context": "isolated filesystem H5P host; no LMS authentication or grade reporting",
   "results": [
     {
       "filename": "lesson-01-practice.h5p",
-      "sha256": "8d49e2db25e9cc6aa11665e0b6592071ce8cae5b13d61b826a57e9211336ca33",
+      "sha256": "d16f52a14899e837e593d551069013e02e90e40a78e065673c6e62fee9fa7a72",
       "mainLibrary": "H5P.MultiChoice",
       "title": "1. AI, solvers and scientific responsibility — independent practice",
       "installedLibraries": 53,
@@ -15,7 +15,7 @@
     },
     {
       "filename": "lesson-01.h5p",
-      "sha256": "293b903b665fce0af77117f47df2dba23d78f8c4c39b581f1363ab462f6a2148",
+      "sha256": "63d915776459d27b6a7742b725c2f5405070e0415b44658bb6a69bd65e779f2e",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "1. AI, solvers and scientific responsibility",
       "installedLibraries": 0,
@@ -23,7 +23,7 @@
     },
     {
       "filename": "lesson-02-practice.h5p",
-      "sha256": "c21b4c6c4da3a7165bbab6096a9db314c894eb82ba958f589dbe87787ebd947a",
+      "sha256": "9b353e884e002d86ed0daa39c56e5edf76c82bed180392801615d979d851720f",
       "mainLibrary": "H5P.MultiChoice",
       "title": "2. Build a reproducible computing environment — independent practice",
       "installedLibraries": 0,
@@ -31,7 +31,7 @@
     },
     {
       "filename": "lesson-02.h5p",
-      "sha256": "aa88db4ac17eae7f1d4402ee4a3438fe32fa7594c8027a1ac6c38bdf8c479772",
+      "sha256": "cf2bd2a424b555c794bb1a6a125bff3f589974d84410dc429a50b454fda8d20e",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "2. Build a reproducible computing environment",
       "installedLibraries": 0,
@@ -39,7 +39,7 @@
     },
     {
       "filename": "lesson-03-practice.h5p",
-      "sha256": "d4d6ada78c4a864ebbc019d362ba1fa05af33bd418eb94436863b05178606df9",
+      "sha256": "1f3ed15e24f73895864bfe51049adaba02b3632642521a274f5faf06327e8c1f",
       "mainLibrary": "H5P.MultiChoice",
       "title": "3. Tools, skills and checked agent workflows — independent practice",
       "installedLibraries": 0,
@@ -47,7 +47,7 @@
     },
     {
       "filename": "lesson-03.h5p",
-      "sha256": "7103d1d2265815cdf0a953917aa83165ee88b04b5f9352a94da3b1a2b044d4d0",
+      "sha256": "6b2c9aab104482842d4e00d907961208fb0206c41f95e279315babd4a3d85556",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "3. Tools, skills and checked agent workflows",
       "installedLibraries": 0,
@@ -55,7 +55,7 @@
     },
     {
       "filename": "lesson-04-practice.h5p",
-      "sha256": "993b4d1f82b481380571408ff2ff23a78635462edd553073716c4a71fe67576d",
+      "sha256": "ed630ff59f9435ad98b6f287f2ee0e277edc8a95c0ab788ece300bfd408bd840",
       "mainLibrary": "H5P.MultiChoice",
       "title": "4. Working code can still contain wrong physics — independent practice",
       "installedLibraries": 0,
@@ -63,7 +63,7 @@
     },
     {
       "filename": "lesson-04.h5p",
-      "sha256": "20f5f624f5f19d25531ab672b7ba48523738547f3772fb3c91f9b55fbbd2f254",
+      "sha256": "7972d5957ef4452a8cef2c0990170929366a3ca71cd12385ccf2863cedc4c154",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "4. Working code can still contain wrong physics",
       "installedLibraries": 0,
@@ -71,7 +71,7 @@
     },
     {
       "filename": "lesson-05-practice.h5p",
-      "sha256": "a8a14b9c2b57e0d388c163bebce119207b91e9095ecb24a4eb6a234a240a92a7",
+      "sha256": "ffbae5e80a5009497c0865826c6bb797142fbca002ddeb84c08ccbf62708f02a",
       "mainLibrary": "H5P.MultiChoice",
       "title": "5. ORCA: access, method and supporting evidence — independent practice",
       "installedLibraries": 0,
@@ -79,7 +79,7 @@
     },
     {
       "filename": "lesson-05.h5p",
-      "sha256": "304e94b5856cf1d99a4ee59163cf095cfcd563fc0571edfd153e6048c0078ca6",
+      "sha256": "2bfc3d42acb5cf3a14ffb657d7c24017d362a7831209e4168c2dff2b98a23888",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "5. ORCA: access, method and supporting evidence",
       "installedLibraries": 0,
@@ -87,7 +87,7 @@
     },
     {
       "filename": "lesson-05a-practice.h5p",
-      "sha256": "8993d5392b3c4b6ccf011ef428e5d42a3307ac2fc6770bd6ee45ab2d0fe2d465",
+      "sha256": "03086df1dd7b7d0f9eebe4f898198a97569dc251980394bc3ef4e4ded0f3b90b",
       "mainLibrary": "H5P.MultiChoice",
       "title": "5.1. ORCA demonstration: verify before saving the skill — independent practice",
       "installedLibraries": 0,
@@ -95,7 +95,7 @@
     },
     {
       "filename": "lesson-05a.h5p",
-      "sha256": "cefeafe93054315c6f93f795d5d07ff8c645c9e109ded8e9e67ed3fed789523f",
+      "sha256": "14f1e0c159700417a46c5807542ca17771e642c9c220d5b4d84549c5b8d5f770",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "5.1. ORCA demonstration: verify before saving the skill",
       "installedLibraries": 0,
@@ -103,7 +103,7 @@
     },
     {
       "filename": "lesson-06-practice.h5p",
-      "sha256": "d6ebe47507f74564439b749e6d69f8674dcd221f9eccfb4ffe53eae60a7866cd",
+      "sha256": "9bc04bc00d9653458854878b0ea1a91c11c3adff8c9bf1a8277a707a1815faa2",
       "mainLibrary": "H5P.MultiChoice",
       "title": "6. Circuit design with measurable acceptance criteria — independent practice",
       "installedLibraries": 0,
@@ -111,7 +111,7 @@
     },
     {
       "filename": "lesson-06.h5p",
-      "sha256": "bc3ec6fed4b92a0af330ffb07e4c70919f93a95dca35daa8ef03cc755b42f8aa",
+      "sha256": "37bcb0b50ec2ff16459a5c8ce20fc8cc06a0c8c92a88277de5f25eff34b59ef8",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "6. Circuit design with measurable acceptance criteria",
       "installedLibraries": 0,
@@ -119,7 +119,7 @@
     },
     {
       "filename": "lesson-06a-practice.h5p",
-      "sha256": "b8638255a2eb821c9eea813c17e6e32bcc7a7efcaec0a705c83b500e1bee305c",
+      "sha256": "0ba8ff16d0e4aa591b0b2be4b013efc85469d6318abb8b8a293d6c94f54ae649",
       "mainLibrary": "H5P.MultiChoice",
       "title": "6.1. Circuit demonstration: a failed requirement is evidence — independent practice",
       "installedLibraries": 0,
@@ -127,7 +127,7 @@
     },
     {
       "filename": "lesson-06a.h5p",
-      "sha256": "2e849608d0c683f03de96cff42b9c5443068de73216a2d3ffd1c5b1374b9d8e1",
+      "sha256": "35ec9ff3f811d0245cdac93103015ab8106299f2e2115ffd44fb1bc05174ed23",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "6.1. Circuit demonstration: a failed requirement is evidence",
       "installedLibraries": 0,
@@ -135,7 +135,7 @@
     },
     {
       "filename": "lesson-07-practice.h5p",
-      "sha256": "b61fa17b4c2e0eb41fd9fdbf140eaa6430ba960fd4634a515734e3b1d2f0eb6c",
+      "sha256": "a2bc4b24522f795c927823503c961132f2f5ca8b7912d6e6a9c813a0a569aab5",
       "mainLibrary": "H5P.MultiChoice",
       "title": "7. Match the model to the physics — independent practice",
       "installedLibraries": 0,
@@ -143,7 +143,7 @@
     },
     {
       "filename": "lesson-07.h5p",
-      "sha256": "03daef3fdd4d6a12574f884d25d6956534f544fe6aed6a8e25fa333a262290bb",
+      "sha256": "bd28c28d7dcb211a5e44adaa057e7d54599302ecc6a833a480dc06efd84e6306",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "7. Match the model to the physics",
       "installedLibraries": 0,
@@ -151,7 +151,7 @@
     },
     {
       "filename": "lesson-08-practice.h5p",
-      "sha256": "373a20d7afb9d7220bd223fb38dad8f8dccc1200d295f0e6754f244268f6a081",
+      "sha256": "a184e53a0f3ed2365186342d55c3a1d02dbe4715b233be1fbf8d13d8acec48a0",
       "mainLibrary": "H5P.MultiChoice",
       "title": "8. Bilayer case study: define the observable — independent practice",
       "installedLibraries": 0,
@@ -159,7 +159,7 @@
     },
     {
       "filename": "lesson-08.h5p",
-      "sha256": "31c12dd6025db44dd5015483d12bb7727a4c13645966590f300a76f6172dc690",
+      "sha256": "1354502f7f3857415772ac3118bc0a6a6b3c887b632cec82a13bad0ea172869a",
       "mainLibrary": "H5P.InteractiveVideo",
       "title": "8. Bilayer case study: define the observable",
       "installedLibraries": 0,
