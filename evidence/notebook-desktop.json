@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "timestamp": "2026-11-04T09:46:17.450248+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "matplotlib": "3.10.8",
+  "context": "desktop Python, all notebook code cells in order",
+  "cells": [
+    {
+      "cell": 1,
+      "status": "pass",
+      "stdout": ""
+    },
+    {
+      "cell": 2,
+      "status": "pass",
+      "stdout": "SCIENTIFIC_CHECKS {'status': 'pass', 'bar_extension_m': 1.1904761904761905e-05, 'bar_force_N': 1000, 'bar_elements_tested': [1, 2, 4, 8, 16], 'amplifier_cutoff_hz': 100010.0, 'bandwidth_requirement_hz': 150000, 'bandwidth_pass': False, 'synthetic_occupancy': {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}, 'limits': '1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer.'}\n"
+    },
+    {
+      "cell": 4,
+      "status": "pass",
+      "stdout": "BAR_END_UM 11.904761904761905\n"
+    },
+    {
+      "cell": 6,
+      "status": "pass",
+      "stdout": "CIRCUIT_ACCEPTANCE {'gain_pass': True, 'bandwidth_pass': False, 'accepted': False}\nTRANSFER {'gain_pass': False, 'bandwidth_pass': True}\n"
+    },
+    {
+      "cell": 8,
+      "status": "pass",
+      "stdout": "SYNTHETIC_OCCUPANCY {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}\nLAB_COMPLETE: 3 figures; independent bar/circuit checks; synthetic occupancy; transfer task\n"
+    }
+  ],
+  "figures": [
+    {
+      "file": "figure-1.png",
+      "axes": 1,
+      "lines": 2,
+      "patches": 0
+    },
+    {
+      "file": "figure-2.png",
+      "axes": 1,
+      "lines": 3,
+      "patches": 0
+    },
+    {
+      "file": "figure-3.png",
+      "axes": 2,
+      "lines": 1,
+      "patches": 2
+    }
+  ],
+  "parameterChange": {
+    "original": 1.1904761904761905e-05,
+    "double_area": 5.9523809523809525e-06,
+    "transfer_gain_pass": false,
+    "transfer_bandwidth_pass": true
+  },
+  "scientificChecks": {
+    "status": "pass",
+    "bar_extension_m": 1.1904761904761905e-05,
+    "bar_force_N": 1000,
+    "bar_elements_tested": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "amplifier_cutoff_hz": 100010.0,
+    "bandwidth_requirement_hz": 150000,
+    "bandwidth_pass": false,
+    "synthetic_occupancy": {
+      "frames": 20,
+      "mean": 0.1,
+      "nonzero_fraction": 0.1,
+      "maximum": 1
+    },
+    "limits": "1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer."
+  }
+}

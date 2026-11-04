@@ -1,0 +1,854 @@
+WEBVTT
+
+1
+00:00:00.460 --> 00:00:03.582
+Building an AI-assisted scientific
+workflow
+
+2
+00:00:03.582 --> 00:00:05.643
+starts with a practical choice:
+
+3
+00:00:05.863 --> 00:00:07.224
+where will the tools run?
+
+4
+00:00:07.324 --> 00:00:08.165
+For this course,
+
+5
+00:00:08.685 --> 00:00:10.766
+our foundation is Ubuntu Linux.
+
+6
+00:00:11.547 --> 00:00:12.909
+For scientific computing,
+
+7
+00:00:13.050 --> 00:00:14.332
+Ubuntu gives us access
+
+8
+00:00:14.332 --> 00:00:16.415
+to an open-source software ecosystem.
+
+9
+00:00:16.516 --> 00:00:18.419
+We can combine numerical solvers,
+
+10
+00:00:18.579 --> 00:00:20.743
+physics libraries, automation scripts,
+
+11
+00:00:20.763 --> 00:00:22.766
+and AI agents in one workflow.
+
+12
+00:00:23.447 --> 00:00:25.189
+The same Linux-based approach
+
+13
+00:00:25.209 --> 00:00:26.530
+also connects naturally
+
+14
+00:00:26.731 --> 00:00:28.072
+to laboratory servers
+
+15
+00:00:28.112 --> 00:00:30.254
+and high-performance computing clusters.
+
+16
+00:00:30.475 --> 00:00:32.577
+The software and resource requirements
+
+17
+00:00:32.897 --> 00:00:35.020
+still depend on the calculation.
+
+18
+00:00:35.820 --> 00:00:36.901
+But you do not need
+
+19
+00:00:36.901 --> 00:00:39.402
+a dedicated Linux computer to begin.
+
+20
+00:00:39.482 --> 00:00:41.663
+On a compatible Windows 11 computer,
+
+21
+00:00:41.883 --> 00:00:45.845
+Ubuntu on WSL 2 provides a Linux
+environment
+
+22
+00:00:45.845 --> 00:00:47.986
+alongside your existing Windows setup.
+
+23
+00:00:48.647 --> 00:00:50.408
+That is the setup we will use
+
+24
+00:00:50.408 --> 00:00:51.428
+in these tutorials:
+
+25
+00:00:51.809 --> 00:00:55.070
+Windows 11, WSL 2, and Ubuntu.
+
+26
+00:00:55.471 --> 00:00:56.451
+It lets us work
+
+27
+00:00:56.451 --> 00:00:58.372
+with Linux-based scientific tools
+
+28
+00:00:58.632 --> 00:01:01.293
+while keeping our familiar Windows
+applications.
+
+29
+00:01:01.973 --> 00:01:03.574
+The key message is simple.
+
+30
+00:01:04.034 --> 00:01:06.236
+Start with the computer you already have.
+
+31
+00:01:06.716 --> 00:01:08.677
+Build a consistent environment,
+
+32
+00:01:08.897 --> 00:01:09.938
+connect the tools,
+
+33
+00:01:10.238 --> 00:01:12.279
+and focus on the scientific workflow.
+
+34
+00:01:13.999 --> 00:01:17.979
+Let's make OpenCode part of your scientific workflow.
+
+35
+00:01:19.159 --> 00:01:21.919
+OpenCode is an AI coding assistant.
+
+36
+00:01:22.359 --> 00:01:26.199
+Start at opencode.ai.download where you find
+
+37
+00:01:26.199 --> 00:01:27.899
+terminal and desktop options.
+
+38
+00:01:28.979 --> 00:01:31.459
+For this tutorial, choose the terminal version.
+
+39
+00:01:31.859 --> 00:01:35.159
+It fits naturally into an Ubuntu Linux environment
+
+40
+00:01:35.159 --> 00:01:37.159
+alongside your scientific tools.
+
+41
+00:01:37.159 --> 00:01:41.139
+You have two installation routes, use the installer
+
+42
+00:01:41.139 --> 00:01:43.579
+command shown here, or install through
+
+43
+00:01:43.579 --> 00:01:45.799
+a package manager such as npm.
+
+44
+00:01:46.899 --> 00:01:48.739
+Prefer a graphical interface?
+
+45
+00:01:49.219 --> 00:01:52.519
+The desktop app is available for Windows, Mac
+
+46
+00:01:52.519 --> 00:01:53.659
+OS, and Linux.
+
+47
+00:01:54.779 --> 00:01:57.959
+Once installed, OpenCode can help you generate
+
+48
+00:01:57.959 --> 00:02:01.279
+Python scripts, prepare simulation files, and
+
+49
+00:02:01.279 --> 00:02:02.979
+coordinate numerical solvers.
+
+50
+00:02:03.979 --> 00:02:06.179
+Choose the interface that suits your work.
+
+51
+00:02:06.179 --> 00:02:13.759
+here we'll use the terminal okay first start
+
+52
+00:02:13.759 --> 00:02:20.439
+Ubuntu then you type OpenCode
+
+53
+00:02:22.039 --> 00:02:27.019
+so you start here then you have you
+
+54
+00:02:27.019 --> 00:02:33.959
+can always connect choose your server by
+
+55
+00:02:33.959 --> 00:02:39.279
+click okay this is three you will add
+
+56
+00:02:39.279 --> 00:02:43.159
+account to put an account then you need
+
+57
+00:02:43.159 --> 00:02:44.479
+to put an API key
+
+58
+00:02:45.379 --> 00:02:47.879
+to get an API key you need to
+
+59
+00:02:47.879 --> 00:02:54.379
+go to DeepSeek click API platform and
+
+60
+00:02:54.379 --> 00:02:55.219
+then you
+
+61
+00:02:56.859 --> 00:03:01.239
+click API key create new API key
+
+62
+00:03:04.054 --> 00:03:06.657
+Let us build a practical simulation toolkit
+
+63
+00:03:06.657 --> 00:03:07.417
+on Ubuntu.
+
+64
+00:03:07.838 --> 00:03:10.021
+We will install the system utilities,
+
+65
+00:03:10.281 --> 00:03:13.264
+CalculiX and Gmsh, OpenCode two,
+
+66
+00:03:13.605 --> 00:03:15.467
+and a separate Python environment.
+
+67
+00:03:15.768 --> 00:03:17.189
+Follow the four stages,
+
+68
+00:03:17.410 --> 00:03:19.572
+then check that the tools are available.
+
+69
+00:03:20.653 --> 00:03:23.536
+This walkthrough uses Ubuntu twenty four point
+
+70
+00:03:23.536 --> 00:03:25.878
+zero four, with a Bash terminal,
+
+71
+00:03:25.919 --> 00:03:28.781
+an internet connection, and sudo access.
+
+72
+00:03:29.502 --> 00:03:31.144
+Open Terminal with Control,
+
+73
+00:03:31.324 --> 00:03:31.924
+Alt, T.
+
+74
+00:03:32.225 --> 00:03:34.247
+Create a working folder and enter it.
+
+75
+00:03:34.687 --> 00:03:36.949
+The terminal shown here is an animation;
+
+76
+00:03:37.370 --> 00:03:39.692
+download times and output will vary.
+
+77
+00:03:40.833 --> 00:03:44.035
+First, refresh the package list with sudo
+
+78
+00:03:44.035 --> 00:03:44.816
+apt update.
+
+79
+00:03:45.376 --> 00:03:47.297
+If Ubuntu asks for your password,
+
+80
+00:03:47.298 --> 00:03:49.119
+type it and press Enter.
+
+81
+00:03:49.479 --> 00:03:52.041
+The terminal does not show password characters.
+
+82
+00:03:52.221 --> 00:03:54.222
+Wait for the command to finish before
+
+83
+00:03:54.222 --> 00:03:54.923
+continuing.
+
+84
+00:03:55.283 --> 00:03:57.704
+This updates the package index; it does
+
+85
+00:03:57.704 --> 00:03:59.866
+not upgrade every installed program.
+
+86
+00:04:01.006 --> 00:04:02.888
+Now install Git, curl,
+
+87
+00:04:03.048 --> 00:04:05.711
+jq, and the Python environment tools.
+
+88
+00:04:06.031 --> 00:04:08.914
+We also include the repository helper and
+
+89
+00:04:08.954 --> 00:04:12.637
+HTTPS certificates, which are useful on minimal
+
+90
+00:04:12.637 --> 00:04:14.018
+Ubuntu installations.
+
+91
+00:04:14.379 --> 00:04:16.901
+The backslashes continue the same command onto
+
+92
+00:04:16.901 --> 00:04:17.742
+the next line.
+
+93
+00:04:17.962 --> 00:04:20.384
+The dash y option automatically accepts the
+
+94
+00:04:20.384 --> 00:04:21.505
+package confirmation.
+
+95
+00:04:22.727 --> 00:04:25.509
+Next, enable the Universe repository,
+
+96
+00:04:25.649 --> 00:04:28.092
+where Ubuntu provides these science packages.
+
+97
+00:04:28.652 --> 00:04:32.276
+Run sudo add apt repository universe,
+
+98
+00:04:32.376 --> 00:04:34.899
+confirm if prompted, and refresh the package
+
+99
+00:04:34.899 --> 00:04:35.679
+list again.
+
+100
+00:04:36.120 --> 00:04:37.762
+If Universe is already enabled,
+
+101
+00:04:37.762 --> 00:04:38.722
+you can continue.
+
+102
+00:04:38.903 --> 00:04:41.405
+Package versions depend on your Ubuntu release.
+
+103
+00:04:42.606 --> 00:04:45.469
+Install CalculiX C C X,
+
+104
+00:04:45.629 --> 00:04:47.551
+CalculiX C G X,
+
+105
+00:04:47.811 --> 00:04:48.792
+and Gmsh.
+
+106
+00:04:49.052 --> 00:04:51.394
+Gmsh creates geometry and meshes.
+
+107
+00:04:51.555 --> 00:04:53.877
+C C X solves the finite element
+
+108
+00:04:53.877 --> 00:04:56.159
+model, while C G X supports pre
+
+109
+00:04:56.159 --> 00:04:57.320
+and post processing.
+
+110
+00:04:57.760 --> 00:05:00.083
+Installing these programs does not yet connect
+
+111
+00:05:00.083 --> 00:05:02.265
+them to an AI agent or validate
+
+112
+00:05:02.265 --> 00:05:03.125
+a simulation.
+
+113
+00:05:04.126 --> 00:05:07.430
+For OpenCode two, use the official installer
+
+114
+00:05:07.430 --> 00:05:08.151
+shown here.
+
+115
+00:05:08.371 --> 00:05:09.973
+Curl downloads the script,
+
+116
+00:05:10.173 --> 00:05:11.935
+and the pipe sends it to Bash
+
+117
+00:05:11.935 --> 00:05:12.496
+to run.
+
+118
+00:05:12.776 --> 00:05:14.759
+Review the installer from the official website
+
+119
+00:05:14.759 --> 00:05:15.880
+before executing it.
+
+120
+00:05:15.980 --> 00:05:17.762
+Run this as your normal user.
+
+121
+00:05:18.002 --> 00:05:19.584
+This is the version two address from
+
+122
+00:05:19.584 --> 00:05:20.465
+your command sheet.
+
+123
+00:05:21.606 --> 00:05:23.407
+Reload your Bash configuration,
+
+124
+00:05:23.668 --> 00:05:25.188
+or open a new terminal,
+
+125
+00:05:25.629 --> 00:05:27.690
+then check the OpenCode version.
+
+126
+00:05:28.070 --> 00:05:29.451
+If the command is not found,
+
+127
+00:05:29.531 --> 00:05:31.633
+follow the path instructions printed by the
+
+128
+00:05:31.633 --> 00:05:32.333
+installer.
+
+129
+00:05:33.274 --> 00:05:35.575
+Installing the application does not configure a
+
+130
+00:05:35.575 --> 00:05:36.536
+model provider.
+
+131
+00:05:36.576 --> 00:05:39.998
+Provider sign in and any associated usage
+
+132
+00:05:39.998 --> 00:05:41.159
+charges are separate.
+
+133
+00:05:42.300 --> 00:05:43.781
+Back in your working folder,
+
+134
+00:05:43.781 --> 00:05:45.982
+create a virtual environment named F E
+
+135
+00:05:46.022 --> 00:05:47.482
+M, then activate it.
+
+136
+00:05:47.742 --> 00:05:50.243
+This keeps project packages separate from Ubuntu
+
+137
+00:05:50.243 --> 00:05:51.224
+system Python.
+
+138
+00:05:51.424 --> 00:05:53.545
+The prompt usually gains the environment name
+
+139
+00:05:53.545 --> 00:05:54.365
+in brackets.
+
+140
+00:05:54.645 --> 00:05:56.666
+Activate this environment whenever you work on
+
+141
+00:05:56.666 --> 00:05:58.306
+the project in a new terminal.
+
+142
+00:05:59.346 --> 00:06:00.727
+With the environment active,
+
+143
+00:06:01.307 --> 00:06:03.328
+install the five Python libraries.
+
+144
+00:06:03.969 --> 00:06:06.950
+Using python dash m pip ensures that
+
+145
+00:06:06.950 --> 00:06:09.171
+pip belongs to the active interpreter.
+
+146
+00:06:10.132 --> 00:06:12.953
+NumPy and pandas handle numerical data,
+
+147
+00:06:13.293 --> 00:06:15.374
+and Matplotlib makes plots.
+
+148
+00:06:15.795 --> 00:06:18.456
+The OpenAI and M C P libraries
+
+149
+00:06:18.536 --> 00:06:21.758
+support integrations; installing them alone does
+not
+
+150
+00:06:21.758 --> 00:06:23.739
+configure an API connection.
+
+151
+00:06:25.040 --> 00:06:27.022
+Now check the executable paths,
+
+152
+00:06:27.503 --> 00:06:29.765
+import all five Python packages,
+
+153
+00:06:30.045 --> 00:06:31.266
+and run pip check.
+
+154
+00:06:31.747 --> 00:06:33.949
+Each command should finish without an error.
+
+155
+00:06:34.189 --> 00:06:36.031
+These are basic installation checks,
+
+156
+00:06:36.291 --> 00:06:38.093
+not proof that a solver model is
+
+157
+00:06:38.093 --> 00:06:38.593
+correct.
+
+158
+00:06:38.974 --> 00:06:41.736
+Gmsh and C G X graphical windows
+
+159
+00:06:41.736 --> 00:06:44.039
+also need a working desktop or display
+
+160
+00:06:44.039 --> 00:06:44.719
+connection.
+
+161
+00:06:45.780 --> 00:06:46.801
+For your next session,
+
+162
+00:06:47.021 --> 00:06:49.183
+return to the working folder and activate
+
+163
+00:06:49.223 --> 00:06:50.104
+F E M again.
+
+164
+00:06:50.224 --> 00:06:51.945
+When finished, use deactivate.
+
+165
+00:06:52.186 --> 00:06:55.048
+If pip reports an externally managed environment,
+
+166
+00:06:55.148 --> 00:06:57.250
+check that you activated the virtual environment
+
+167
+00:06:57.250 --> 00:06:57.730
+first.
+
+168
+00:06:57.830 --> 00:06:59.752
+Keep project installs inside it,
+
+169
+00:06:59.872 --> 00:07:01.093
+without sudo pip.
+
+170
+00:07:02.213 --> 00:07:04.275
+You now have the installation steps for
+
+171
+00:07:04.275 --> 00:07:05.937
+the toolkit in your command sheet.
+
+172
+00:07:06.297 --> 00:07:08.600
+Keep the commands and checks for repeatable
+
+173
+00:07:08.600 --> 00:07:09.120
+setup.
+
+174
+00:07:09.500 --> 00:07:12.503
+Next, build one small mesh and solver
+
+175
+00:07:12.503 --> 00:07:14.285
+example, verify the result,
+
+176
+00:07:14.345 --> 00:07:16.487
+and only then expand the automation.
+
+177
+00:07:16.968 --> 00:07:19.110
+The command sheet and captions are included
+
+178
+00:07:19.110 --> 00:07:20.331
+with this tutorial.
+
+179
+00:07:21.954 --> 00:07:23.496
+Let us turn the theory
+
+180
+00:07:23.616 --> 00:07:26.501
+into a practical finite element workflow.
+
+181
+00:07:26.902 --> 00:07:30.868
+We will use Gmsh, CalculiX, and Python.
+
+182
+00:07:31.389 --> 00:07:33.172
+Each tool has a clear job.
+
+183
+00:07:34.213 --> 00:07:35.935
+Gmsh builds the geometry
+
+184
+00:07:35.935 --> 00:07:37.116
+and generates the mesh.
+
+185
+00:07:37.497 --> 00:07:40.699
+CalculiX then solves the finite element model,
+
+186
+00:07:40.920 --> 00:07:42.841
+for structural or thermal problems.
+
+187
+00:07:43.402 --> 00:07:44.864
+Keeping those jobs separate
+
+188
+00:07:44.864 --> 00:07:47.226
+makes the workflow easier to inspect and
+repeat.
+
+189
+00:07:48.107 --> 00:07:49.689
+Here is the Ubuntu setup.
+
+190
+00:07:49.870 --> 00:07:51.653
+Install the mesher and solver,
+
+191
+00:07:51.954 --> 00:07:54.799
+add OpenCode, and create a Python environment.
+
+192
+00:07:54.960 --> 00:07:56.943
+These commands give us the tools
+
+193
+00:07:56.943 --> 00:07:57.905
+for the workflow.
+
+194
+00:07:58.626 --> 00:08:00.668
+Think of the calculation in three steps.
+
+195
+00:08:01.048 --> 00:08:03.410
+First, generate the mesh with Gmsh.
+
+196
+00:08:03.851 --> 00:08:06.573
+Next, solve the physics with CalculiX.
+
+197
+00:08:07.113 --> 00:08:09.215
+Then, use Python to validate
+
+198
+00:08:09.215 --> 00:08:10.576
+and visualize the results.
+
+199
+00:08:10.636 --> 00:08:11.697
+Remember the sequence:
+
+200
+00:08:11.998 --> 00:08:13.559
+mesh, solve, and validate.
+
+201
+00:08:14.520 --> 00:08:17.584
+An AI agent can prepare simulation files,
+
+202
+00:08:17.844 --> 00:08:21.268
+run commands, and help analyze solver output.
+
+203
+00:08:21.669 --> 00:08:23.030
+But we still have to check
+
+204
+00:08:23.030 --> 00:08:26.054
+the boundary conditions, mesh convergence,
+
+205
+00:08:26.314 --> 00:08:27.575
+and physical accuracy.
+
+206
+00:08:27.996 --> 00:08:30.559
+Automation does not replace verification.
+
+207
+00:08:31.801 --> 00:08:33.463
+Start with one reliable,
+
+208
+00:08:33.483 --> 00:08:35.646
+reproducible simulation workflow.
+
+209
+00:08:35.947 --> 00:08:36.908
+Check it carefully.
+
+210
+00:08:37.329 --> 00:08:40.233
+Then introduce more advanced AI automation.
+
+211
+00:08:40.874 --> 00:08:42.597
+Build trust in the calculation
+
+212
+00:08:42.597 --> 00:08:44.179
+before expanding the automation.

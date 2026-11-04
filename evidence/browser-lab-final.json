@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-11-04T10:14:57.634Z",
+  "revision": "04233bc122b3d2cf42064621903e3e250cdaac7a",
+  "artifactIdentity": "Export hashes identify the exact tested local build; CI/public build identities are recorded separately.",
+  "results": [
+    {
+      "test": "browser-JupyterLite-fresh--a1f73-fic-results-and-three-plots-desktop",
+      "status": "pass",
+      "url": "http://127.0.0.1:4173/AIagentsinSTEM/lite/lab/index.html",
+      "context": "fresh hosted-build browser Pyodide",
+      "outputs": [
+        "{\n  \"status\": \"pass\",\n  \"bar_extension_m\": 1.1904761904761905e-05,\n  \"bar_force_N\": 1000,\n  \"bar_elements_tested\": [\n    1,\n    2,\n    4,\n    8,\n    16\n  ],\n  \"amplifier_cutoff_hz\": 100010.0,\n  \"bandwidth_requirement_hz\": 150000,\n  \"bandwidth_pass\": false,\n  \"synthetic_occupancy\": {\n    \"frames\": 20,\n    \"mean\": 0.1,\n    \"nonzero_fraction\": 0.1,\n    \"maximum\": 1\n  },\n  \"limits\": \"1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer.\"\n}\n",
+        "SCIENTIFIC_CHECKS {'status': 'pass', 'bar_extension_m': 1.1904761904761905e-05, 'bar_force_N': 1000, 'bar_elements_tested': [1, 2, 4, 8, 16], 'amplifier_cutoff_hz': 100010.0, 'bandwidth_requirement_hz': 150000, 'bandwidth_pass': False, 'synthetic_occupancy': {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}, 'limits': '1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer.'}\n",
+        "",
+        "BAR_END_UM 11.904761904761905\n",
+        "",
+        "CIRCUIT_ACCEPTANCE {'gain_pass': True, 'bandwidth_pass': False, 'accepted': False}\nTRANSFER {'gain_pass': False, 'bandwidth_pass': True}\n",
+        "",
+        "SYNTHETIC_OCCUPANCY {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}\nLAB_COMPLETE: 3 figures; independent bar/circuit checks; synthetic occupancy; transfer task\n"
+      ],
+      "plots": 3,
+      "errors": [],
+      "timestamp": "2026-11-04T10:14:34.518Z"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "course.config.json",
+      "sha256": "aa6f103169eaa4590b8609efda5e7fc2810922dd40dd8bd8f69c6fe3235b8c42"
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "7359104110ff5487a206077195ed27929c2e945ea25ab76dc66f6becbbf8a275"
+    },
+    {
+      "path": "web/player-bridge.js",
+      "sha256": "2750d86c7ca04b6656073cfdf0d003f3392ba3b123e9a9915594e6ef49fc8d96"
+    },
+    {
+      "path": "tests/learning-path.mjs",
+      "sha256": "a289b78e260e5426ee47dc66e19fb33a43b6fa96fe809ff00d85a553a8c4dd96"
+    },
+    {
+      "path": "dist/exports/lesson-01-practice.html",
+      "sha256": "1282bc1c8120e5715828ab58fd40d8148557628698fde6c970b4316c5059efcf"
+    },
+    {
+      "path": "dist/exports/lesson-01.html",
+      "sha256": "2e10904a4345316eb69e1174382890b00f6ebf28dd42e41363c54631154f97ba"
+    },
+    {
+      "path": "dist/exports/lesson-02-practice.html",
+      "sha256": "f2f6f36e1d954fb967159e8758b885207aeee33a20f9b04d56166777ebc08550"
+    },
+    {
+      "path": "dist/exports/lesson-02.html",
+      "sha256": "c18184d5ca5d116c936b8180398e90928fd1b9d759528968f54bee110ebacc2e"
+    },
+    {
+      "path": "dist/exports/lesson-03-practice.html",
+      "sha256": "5c1dd51b00e95216d83886728c99d0d41c363da74ab39f0cf0e1a128a8d40c12"
+    },
+    {
+      "path": "dist/exports/lesson-03.html",
+      "sha256": "964778f87481f786e27069a698f681ec24de72322d76ea715871b8e11746e80d"
+    },
+    {
+      "path": "dist/exports/lesson-04-practice.html",
+      "sha256": "49b67fb6fbbf12cf4ebd044672d2412f30fb948b74c090ec4bce840c9c3be48d"
+    },
+    {
+      "path": "dist/exports/lesson-04.html",
+      "sha256": "188a36943952571f95c690b4522b524d45a250aa73f362a15c6136fcf1cf72c4"
+    },
+    {
+      "path": "dist/exports/lesson-05-practice.html",
+      "sha256": "5cf5c2e3f0ea87230445a7e573eec353e3208ad4f4e87820efd443c6ba701462"
+    },
+    {
+      "path": "dist/exports/lesson-05.html",
+      "sha256": "6c4a42a8b474a8fd44b9c66e01309484d822b853873ad67ab6573e9b871640a4"
+    },
+    {
+      "path": "dist/exports/lesson-05a-practice.html",
+      "sha256": "034fab4a932682fd10776cdfd3e3ddb0a17be01a9e8c3b902393d994f0365cdb"
+    },
+    {
+      "path": "dist/exports/lesson-05a.html",
+      "sha256": "5d1e7ddbe2dec201337602fdf632a20090684d088dd5b4a67de59d1e283b9be1"
+    },
+    {
+      "path": "dist/exports/lesson-06-practice.html",
+      "sha256": "2a0a1758a1ce1edac6e3efccdb2dffd6c38f2e9e26ee7ae35545e5fad099ddf2"
+    },
+    {
+      "path": "dist/exports/lesson-06.html",
+      "sha256": "2c0547ba2246a53a4d300e3b686c1f9040cd6e3e1a9e1846faa2a66fa486cb09"
+    },
+    {
+      "path": "dist/exports/lesson-06a-practice.html",
+      "sha256": "c03e4a3768546e3af31f031abb98a6ff5ff91911f70718ad7deb494c625c035b"
+    },
+    {
+      "path": "dist/exports/lesson-06a.html",
+      "sha256": "d8e3fcf3d12e4d3e5457aeec4b38b8a9e9df3fcf8054bd3a431fc59da3668716"
+    },
+    {
+      "path": "dist/exports/lesson-07-practice.html",
+      "sha256": "3fdc29b3fe151c9cfe33ebcce406276fd1cc203a0cebc03f5cfc8ad7a76cd078"
+    },
+    {
+      "path": "dist/exports/lesson-07.html",
+      "sha256": "58677269ffdb45906315d908f98965447ae84aa06bd13c31ff008efd33948dd6"
+    },
+    {
+      "path": "dist/exports/lesson-08-practice.html",
+      "sha256": "8fe985bca8f4255d40a0e8244dc17f276c4249aa7c875b903efe4fafec634fc2"
+    },
+    {
+      "path": "dist/exports/lesson-08.html",
+      "sha256": "a62c8ca17cc751f5d3d123e56e4c396b6787a75440c45c83a6e38a121c91e432"
+    }
+  ],
+  "counts": {
+    "executed": 1,
+    "passed": 1,
+    "failed": 0
+  }
+}

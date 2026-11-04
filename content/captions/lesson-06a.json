@@ -1,0 +1,332 @@
+[
+  {
+    "start": 0.361,
+    "end": 2.783,
+    "text": "Here is the practical test: can an",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 2.904,
+    "end": 5.667,
+    "text": "AI agent move from a prompt in",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 5.728,
+    "end": 8.571,
+    "text": "OpenCode to a circuit whose performance we",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 8.571,
+    "end": 9.552,
+    "text": "can verify?",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 10.414,
+    "end": 12.616,
+    "text": "Start with a clear installation task.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 13.016,
+    "end": 15.599,
+    "text": "Detect the operating system, find the\nexisting",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 15.599,
+    "end": 17.541,
+    "text": "tools, and check their connections.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 18.222,
+    "end": 21.005,
+    "text": "In this recording, two Ubuntu environments\ncaused",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 21.005,
+    "end": 24.208,
+    "text": "confusion. The useful result is an\nidentified",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 24.208,
+    "end": 27.332,
+    "text": "working environment, with versions and\nconnection tests",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 27.332,
+    "end": 28.073,
+    "text": "documented.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 28.993,
+    "end": 31.554,
+    "text": "Next, ask for a small test circuit.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 31.895,
+    "end": 33.835,
+    "text": "Tool discovery is only one check.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 34.136,
+    "end": 36.576,
+    "text": "The agent should create a schematic, run",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 36.597,
+    "end": 39.658,
+    "text": "electrical rules checking, export its\nconnections, and",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 39.658,
+    "end": 41.739,
+    "text": "test the result with ngspice.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 42.159,
+    "end": 44.32,
+    "text": "Keep the reports, including any fixes.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 45.721,
+    "end": 47.903,
+    "text": "Now make the engineering target explicit.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 48.403,
+    "end": 50.205,
+    "text": "We need a voltage gain between nine",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 50.205,
+    "end": 52.087,
+    "text": "point five and ten point five, and",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 52.087,
+    "end": 54.49,
+    "text": "a minus three decibel bandwidth of at",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 54.49,
+    "end": 56.371,
+    "text": "least one hundred and fifty kilohertz.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 57.072,
+    "end": 59.855,
+    "text": "The specified op-amp model has an\nopen-loop",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 59.855,
+    "end": 61.877,
+    "text": "gain of one hundred thousand and a",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 61.957,
+    "end": 63.799,
+    "text": "one megahertz gain-bandwidth product.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 64.94,
+    "end": 67.704,
+    "text": "A single non-inverting stage reaches a\ngain",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 67.704,
+    "end": 70.508,
+    "text": "of about ten, but its simulated bandwidth",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 70.568,
+    "end": 72.37,
+    "text": "is only about one hundred kilohertz.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 72.771,
+    "end": 73.832,
+    "text": "It misses the target.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 74.253,
+    "end": 76.135,
+    "text": "This is why the prompt should require",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 76.135,
+    "end": 78.879,
+    "text": "feasibility analysis before a pass\ndeclaration.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 80.02,
+    "end": 83.185,
+    "text": "The recorded design uses two cascaded\nstages.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 83.385,
+    "end": 86.069,
+    "text": "Each has a twenty-two kilohm feedback\nresistor",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 86.369,
+    "end": 88.232,
+    "text": "and a ten kilohm resistor to ground.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 88.592,
+    "end": 90.395,
+    "text": "The op-amp model stays the same.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 90.515,
+    "end": 92.618,
+    "text": "We change the circuit architecture, then\nrerun",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 92.618,
+    "end": 93.13900000000001,
+    "text": "the checks.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 94.44,
+    "end": 96.801,
+    "text": "For this edit, I reran the original",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 96.801,
+    "end": 99.52199999999999,
+    "text": "circuit files. The fresh simulation gives\na",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 99.52199999999999,
+    "end": 101.462,
+    "text": "gain of about ten point two four",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 101.82300000000001,
+    "end": 103.663,
+    "text": "and a bandwidth of about two hundred",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 103.663,
+    "end": 104.664,
+    "text": "and one kilohertz.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 105.044,
+    "end": 106.304,
+    "text": "Both meet the targets.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 106.604,
+    "end": 109.285,
+    "text": "The KiCad netlist matches the original\ncircuit,",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 109.64500000000001,
+    "end": 112.586,
+    "text": "and electrical rules checking reports zero\nviolations.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 113.92699999999999,
+    "end": 117.009,
+    "text": "These are small-signal results from a\nsimplified,",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 117.009,
+    "end": 120.091,
+    "text": "single-pole model. They do not establish\nreal",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 120.091,
+    "end": 123.133,
+    "text": "hardware performance, output limits, or\nnoise.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 123.913,
+    "end": 128.016,
+    "text": "The evidence chain matters: editable\nschematic, exported",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 128.016,
+    "end": 131.898,
+    "text": "netlist, documented model, solver data,\nand a",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 131.898,
+    "end": 133.97899999999998,
+    "text": "comparison with the original requirements.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 135.28,
+    "end": 138.383,
+    "text": "A professional engineering prompt defines\nthe task,",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 138.704,
+    "end": 140.846,
+    "text": "the checks, and the evidence required for",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 140.846,
+    "end": 143.929,
+    "text": "success. Let the agent coordinate the\nwork.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  },
+  {
+    "start": 144.35,
+    "end": 146.972,
+    "text": "Let verified results determine the\nconclusion.",
+    "origin": "OpenCode_Circuit_Evidence.srt"
+  }
+]

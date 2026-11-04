@@ -1,0 +1,710 @@
+[
+  {
+    "start": 0.3996666666666556,
+    "end": 4.241666666666656,
+    "text": "Before trusting a simulation, test its\nnumerical behavior.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 4.7226666666666555,
+    "end": 7.984666666666656,
+    "text": "This case follows an AI-assisted investigation",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 7.984666666666656,
+    "end": 12.226666666666656,
+    "text": "of a beta-DDM bilayer at seventy-five degrees\nCelsius.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 12.646666666666656,
+    "end": 15.808666666666655,
+    "text": "The original phase diagram marks a lamellar\ntarget",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 15.808666666666655,
+    "end": 17.569666666666656,
+    "text": "at twenty percent water by mass.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 17.969666666666654,
+    "end": 19.710666666666654,
+    "text": "That reference guides the question;",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 20.030666666666654,
+    "end": 22.592666666666656,
+    "text": "the simulation must still establish its\nbehavior.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 23.752666666666656,
+    "end": 25.773666666666657,
+    "text": "The molecular view raises the question",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 25.773666666666657,
+    "end": 27.453666666666656,
+    "text": "of water inside the membrane.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 28.273666666666657,
+    "end": 30.674666666666656,
+    "text": "In the separate single-snapshot analysis,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 30.954666666666654,
+    "end": 33.395666666666656,
+    "text": "forty-three waters occupy the local core,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 33.77566666666666,
+    "end": 36.076666666666654,
+    "text": "including two in the strict deep subset.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 36.636666666666656,
+    "end": 39.29766666666666,
+    "text": "This shows occupancy in one configuration.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 39.71766666666666,
+    "end": 41.81766666666665,
+    "text": "It does not establish entry history,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 42.13866666666666,
+    "end": 45.23866666666665,
+    "text": "a continuous pore, or complete membrane\ncrossings.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 46.29966666666665,
+    "end": 49.94066666666666,
+    "text": "The C2 energy slide compares mixed and double\nprecision",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 50.280666666666654,
+    "end": 52.121666666666655,
+    "text": "over twenty-five picoseconds,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 52.36166666666666,
+    "end": 54.581666666666656,
+    "text": "with the same checkpoint, force field,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 54.581666666666656,
+    "end": 56.56266666666666,
+    "text": "and half-femtosecond time step.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 56.902666666666654,
+    "end": 59.54366666666665,
+    "text": "Mixed precision shows a large energy loss.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 59.84366666666666,
+    "end": 63.08466666666666,
+    "text": "The double-precision trace stays near zero on\nthis scale,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 63.28466666666665,
+    "end": 65.28466666666665,
+    "text": "with small fluctuations remaining.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 65.80566666666665,
+    "end": 69.22566666666665,
+    "text": "The reported drift differs by several orders\nof magnitude.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 70.26666666666665,
+    "end": 74.04766666666666,
+    "text": "The five-picosecond diagnostic table tests\nalternatives",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 74.14766666666665,
+    "end": 76.02866666666665,
+    "text": "from the same prepared checkpoint.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 76.50866666666666,
+    "end": 79.62966666666665,
+    "text": "A smaller mixed-precision time step worsens\nthe drift.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 79.82966666666665,
+    "end": 82.14966666666666,
+    "text": "Tighter LINCS settings remain insufficient.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 82.36966666666666,
+    "end": 85.33066666666666,
+    "text": "Leapfrog improves the result but still misses\nthe screen.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 85.67066666666665,
+    "end": 88.47166666666666,
+    "text": "Double precision falls below the stated drift\nlimit.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 88.69166666666666,
+    "end": 91.35266666666666,
+    "text": "These are results for this tested model and\nprofile,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 91.35266666666666,
+    "end": 93.57266666666666,
+    "text": "rather than universal simulation settings.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 94.71266666666665,
+    "end": 98.39566666666666,
+    "text": "An earlier matched CPU and MPI comparison",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 98.65566666666666,
+    "end": 101.03766666666665,
+    "text": "also supports the precision diagnosis.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 101.63866666666667,
+    "end": 104.10066666666665,
+    "text": "Its reported whole-box drift is about",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 104.10066666666665,
+    "end": 106.92266666666666,
+    "text": "three thousand six hundred and seventy-eight\ntimes lower",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 106.92266666666666,
+    "end": 107.96366666666665,
+    "text": "in double precision.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 108.32366666666665,
+    "end": 112.04666666666665,
+    "text": "Rounding during constrained integration is a\nplausible contributor.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 112.34666666666666,
+    "end": 115.50966666666665,
+    "text": "But the newer C2 tests also changed parallel\nlayout.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 115.78966666666665,
+    "end": 118.95166666666665,
+    "text": "The exact algorithmic contribution remains\nunproven.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 119.93266666666665,
+    "end": 124.87466666666666,
+    "text": "The tested execution profile uses GROMACS\ntwenty twenty-four point two,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 124.97466666666665,
+    "end": 128.09666666666666,
+    "text": "double precision, and a half-femtosecond time\nstep.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 128.53666666666666,
+    "end": 132.81866666666664,
+    "text": "The thermostat and barostat are off for these\nNVE diagnostics.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 133.19866666666667,
+    "end": 136.07966666666664,
+    "text": "All four systems pass the unchanged drift\nscreen",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 136.07966666666664,
+    "end": 137.80066666666664,
+    "text": "over twenty-five picoseconds.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 138.12066666666666,
+    "end": 141.22166666666666,
+    "text": "That addresses numerical conservation in this\ntest.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 141.52166666666665,
+    "end": 143.34266666666664,
+    "text": "Equilibration remains separate:",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 143.54266666666666,
+    "end": 146.94466666666665,
+    "text": "the slide reports pressure near four thousand\nthree hundred bar,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 147.04466666666667,
+    "end": 149.32566666666665,
+    "text": "and continuing thermal relaxation in C2.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 150.76666666666665,
+    "end": 153.94766666666666,
+    "text": "The later water analysis covers twenty\nnanoseconds",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 153.98766666666666,
+    "end": 155.80766666666665,
+    "text": "at seventy-five degrees Celsius.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 156.26766666666666,
+    "end": 159.44866666666667,
+    "text": "Its primary local core is the central sixty\npercent,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 159.62866666666665,
+    "end": 163.76966666666667,
+    "text": "with fixed leaflet identities and a visible\nboundary-sensitivity band.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 164.32966666666664,
+    "end": 167.29066666666665,
+    "text": "Core occupancy increases during the recorded\nwindow.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 168.19066666666666,
+    "end": 171.47166666666666,
+    "text": "Most counted core waters remain close to sugar\nheadgroups,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 171.63166666666666,
+    "end": 174.55266666666665,
+    "text": "while density is much lower near the bilayer\ncenter.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 175.39266666666666,
+    "end": 177.87266666666665,
+    "text": "Definitions matter when describing\npenetration.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 178.87266666666665,
+    "end": 181.95366666666666,
+    "text": "The strict deep subset uses the central forty\npercent",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 181.95366666666666,
+    "end": 184.27466666666666,
+    "text": "and a distance greater than half a nanometre",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 184.39466666666667,
+    "end": 186.11466666666666,
+    "text": "from the nearest sugar oxygen.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 186.47466666666665,
+    "end": 189.37566666666666,
+    "text": "Its plotted mean is zero point three three six",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 189.37566666666666,
+    "end": 190.85666666666665,
+    "text": "water molecules per frame.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 191.45666666666665,
+    "end": 192.77666666666664,
+    "text": "This is a low average,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 192.91766666666666,
+    "end": 195.93766666666664,
+    "text": "not zero occupancy or an upper bound on every\nframe.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 196.37866666666665,
+    "end": 199.01866666666666,
+    "text": "The trace includes frames with four deep\nwaters.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 200.07966666666664,
+    "end": 204.06266666666664,
+    "text": "The original trajectory projections make those\ncounts visible.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 204.54366666666667,
+    "end": 207.12566666666666,
+    "text": "They show two local-core waters initially,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 207.38566666666665,
+    "end": 209.30666666666664,
+    "text": "nineteen at ten nanoseconds,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 209.34766666666667,
+    "end": 211.32866666666666,
+    "text": "and twenty-four at twenty nanoseconds.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 211.70866666666666,
+    "end": 214.83166666666665,
+    "text": "The selected frame at seventeen point six\nthree nanoseconds",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 214.83166666666665,
+    "end": 216.49266666666665,
+    "text": "contains four deep waters.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 217.01366666666667,
+    "end": 218.69466666666665,
+    "text": "Counts vary across frames.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 218.79466666666667,
+    "end": 222.35766666666666,
+    "text": "Projected overlap alone establishes neither a\ncontinuous pore",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 222.35766666666666,
+    "end": 224.39866666666666,
+    "text": "nor a complete crossing or residence time.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 225.41966666666667,
+    "end": 228.94166666666666,
+    "text": "The recorded support message permits a\nuser-directory build",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 229.26166666666666,
+    "end": 231.50266666666664,
+    "text": "while central installations are on hold.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 231.90366666666665,
+    "end": 235.92566666666664,
+    "text": "The AI agent reports checking cluster\nrequirements and source checksums,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 236.12566666666666,
+    "end": 238.92766666666665,
+    "text": "then preparing a double-precision MPI build",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 238.92766666666665,
+    "end": 241.12866666666665,
+    "text": "and submitting build and validation jobs.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 241.48866666666666,
+    "end": 243.94966666666664,
+    "text": "This illustrates practical workflow\nassistance.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 244.21066666666667,
+    "end": 246.21166666666664,
+    "text": "The recorded progress report should be read",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 246.21166666666664,
+    "end": 248.67266666666666,
+    "text": "alongside the actual build and test outputs.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 249.61266666666666,
+    "end": 252.53366666666665,
+    "text": "The recording then turns to model\nparameterization.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 252.95366666666666,
+    "end": 257.27566666666667,
+    "text": "Sobtop supports force-field assignment and\nGROMACS topology preparation.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 257.6956666666667,
+    "end": 260.87666666666667,
+    "text": "Quantum calculations and charge fitting are\nseparate steps.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 261.13666666666666,
+    "end": 263.5176666666667,
+    "text": "The useful workflow connects these stages",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 263.7176666666667,
+    "end": 265.95866666666666,
+    "text": "while preserving the source of each parameter",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 265.95866666666666,
+    "end": 267.79866666666663,
+    "text": "and verifying the assembled model.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 268.87966666666665,
+    "end": 272.5826666666666,
+    "text": "The charge-derivation slide begins with\nmolecular identity:",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 273.0226666666667,
+    "end": 277.14566666666667,
+    "text": "eighty-one atoms, eighty-two bonds, and ten\nstereocentres.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 277.84666666666664,
+    "end": 281.00866666666667,
+    "text": "Three gas-phase conformers provide\nelectrostatic potentials",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 281.00866666666667,
+    "end": 283.14966666666663,
+    "text": "for a joint, two-stage RESP fit,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 283.23066666666665,
+    "end": 285.57166666666666,
+    "text": "with equal weights for the three conformers.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 286.03266666666667,
+    "end": 289.43466666666666,
+    "text": "The reported stages converge in seven and six\niterations,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 289.43466666666666,
+    "end": 291.39566666666667,
+    "text": "giving a neutral molecular total.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 291.93666666666667,
+    "end": 295.53866666666664,
+    "text": "The original table preserves the detailed\nmethod and charge range.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 296.73966666666666,
+    "end": 300.1426666666666,
+    "text": "Those new charges are combined with source\nGAFF2",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 300.36266666666666,
+    "end": 302.18466666666666,
+    "text": "bonded and Lennard-Jones terms.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 302.46466666666663,
+    "end": 304.78666666666663,
+    "text": "Compatible water and sodium parameters",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 304.78666666666663,
+    "end": 306.70866666666666,
+    "text": "and the separate phosphate charge models",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 306.88866666666667,
+    "end": 309.49066666666664,
+    "text": "must remain consistent with the same\nconventions.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 309.87166666666667,
+    "end": 313.4336666666667,
+    "text": "The source slide explicitly preserves AMBER\nscaling",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 313.63466666666665,
+    "end": 315.55566666666664,
+    "text": "and the original bonded coefficients.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 315.7366666666667,
+    "end": 319.07866666666666,
+    "text": "A coherent assembly requires more than a new\nset of charges.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 320.11966666666666,
+    "end": 322.96166666666664,
+    "text": "The verification slide reports that all",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 323.08166666666665,
+    "end": 326.52366666666666,
+    "text": "one hundred and ninety-four energy and force\ncomparisons pass.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 327.14366666666666,
+    "end": 330.4456666666667,
+    "text": "The tests cover the molecule, phosphates, and\ncross interactions",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 330.4456666666667,
+    "end": 332.80766666666665,
+    "text": "in separate representations of the same model.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 333.36766666666665,
+    "end": 336.50966666666665,
+    "text": "This supports numerical agreement for the\ntested configurations.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 336.76966666666664,
+    "end": 339.97166666666664,
+    "text": "Experimental force-field accuracy and\nequilibrium phase behavior",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 339.97166666666664,
+    "end": 341.3326666666666,
+    "text": "remain different questions.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 342.41266666666667,
+    "end": 344.41366666666664,
+    "text": "Traceable evidence is the main gain.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 344.79366666666664,
+    "end": 348.0156666666667,
+    "text": "The original provenance table links molecular\nidentity,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 348.27566666666667,
+    "end": 351.49766666666665,
+    "text": "charge fitting, parameter sources, and\nverification.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 352.0176666666667,
+    "end": 355.87966666666665,
+    "text": "The recorded folders also retain preflight\nchecks and failed attempts.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 356.41966666666667,
+    "end": 358.60066666666665,
+    "text": "AI can help organize this work,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 358.76166666666666,
+    "end": 361.6426666666666,
+    "text": "but each scientific claim still needs its own\nevidence.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 362.00266666666664,
+    "end": 364.7846666666667,
+    "text": "Check the numerics, define the water\nobservable,",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  },
+  {
+    "start": 364.94466666666665,
+    "end": 367.18566666666663,
+    "text": "and preserve an auditable model history.",
+    "origin": "AI_Bilayer_Diagnostics_Professional.srt"
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "start": 0.4406666666666698,
+    "end": 2.70466666666667,
+    "text": "Engineering design keeps evolving.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 2.9446666666666697,
+    "end": 4.98866666666667,
+    "text": "Computational photonics gives us",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 4.98866666666667,
+    "end": 6.71166666666667,
+    "text": "a useful four-stage view.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 7.57266666666667,
+    "end": 9.91566666666667,
+    "text": "First, classical inverse design.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 10.276666666666669,
+    "end": 13.57966666666667,
+    "text": "A numerical optimizer\nsearches for a structure",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 13.57966666666667,
+    "end": 14.86166666666667,
+    "text": "that meets a target.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 15.12166666666667,
+    "end": 17.92466666666667,
+    "text": "A physics solver evaluates each candidate.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 18.90666666666667,
+    "end": 21.34766666666667,
+    "text": "Second, machine learning assisted design.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 21.82866666666667,
+    "end": 24.42966666666667,
+    "text": "Neural networks learn from simulation data",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 24.42966666666667,
+    "end": 26.97166666666667,
+    "text": "to act as fast surrogates or optimizers.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 26.99166666666667,
+    "end": 28.23166666666667,
+    "text": "Their predictions still need",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 28.23166666666667,
+    "end": 29.87266666666667,
+    "text": "physics based verification.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 30.71266666666667,
+    "end": 33.95666666666667,
+    "text": "Third, large language\nmodels help researchers",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 33.95666666666667,
+    "end": 36.51866666666667,
+    "text": "write code, prepare simulations,",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 36.51866666666667,
+    "end": 37.89966666666667,
+    "text": "and propose designs.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 38.220666666666666,
+    "end": 39.781666666666666,
+    "text": "The model assists the work.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 40.06266666666667,
+    "end": 42.84466666666667,
+    "text": "It does not replace the\nnumerical calculation.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 43.906666666666666,
+    "end": 46.95066666666667,
+    "text": "Fourth, agentic engineering\nconnects the steps",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 46.95066666666667,
+    "end": 48.09166666666667,
+    "text": "into a workflow.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 48.43166666666667,
+    "end": 50.91366666666667,
+    "text": "The agent can plan, call tools,",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 51.23466666666667,
+    "end": 53.87666666666667,
+    "text": "run simulations, analyze results,",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 54.07766666666667,
+    "end": 55.85966666666667,
+    "text": "and iterate on a design.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 56.73966666666667,
+    "end": 58.10066666666667,
+    "text": "Across all four stages,",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 58.10066666666667,
+    "end": 59.72166666666667,
+    "text": "physics remains the foundation.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 59.92166666666667,
+    "end": 62.36266666666667,
+    "text": "The aim is faster, more accessible design,",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 62.36266666666667,
+    "end": 64.40366666666667,
+    "text": "while maintaining scientific validation.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 64.60366666666667,
+    "end": 66.10466666666667,
+    "text": "Automation changes the workflow.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 66.30466666666668,
+    "end": 67.70566666666667,
+    "text": "It does not remove the need",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 67.70566666666667,
+    "end": 69.16566666666667,
+    "text": "to check the calculation.",
+    "origin": "Four_Generations_Engineering_AI.srt"
+  },
+  {
+    "start": 71.77966666666666,
+    "end": 73.58166666666666,
+    "text": "Connect your AI assistant",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 73.58166666666666,
+    "end": 74.94366666666666,
+    "text": "to your engineering tools.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 75.54466666666666,
+    "end": 77.90666666666667,
+    "text": "Model Context Protocol, or MCP,",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 78.64766666666667,
+    "end": 80.30966666666666,
+    "text": "links OpenCode with tools",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 80.30966666666666,
+    "end": 82.63166666666666,
+    "text": "for Gmsh and CalculiX.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 83.79266666666666,
+    "end": 85.77366666666666,
+    "text": "First, connect OpenCode",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 85.77366666666666,
+    "end": 87.93466666666666,
+    "text": "to your chosen model API.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 88.51566666666666,
+    "end": 90.23666666666666,
+    "text": "The recording uses DeepSeek.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 90.59666666666666,
+    "end": 93.19766666666666,
+    "text": "That gives the assistant a model to work with.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 93.63766666666666,
+    "end": 95.31866666666666,
+    "text": "The tool connection comes next.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 96.31966666666666,
+    "end": 98.86066666666666,
+    "text": "Then ask OpenCode to help configure",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 98.86066666666666,
+    "end": 102.12266666666666,
+    "text": "an MCP server for CalculiX and Gmsh.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 102.30266666666665,
+    "end": 103.50366666666666,
+    "text": "A clear request is:",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 103.76366666666667,
+    "end": 104.90366666666665,
+    "text": "connect these tools,",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 104.98366666666666,
+    "end": 106.34466666666665,
+    "text": "prepare the configuration,",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 106.50466666666665,
+    "end": 108.70566666666666,
+    "text": "and identify any missing dependencies.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 109.80666666666666,
+    "end": 111.68866666666666,
+    "text": "Next, test the connection.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 112.28966666666666,
+    "end": 114.53166666666667,
+    "text": "Ask whether both tools are accessible.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 115.15166666666667,
+    "end": 116.73366666666666,
+    "text": "The recorded example shows",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 116.73366666666666,
+    "end": 119.01566666666666,
+    "text": "the CalculiX server as connected.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 119.59566666666666,
+    "end": 120.85666666666665,
+    "text": "That status is useful,",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 120.85666666666665,
+    "end": 123.31966666666666,
+    "text": "but each intended tool still needs to be\nchecked.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 124.35966666666667,
+    "end": 127.00166666666667,
+    "text": "State the engineering goal in plain language.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 127.40166666666667,
+    "end": 130.86366666666666,
+    "text": "Let the AI help coordinate the software.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 131.38466666666665,
+    "end": 132.68466666666666,
+    "text": "Keep connection tests",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 132.78566666666666,
+    "end": 134.02566666666667,
+    "text": "as part of the workflow.",
+    "origin": "MCP_OpenCode_Professional.srt"
+  },
+  {
+    "start": 136.068,
+    "end": 138.333,
+    "text": "A tool connection should do more than",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 138.333,
+    "end": 139.556,
+    "text": "show a green light.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 139.897,
+    "end": 140.839,
+    "text": "Let's test it.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 141.781,
+    "end": 145.206,
+    "text": "In OpenCode, request the scientific tool\nconnection",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 145.647,
+    "end": 147.57,
+    "text": "through the Model Context Protocol.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 148.071,
+    "end": 150.575,
+    "text": "Then ask the assistant to verify it",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 150.575,
+    "end": 152.859,
+    "text": "with a small, concrete test.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 153.821,
+    "end": 156.825,
+    "text": "The recording checks the existing\nconfiguration and",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 156.825,
+    "end": 158.166,
+    "text": "the installed programs.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 158.547,
+    "end": 161.47,
+    "text": "The server was already registered, so no",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 161.471,
+    "end": 163.173,
+    "text": "configuration change was needed.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 164.094,
+    "end": 167.676,
+    "text": "The recorded report describes a mesh\nrefinement",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 167.676,
+    "end": 169.176,
+    "text": "test on a small bar.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 169.797,
+    "end": 172.878,
+    "text": "The smaller mesh size produced more\nelements.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 173.159,
+    "end": 175.9,
+    "text": "That checks refinement behavior, not\nconvergence.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 176.94,
+    "end": 179.24200000000002,
+    "text": "Check the force balance and the extension",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 179.24200000000002,
+    "end": 179.802,
+    "text": "of the bar.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 180.362,
+    "end": 183.144,
+    "text": "The recorded report compares both with\nsimple",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 183.144,
+    "end": 186.686,
+    "text": "reference values. A connected status alone\ncannot",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 186.686,
+    "end": 187.926,
+    "text": "give you that evidence.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 189.107,
+    "end": 190.669,
+    "text": "Keep the limitations in view.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 191.06900000000002,
+    "end": 193.912,
+    "text": "The report flags end effects and\nduplicated",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 193.912,
+    "end": 196.575,
+    "text": "mesh nodes. This is an integration check,",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 196.775,
+    "end": 198.597,
+    "text": "not an accuracy certification.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 198.937,
+    "end": 201.199,
+    "text": "No convergence study or bending benchmark\nwas",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 201.199,
+    "end": 201.56,
+    "text": "performed.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 202.461,
+    "end": 205.025,
+    "text": "Connect the tools, run a small test,",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 205.226,
+    "end": 207.73000000000002,
+    "text": "and inspect the evidence before trusting a",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 207.73000000000002,
+    "end": 208.93200000000002,
+    "text": "larger calculation.",
+    "origin": "OpenCode_MCP_Verification.srt"
+  },
+  {
+    "start": 211.2926666666667,
+    "end": 212.99366666666668,
+    "text": "Give your AI agent",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 213.13366666666667,
+    "end": 214.73466666666667,
+    "text": "a repeatable way to work.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 215.29466666666667,
+    "end": 217.79566666666668,
+    "text": "MCP connects the agent to software.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 218.1566666666667,
+    "end": 220.9776666666667,
+    "text": "A skill file guides how it uses that software,",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 221.15766666666667,
+    "end": 223.1786666666667,
+    "text": "with instructions, workflows, and checks.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 224.35966666666667,
+    "end": 226.14066666666668,
+    "text": "Start with the official manuals",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 226.14066666666668,
+    "end": 227.92166666666668,
+    "text": "for CalculiX and Gmsh.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 228.20166666666668,
+    "end": 229.3216666666667,
+    "text": "Ask a capable model",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 229.3216666666667,
+    "end": 231.14266666666668,
+    "text": "to draft a SKILL.md file",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 231.14266666666668,
+    "end": 232.40366666666668,
+    "text": "with clear instructions,",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 232.72366666666667,
+    "end": 233.94366666666667,
+    "text": "a recommended workflow,",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 233.94366666666667,
+    "end": 235.1446666666667,
+    "text": "and validation steps.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 235.5846666666667,
+    "end": 237.66566666666668,
+    "text": "Then review the draft against those manuals",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 237.66566666666668,
+    "end": 238.8656666666667,
+    "text": "and benchmark examples.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 239.9466666666667,
+    "end": 241.40766666666667,
+    "text": "Place the reviewed file",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 241.50866666666667,
+    "end": 242.95066666666668,
+    "text": "in its own skill folder",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 242.9906666666667,
+    "end": 245.7746666666667,
+    "text": "inside your project’s OpenCode skills\ndirectory.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 246.03566666666669,
+    "end": 247.59766666666667,
+    "text": "Include a name and description",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 247.59766666666667,
+    "end": 248.8996666666667,
+    "text": "in the file’s frontmatter.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 249.25966666666667,
+    "end": 250.62166666666667,
+    "text": "Then check that OpenCode",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 250.62166666666667,
+    "end": 252.1636666666667,
+    "text": "discovers and loads the skill.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 253.4056666666667,
+    "end": 254.6276666666667,
+    "text": "Build your library",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 254.6276666666667,
+    "end": 256.2886666666667,
+    "text": "one verified skill at a time.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 256.9496666666667,
+    "end": 258.6516666666667,
+    "text": "Add your engineering experience",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 258.7116666666667,
+    "end": 260.6536666666667,
+    "text": "as you improve each workflow.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 261.3546666666667,
+    "end": 263.3366666666667,
+    "text": "Reusable instructions make the assistant",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 263.3366666666667,
+    "end": 264.9376666666667,
+    "text": "more useful for your domain.",
+    "origin": "Skills_OpenCode_Professional.srt"
+  },
+  {
+    "start": 267.1006666666667,
+    "end": 268.7226666666667,
+    "text": "Turn a generated skill",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 268.9236666666667,
+    "end": 271.1066666666667,
+    "text": "into a checked engineering workflow.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 271.3876666666667,
+    "end": 273.3106666666667,
+    "text": "This recording follows the handoff",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 273.5106666666667,
+    "end": 275.6146666666667,
+    "text": "from ChatGPT to OpenCode",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 275.6146666666667,
+    "end": 278.0986666666667,
+    "text": "for CalculiX and Gmsh.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 279.1596666666667,
+    "end": 281.8806666666667,
+    "text": "Start with a precise request in ChatGPT.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 282.5416666666667,
+    "end": 285.8226666666667,
+    "text": "Ask for a SKILL.md for CalculiX and Gmsh,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 286.1026666666667,
+    "end": 288.6836666666667,
+    "text": "with guidance checked against official\nmanuals,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 289.0036666666667,
+    "end": 291.8046666666667,
+    "text": "verified commands, and corrected\ninconsistencies.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 292.1246666666667,
+    "end": 294.3856666666667,
+    "text": "That request sets the scope for the package.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 295.3466666666667,
+    "end": 298.5076666666667,
+    "text": "The recorded response offers a SKILL.md,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 299.1886666666667,
+    "end": 301.8896666666667,
+    "text": "technical references, runnable examples,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 301.9096666666667,
+    "end": 303.3096666666667,
+    "text": "and a verification script.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 303.8506666666667,
+    "end": 305.6906666666667,
+    "text": "Review the package and its workflows",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 305.6906666666667,
+    "end": 306.8516666666667,
+    "text": "before installing it.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 307.5116666666667,
+    "end": 309.8926666666667,
+    "text": "A generated response is a starting point",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 309.8926666666667,
+    "end": 310.6926666666667,
+    "text": "for checking.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 311.7726666666667,
+    "end": 314.8736666666667,
+    "text": "Next, bring the downloaded skill into\nOpenCode.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 315.1346666666667,
+    "end": 317.1746666666667,
+    "text": "The recorded request asks the agent",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 317.1746666666667,
+    "end": 319.1156666666667,
+    "text": "to place it in the skills directory,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 319.39566666666667,
+    "end": 322.4776666666667,
+    "text": "verify installation, and configure future use.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 323.0576666666667,
+    "end": 326.1586666666667,
+    "text": "Keep one clear skill folder with its SKILL.md.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 327.3596666666667,
+    "end": 329.3806666666667,
+    "text": "Then read the verification report.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 329.8606666666667,
+    "end": 332.6616666666667,
+    "text": "OpenCode reports that the skill is\ndiscoverable,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 333.00166666666667,
+    "end": 335.8426666666667,
+    "text": "visible in the session, and reloads\nsuccessfully.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 336.1636666666667,
+    "end": 339.1846666666667,
+    "text": "It also reports a Gmsh mesh smoke test",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 339.4646666666667,
+    "end": 341.0656666666667,
+    "text": "and an input-file export.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 341.3856666666667,
+    "end": 342.7656666666667,
+    "text": "These are specific checks.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 343.8666666666667,
+    "end": 345.2286666666667,
+    "text": "The warnings matter too.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 346.2496666666667,
+    "end": 350.1736666666667,
+    "text": "The recorded report lists CalculiX version",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 350.1736666666667,
+    "end": 351.1146666666667,
+    "text": "two point eleven",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 351.6546666666667,
+    "end": 354.4576666666667,
+    "text": "against a two point twenty-three skill\nbaseline.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 354.9586666666667,
+    "end": 357.2806666666667,
+    "text": "It also flags missing NumPy",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 357.3606666666667,
+    "end": 359.22266666666667,
+    "text": "and Gmsh Python modules,",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 359.4626666666667,
+    "end": 362.1056666666667,
+    "text": "and says no solver was executed.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 363.3876666666667,
+    "end": 365.8106666666667,
+    "text": "Make the report your next-step checklist.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 366.0106666666667,
+    "end": 367.5936666666667,
+    "text": "Resolve the reported gaps",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 367.7136666666667,
+    "end": 370.17666666666673,
+    "text": "and verify the workflow in your environment.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 370.6176666666667,
+    "end": 373.3616666666667,
+    "text": "ChatGPT helps prepare the instructions.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 373.7026666666667,
+    "end": 375.7656666666667,
+    "text": "OpenCode helps put them to work.",
+    "origin": "ChatGPT_OpenCode_Professional.srt"
+  },
+  {
+    "start": 377.888,
+    "end": 380.97499999999997,
+    "text": "Before running a simulation, build a plan",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 381.13599999999997,
+    "end": 382.318,
+    "text": "you can verify.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 383.32099999999997,
+    "end": 385.66499999999996,
+    "text": "The task is a steel bar stretched",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 385.66499999999996,
+    "end": 388.068,
+    "text": "by zero point zero one millimeters.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 388.62899999999996,
+    "end": 390.953,
+    "text": "Ask an AI planner to organize the",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 390.953,
+    "end": 394.078,
+    "text": "work, including the tools, the stress\ncalculation,",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 394.178,
+    "end": 394.87899999999996,
+    "text": "and the checks.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 395.88,
+    "end": 396.921,
+    "text": "Use five phases.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 397.70099999999996,
+    "end": 399.36199999999997,
+    "text": "Verify the tool connections.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 399.382,
+    "end": 402.983,
+    "text": "Prepare the geometry, material, and\nconstraints.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 403.443,
+    "end": 405.704,
+    "text": "Generate the mesh and run the solver.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 406.344,
+    "end": 408.78499999999997,
+    "text": "Validate the solution against theory and\nmesh",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 408.78499999999997,
+    "end": 412.327,
+    "text": "refinement. Then visualize stress and\ndisplacement.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 413.54699999999997,
+    "end": 415.94899999999996,
+    "text": "Extension alone does not determine stress.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 416.39,
+    "end": 418.592,
+    "text": "You also need the bar's length and",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 418.592,
+    "end": 421.37399999999997,
+    "text": "material properties. For a uniform bar in",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 421.37399999999997,
+    "end": 424.717,
+    "text": "small, linear elastic tension, stress\nequals Young's",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 424.717,
+    "end": 427.2,
+    "text": "modulus times extension divided by length.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 428.24,
+    "end": 430.642,
+    "text": "Pass the structured plan to your execution",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 430.642,
+    "end": 433.443,
+    "text": "assistant, such as OpenCode with DeepSeek.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 434.003,
+    "end": 436.94399999999996,
+    "text": "Keep the model assumptions, units, output\nfiles,",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 436.94399999999996,
+    "end": 440.166,
+    "text": "and validation criteria explicit, so each\nphase",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 440.166,
+    "end": 441.647,
+    "text": "can be checked and repeated.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 442.828,
+    "end": 443.671,
+    "text": "Plan the work.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 444.173,
+    "end": 445.09499999999997,
+    "text": "Check the physics.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 445.417,
+    "end": 447.403,
+    "text": "Then show what the evidence supports.",
+    "origin": "AI_Simulation_Five_Phases.srt"
+  },
+  {
+    "start": 449.8076666666666,
+    "end": 451.1706666666666,
+    "text": "OpenCode has finished.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 451.2516666666666,
+    "end": 452.8956666666666,
+    "text": "Let's inspect the evidence",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 452.8956666666666,
+    "end": 454.3786666666666,
+    "text": "behind the calculation.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 455.30066666666664,
+    "end": 457.2426666666666,
+    "text": "After submitting the prepared prompt,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 457.5836666666666,
+    "end": 460.4276666666666,
+    "text": "OpenCode organizes the\nrun into five stages:",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 460.6476666666666,
+    "end": 463.0516666666666,
+    "text": "connection, model setup, simulation,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 463.0516666666666,
+    "end": 464.5736666666666,
+    "text": "validation, and visualization.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 464.89466666666664,
+    "end": 466.4966666666666,
+    "text": "Use that structure to inspect",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 466.4966666666666,
+    "end": 468.0186666666666,
+    "text": "the evidence behind the answer.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 469.01966666666664,
+    "end": 471.5206666666666,
+    "text": "This example is a ten millimeter steel bar",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 471.5206666666666,
+    "end": 473.88266666666664,
+    "text": "with a one millimeter\nsquare cross section.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 474.32266666666663,
+    "end": 475.7636666666666,
+    "text": "The prescribed extension is",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 475.7636666666666,
+    "end": 477.72366666666665,
+    "text": "zero point zero one millimeters.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 478.14466666666664,
+    "end": 480.30566666666664,
+    "text": "The report lists the material properties,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 480.30566666666664,
+    "end": 481.7256666666666,
+    "text": "mesh, and boundary conditions.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 482.4076666666666,
+    "end": 484.5496666666666,
+    "text": "There are two complementary runs.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 484.8306666666666,
+    "end": 486.4536666666666,
+    "text": "The direct CalculiX benchmark",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 486.4536666666666,
+    "end": 487.7546666666666,
+    "text": "prescribes the extension.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 488.2156666666666,
+    "end": 490.23866666666663,
+    "text": "The MCP cross-check applies",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 490.23866666666663,
+    "end": 491.7206666666666,
+    "text": "an equivalent axial force.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 492.0816666666666,
+    "end": 493.8046666666666,
+    "text": "Keep those loading methods separate",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 493.8046666666666,
+    "end": 495.12566666666663,
+    "text": "when you compare the results.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 495.7466666666666,
+    "end": 498.42866666666663,
+    "text": "The direct test reports consistent results",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 498.42866666666663,
+    "end": 499.9896666666666,
+    "text": "across three meshes.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 500.3506666666666,
+    "end": 502.3316666666666,
+    "text": "For the force-controlled cross-check,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 502.45266666666663,
+    "end": 503.9536666666666,
+    "text": "compare midspan stress",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 504.0136666666666,
+    "end": 506.27466666666663,
+    "text": "and average end displacement with theory.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 506.81566666666663,
+    "end": 509.3376666666666,
+    "text": "The report warns that raw maxima include",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 509.3376666666666,
+    "end": 511.51966666666664,
+    "text": "constraint and load-distribution effects.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 512.4996666666666,
+    "end": 514.2216666666666,
+    "text": "The validation dashboard brings",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 514.2216666666666,
+    "end": 515.4026666666666,
+    "text": "those checks together:",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 515.7426666666667,
+    "end": 518.2856666666667,
+    "text": "axial displacement, lateral contraction,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 518.6856666666666,
+    "end": 520.9276666666666,
+    "text": "stress, and comparison with theory.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 521.0086666666666,
+    "end": 523.4106666666667,
+    "text": "Keep the plot labels and\nthe loading assumptions",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 523.4106666666667,
+    "end": 525.2926666666666,
+    "text": "visible as you review the result.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 526.1736666666666,
+    "end": 528.9566666666666,
+    "text": "Next, open the simulation folder in Linux.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 529.5576666666666,
+    "end": 533.0206666666666,
+    "text": "It contains the input\ndeck, mesh, solver logs,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 533.1406666666667,
+    "end": 534.7026666666666,
+    "text": "extracted results, and plots.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 535.1826666666666,
+    "end": 537.3656666666666,
+    "text": "These files let you trace the calculation",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 537.3656666666666,
+    "end": 538.4666666666666,
+    "text": "and inspect the setup.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 539.4466666666666,
+    "end": 541.0876666666666,
+    "text": "Open the input file to review",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 541.0876666666666,
+    "end": 543.0286666666666,
+    "text": "the material and boundary conditions,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 543.2686666666666,
+    "end": 545.7296666666666,
+    "text": "then check the solver log for warnings.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 546.1906666666666,
+    "end": 548.1316666666667,
+    "text": "This example is a small strain,",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 548.1316666666667,
+    "end": 549.4316666666666,
+    "text": "linear elastic check.",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 549.6316666666667,
+    "end": 551.1726666666666,
+    "text": "Good automation leaves evidence",
+    "origin": "OpenCode_Result_Review.srt"
+  },
+  {
+    "start": 551.1726666666666,
+    "end": 551.8726666666666,
+    "text": "you can review.",
+    "origin": "OpenCode_Result_Review.srt"
+  }
+]

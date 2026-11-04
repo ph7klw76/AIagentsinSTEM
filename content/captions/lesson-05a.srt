@@ -1,0 +1,259 @@
+1
+00:00:00,361 --> 00:00:02,884
+A cluster connection is only the
+beginning.
+
+2
+00:00:03,345 --> 00:00:05,427
+In OpenCode, the useful goal is a
+
+3
+00:00:05,427 --> 00:00:08,832
+repeatable ORCA workflow: submit a small
+calculation,
+
+4
+00:00:09,273 --> 00:00:11,616
+inspect what really happened, and save the
+
+5
+00:00:11,616 --> 00:00:13,839
+verified procedure as a reusable skill.
+
+6
+00:00:14,820 --> 00:00:17,684
+The recording starts by checking Slurm,
+the
+
+7
+00:00:17,684 --> 00:00:19,465
+available partitions, and the queue.
+
+8
+00:00:19,966 --> 00:00:22,028
+This confirms access to the scheduler.
+
+9
+00:00:22,369 --> 00:00:24,771
+The calculation still needs the right
+software
+
+10
+00:00:24,771 --> 00:00:26,473
+environment on a compute node.
+
+11
+00:00:27,054 --> 00:00:28,916
+A working connection is one piece of
+
+12
+00:00:28,956 --> 00:00:31,579
+evidence, not the final scientific result.
+
+13
+00:00:33,140 --> 00:00:36,321
+Use a small water geometry optimization as
+
+14
+00:00:36,321 --> 00:00:40,162
+the test. The recorded request specifies
+four
+
+15
+00:00:40,162 --> 00:00:42,503
+processors and eight gigabytes of memory.
+
+16
+00:00:42,943 --> 00:00:44,944
+Match the ORCA process count to the
+
+17
+00:00:44,944 --> 00:00:48,165
+Slurm allocation, and budget memory per
+process
+
+18
+00:00:48,165 --> 00:00:51,906
+with headroom. Keep the calculation
+method, basis,
+
+19
+00:00:51,926 --> 00:00:54,106
+charge, and input geometry explicit.
+
+20
+00:00:55,187 --> 00:00:57,867
+The first attempts fail during startup.
+
+21
+00:00:58,088 --> 00:01:01,629
+OpenCode traces the problem through module
+availability,
+
+22
+00:01:01,909 --> 00:01:04,710
+missing MPI libraries, and a launcher
+wrapper
+
+23
+00:01:04,710 --> 00:01:06,570
+that shadows the intended program.
+
+24
+00:01:06,970 --> 00:01:09,231
+These fixes belong to this recorded
+cluster
+
+25
+00:01:09,231 --> 00:01:12,192
+environment. Recheck current modules and
+paths before
+
+26
+00:01:12,192 --> 00:01:13,452
+reusing them elsewhere.
+
+27
+00:01:13,692 --> 00:01:16,573
+Preserve the scientific input while
+repairing execution.
+
+28
+00:01:17,793 --> 00:01:19,935
+A submitted job is not yet a
+
+29
+00:01:19,935 --> 00:01:23,357
+successful calculation. Read the ORCA
+output and
+
+30
+00:01:23,357 --> 00:01:24,217
+the error log.
+
+31
+00:01:24,597 --> 00:01:28,980
+Require normal termination and the
+expected optimization-completion
+
+32
+00:01:28,980 --> 00:01:31,621
+marker, then inspect the final energy and
+
+33
+00:01:31,621 --> 00:01:34,943
+geometry. The recording reports a
+completed water
+
+34
+00:01:34,943 --> 00:01:38,765
+optimization. That supports this test
+case; broader
+
+35
+00:01:38,765 --> 00:01:41,186
+chemistry still needs its own validation.
+
+36
+00:01:42,487 --> 00:01:45,068
+Now convert the tested workflow into a
+
+37
+00:01:45,068 --> 00:01:48,610
+skill document. The recording shows an
+orca-slurm
+
+38
+00:01:48,610 --> 00:01:51,452
+folder containing SKILL dot M D, a
+
+39
+00:01:51,452 --> 00:01:54,694
+batch-script template, a water input, and
+reference
+
+40
+00:01:54,694 --> 00:01:58,156
+notes. Store the preflight checks,
+resource settings,
+
+41
+00:01:58,336 --> 00:02:01,317
+verification rules, and known failures
+together.
+
+42
+00:02:01,818 --> 00:02:04,219
+The next task can reuse an inspectable
+
+43
+00:02:04,219 --> 00:02:04,819
+procedure.
+
+44
+00:02:05,920 --> 00:02:08,643
+For the next job, ask OpenCode to
+
+45
+00:02:08,663 --> 00:02:11,246
+use the orca-slurm skill and describe the
+
+46
+00:02:11,246 --> 00:02:12,327
+calculation you want.
+
+47
+00:02:12,527 --> 00:02:14,609
+Check that the skill is actually available
+
+48
+00:02:14,649 --> 00:02:17,612
+and loaded. Its instructions guide the
+agent,
+
+49
+00:02:17,773 --> 00:02:19,855
+while the connected tools perform the
+work.
+
+50
+00:02:19,995 --> 00:02:22,478
+Keep permissions, resource limits, and the
+final
+
+51
+00:02:22,478 --> 00:02:23,939
+verification gate in place.
+
+52
+00:02:25,140 --> 00:02:27,283
+When a new failure reveals a useful
+
+53
+00:02:27,283 --> 00:02:29,725
+fix, update the skill with the cause,
+
+54
+00:02:29,805 --> 00:02:31,427
+the correction, and the evidence.
+
+55
+00:02:31,867 --> 00:02:34,730
+The improvement comes from maintaining
+those instructions.
+
+56
+00:02:35,091 --> 00:02:37,173
+Keep the original inputs and reports.
+
+57
+00:02:37,393 --> 00:02:39,916
+Test a small case, verify the outcome,
+
+58
+00:02:40,136 --> 00:02:41,958
+then preserve what worked for the next
+
+59
+00:02:41,958 --> 00:02:42,359
+run.

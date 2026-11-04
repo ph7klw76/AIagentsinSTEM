@@ -1,0 +1,6 @@
+{
+  "files": [".gitignore",".gitattributes","README.md","LICENSE","THIRD_PARTY_NOTICES.md","package.json","package-lock.json","course.config.json","requirements-course.txt","requirements-course.lock.txt","publication-allowlist.json","playwright.config.mjs","jupyter-lite.json"],
+  "directories": [".github/workflows/","web/","scripts/","tests/","content/","vendor/","evidence/","docs/"],
+  "forbiddenExtensions": [".mp4",".wav",".mkv",".m4a",".npy",".pt",".safetensors",".key",".pem"],
+  "maxFileBytes": 15000000
+}

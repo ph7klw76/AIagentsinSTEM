@@ -1,0 +1,1274 @@
+[
+  {
+    "start": 0.45966666666666983,
+    "end": 3.5816666666666697,
+    "text": "Building an AI-assisted scientific\nworkflow",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 3.5816666666666697,
+    "end": 5.64266666666667,
+    "text": "starts with a practical choice:",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 5.86266666666667,
+    "end": 7.22366666666667,
+    "text": "where will the tools run?",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 7.32366666666667,
+    "end": 8.164666666666669,
+    "text": "For this course,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 8.68466666666667,
+    "end": 10.76566666666667,
+    "text": "our foundation is Ubuntu Linux.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 11.54666666666667,
+    "end": 12.90866666666667,
+    "text": "For scientific computing,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 13.04966666666667,
+    "end": 14.33166666666667,
+    "text": "Ubuntu gives us access",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 14.33166666666667,
+    "end": 16.41466666666667,
+    "text": "to an open-source software ecosystem.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 16.515666666666668,
+    "end": 18.41866666666667,
+    "text": "We can combine numerical solvers,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 18.57866666666667,
+    "end": 20.74266666666667,
+    "text": "physics libraries, automation scripts,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 20.76266666666667,
+    "end": 22.765666666666668,
+    "text": "and AI agents in one workflow.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 23.44666666666667,
+    "end": 25.18866666666667,
+    "text": "The same Linux-based approach",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 25.20866666666667,
+    "end": 26.52966666666667,
+    "text": "also connects naturally",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 26.73066666666667,
+    "end": 28.07166666666667,
+    "text": "to laboratory servers",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 28.111666666666668,
+    "end": 30.25366666666667,
+    "text": "and high-performance computing clusters.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 30.47466666666667,
+    "end": 32.57666666666667,
+    "text": "The software and resource requirements",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 32.89666666666667,
+    "end": 35.01966666666667,
+    "text": "still depend on the calculation.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 35.81966666666667,
+    "end": 36.90066666666667,
+    "text": "But you do not need",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 36.90066666666667,
+    "end": 39.40166666666667,
+    "text": "a dedicated Linux computer to begin.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 39.48166666666667,
+    "end": 41.66266666666667,
+    "text": "On a compatible Windows 11 computer,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 41.88266666666667,
+    "end": 45.84466666666667,
+    "text": "Ubuntu on WSL 2 provides a Linux\nenvironment",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 45.84466666666667,
+    "end": 47.98566666666667,
+    "text": "alongside your existing Windows setup.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 48.64666666666667,
+    "end": 50.40766666666667,
+    "text": "That is the setup we will use",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 50.40766666666667,
+    "end": 51.42766666666667,
+    "text": "in these tutorials:",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 51.80866666666667,
+    "end": 55.06966666666667,
+    "text": "Windows 11, WSL 2, and Ubuntu.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 55.470666666666666,
+    "end": 56.45066666666667,
+    "text": "It lets us work",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 56.45066666666667,
+    "end": 58.37166666666667,
+    "text": "with Linux-based scientific tools",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 58.63166666666667,
+    "end": 61.29266666666667,
+    "text": "while keeping our familiar Windows\napplications.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 61.97266666666667,
+    "end": 63.57366666666667,
+    "text": "The key message is simple.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 64.03366666666668,
+    "end": 66.23566666666667,
+    "text": "Start with the computer you already have.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 66.71566666666666,
+    "end": 68.67666666666666,
+    "text": "Build a consistent environment,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 68.89666666666668,
+    "end": 69.93766666666667,
+    "text": "connect the tools,",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 70.23766666666667,
+    "end": 72.27866666666667,
+    "text": "and focus on the scientific workflow.",
+    "origin": "Ubuntu_WSL2_1080p30.srt"
+  },
+  {
+    "start": 73.99866666666667,
+    "end": 77.97866666666667,
+    "text": "Let's make OpenCode part of your scientific workflow.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 79.15866666666666,
+    "end": 81.91866666666667,
+    "text": "OpenCode is an AI coding assistant.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 82.35866666666666,
+    "end": 86.19866666666667,
+    "text": "Start at opencode.ai.download where you find",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 86.19866666666667,
+    "end": 87.89866666666667,
+    "text": "terminal and desktop options.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 88.97866666666667,
+    "end": 91.45866666666666,
+    "text": "For this tutorial, choose the terminal version.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 91.85866666666666,
+    "end": 95.15866666666666,
+    "text": "It fits naturally into an Ubuntu Linux environment",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 95.15866666666666,
+    "end": 97.15866666666666,
+    "text": "alongside your scientific tools.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 97.15866666666666,
+    "end": 101.13866666666667,
+    "text": "You have two installation routes, use the installer",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 101.13866666666667,
+    "end": 103.57866666666666,
+    "text": "command shown here, or install through",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 103.57866666666666,
+    "end": 105.79866666666666,
+    "text": "a package manager such as npm.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 106.89866666666666,
+    "end": 108.73866666666666,
+    "text": "Prefer a graphical interface?",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 109.21866666666666,
+    "end": 112.51866666666666,
+    "text": "The desktop app is available for Windows, Mac",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 112.51866666666666,
+    "end": 113.65866666666668,
+    "text": "OS, and Linux.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 114.77866666666667,
+    "end": 117.95866666666666,
+    "text": "Once installed, OpenCode can help you generate",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 117.95866666666666,
+    "end": 121.27866666666667,
+    "text": "Python scripts, prepare simulation files, and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 121.27866666666667,
+    "end": 122.97866666666667,
+    "text": "coordinate numerical solvers.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 123.97866666666667,
+    "end": 126.17866666666666,
+    "text": "Choose the interface that suits your work.",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 126.17866666666666,
+    "end": 133.75866666666667,
+    "text": "here we'll use the terminal okay first start",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 133.75866666666667,
+    "end": 140.43866666666668,
+    "text": "Ubuntu then you type OpenCode",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 142.03866666666664,
+    "end": 147.01866666666666,
+    "text": "so you start here then you have you",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 147.01866666666666,
+    "end": 153.95866666666666,
+    "text": "can always connect choose your server by",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 153.95866666666666,
+    "end": 159.27866666666665,
+    "text": "click okay this is three you will add",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 159.27866666666665,
+    "end": 163.15866666666665,
+    "text": "account to put an account then you need",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 163.15866666666665,
+    "end": 164.47866666666667,
+    "text": "to put an API key",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 165.37866666666667,
+    "end": 167.87866666666667,
+    "text": "to get an API key you need to",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 167.87866666666667,
+    "end": 174.37866666666667,
+    "text": "go to DeepSeek click API platform and",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 174.37866666666667,
+    "end": 175.21866666666665,
+    "text": "then you",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 176.85866666666666,
+    "end": 181.23866666666666,
+    "text": "click API key create new API key",
+    "origin": "offline-whisper-small-en; review required"
+  },
+  {
+    "start": 184.054,
+    "end": 186.657,
+    "text": "Let us build a practical simulation toolkit",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 186.657,
+    "end": 187.417,
+    "text": "on Ubuntu.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 187.83800000000002,
+    "end": 190.02100000000002,
+    "text": "We will install the system utilities,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 190.281,
+    "end": 193.264,
+    "text": "CalculiX and Gmsh, OpenCode two,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 193.60500000000002,
+    "end": 195.467,
+    "text": "and a separate Python environment.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 195.768,
+    "end": 197.18900000000002,
+    "text": "Follow the four stages,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 197.41,
+    "end": 199.572,
+    "text": "then check that the tools are available.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 200.65300000000002,
+    "end": 203.536,
+    "text": "This walkthrough uses Ubuntu twenty four point",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 203.536,
+    "end": 205.87800000000001,
+    "text": "zero four, with a Bash terminal,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 205.919,
+    "end": 208.781,
+    "text": "an internet connection, and sudo access.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 209.502,
+    "end": 211.144,
+    "text": "Open Terminal with Control,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 211.324,
+    "end": 211.924,
+    "text": "Alt, T.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 212.22500000000002,
+    "end": 214.247,
+    "text": "Create a working folder and enter it.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 214.687,
+    "end": 216.949,
+    "text": "The terminal shown here is an animation;",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 217.37,
+    "end": 219.692,
+    "text": "download times and output will vary.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 220.83300000000003,
+    "end": 224.03500000000003,
+    "text": "First, refresh the package list with sudo",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 224.03500000000003,
+    "end": 224.816,
+    "text": "apt update.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 225.376,
+    "end": 227.29700000000003,
+    "text": "If Ubuntu asks for your password,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 227.298,
+    "end": 229.119,
+    "text": "type it and press Enter.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 229.479,
+    "end": 232.041,
+    "text": "The terminal does not show password characters.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 232.221,
+    "end": 234.222,
+    "text": "Wait for the command to finish before",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 234.222,
+    "end": 234.923,
+    "text": "continuing.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 235.28300000000002,
+    "end": 237.704,
+    "text": "This updates the package index; it does",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 237.704,
+    "end": 239.866,
+    "text": "not upgrade every installed program.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 241.006,
+    "end": 242.888,
+    "text": "Now install Git, curl,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 243.048,
+    "end": 245.711,
+    "text": "jq, and the Python environment tools.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 246.031,
+    "end": 248.91400000000002,
+    "text": "We also include the repository helper and",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 248.954,
+    "end": 252.637,
+    "text": "HTTPS certificates, which are useful on minimal",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 252.637,
+    "end": 254.01800000000003,
+    "text": "Ubuntu installations.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 254.37900000000002,
+    "end": 256.901,
+    "text": "The backslashes continue the same command onto",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 256.901,
+    "end": 257.742,
+    "text": "the next line.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 257.962,
+    "end": 260.384,
+    "text": "The dash y option automatically accepts the",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 260.384,
+    "end": 261.505,
+    "text": "package confirmation.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 262.727,
+    "end": 265.509,
+    "text": "Next, enable the Universe repository,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 265.649,
+    "end": 268.092,
+    "text": "where Ubuntu provides these science packages.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 268.65200000000004,
+    "end": 272.276,
+    "text": "Run sudo add apt repository universe,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 272.376,
+    "end": 274.899,
+    "text": "confirm if prompted, and refresh the package",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 274.899,
+    "end": 275.679,
+    "text": "list again.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 276.12,
+    "end": 277.762,
+    "text": "If Universe is already enabled,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 277.762,
+    "end": 278.722,
+    "text": "you can continue.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 278.903,
+    "end": 281.405,
+    "text": "Package versions depend on your Ubuntu release.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 282.606,
+    "end": 285.469,
+    "text": "Install CalculiX C C X,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 285.629,
+    "end": 287.55100000000004,
+    "text": "CalculiX C G X,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 287.81100000000004,
+    "end": 288.79200000000003,
+    "text": "and Gmsh.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 289.052,
+    "end": 291.394,
+    "text": "Gmsh creates geometry and meshes.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 291.555,
+    "end": 293.877,
+    "text": "C C X solves the finite element",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 293.877,
+    "end": 296.159,
+    "text": "model, while C G X supports pre",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 296.159,
+    "end": 297.32,
+    "text": "and post processing.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 297.76,
+    "end": 300.083,
+    "text": "Installing these programs does not yet connect",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 300.083,
+    "end": 302.265,
+    "text": "them to an AI agent or validate",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 302.265,
+    "end": 303.125,
+    "text": "a simulation.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 304.126,
+    "end": 307.43,
+    "text": "For OpenCode two, use the official installer",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 307.43,
+    "end": 308.151,
+    "text": "shown here.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 308.371,
+    "end": 309.973,
+    "text": "Curl downloads the script,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 310.173,
+    "end": 311.935,
+    "text": "and the pipe sends it to Bash",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 311.935,
+    "end": 312.496,
+    "text": "to run.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 312.776,
+    "end": 314.759,
+    "text": "Review the installer from the official website",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 314.759,
+    "end": 315.88,
+    "text": "before executing it.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 315.98,
+    "end": 317.762,
+    "text": "Run this as your normal user.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 318.002,
+    "end": 319.584,
+    "text": "This is the version two address from",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 319.584,
+    "end": 320.46500000000003,
+    "text": "your command sheet.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 321.606,
+    "end": 323.40700000000004,
+    "text": "Reload your Bash configuration,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 323.668,
+    "end": 325.188,
+    "text": "or open a new terminal,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 325.629,
+    "end": 327.69,
+    "text": "then check the OpenCode version.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 328.07000000000005,
+    "end": 329.451,
+    "text": "If the command is not found,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 329.531,
+    "end": 331.63300000000004,
+    "text": "follow the path instructions printed by the",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 331.63300000000004,
+    "end": 332.33299999999997,
+    "text": "installer.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 333.274,
+    "end": 335.57500000000005,
+    "text": "Installing the application does not configure a",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 335.57500000000005,
+    "end": 336.536,
+    "text": "model provider.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 336.576,
+    "end": 339.99800000000005,
+    "text": "Provider sign in and any associated usage",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 339.99800000000005,
+    "end": 341.159,
+    "text": "charges are separate.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 342.3,
+    "end": 343.781,
+    "text": "Back in your working folder,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 343.781,
+    "end": 345.98199999999997,
+    "text": "create a virtual environment named F E",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 346.02200000000005,
+    "end": 347.48199999999997,
+    "text": "M, then activate it.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 347.742,
+    "end": 350.24300000000005,
+    "text": "This keeps project packages separate from Ubuntu",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 350.24300000000005,
+    "end": 351.22400000000005,
+    "text": "system Python.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 351.424,
+    "end": 353.545,
+    "text": "The prompt usually gains the environment name",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 353.545,
+    "end": 354.365,
+    "text": "in brackets.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 354.645,
+    "end": 356.66600000000005,
+    "text": "Activate this environment whenever you work on",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 356.66600000000005,
+    "end": 358.30600000000004,
+    "text": "the project in a new terminal.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 359.346,
+    "end": 360.727,
+    "text": "With the environment active,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 361.307,
+    "end": 363.328,
+    "text": "install the five Python libraries.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 363.96900000000005,
+    "end": 366.95000000000005,
+    "text": "Using python dash m pip ensures that",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 366.95000000000005,
+    "end": 369.17100000000005,
+    "text": "pip belongs to the active interpreter.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 370.132,
+    "end": 372.953,
+    "text": "NumPy and pandas handle numerical data,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 373.293,
+    "end": 375.374,
+    "text": "and Matplotlib makes plots.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 375.795,
+    "end": 378.456,
+    "text": "The OpenAI and M C P libraries",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 378.536,
+    "end": 381.75800000000004,
+    "text": "support integrations; installing them alone does\nnot",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 381.75800000000004,
+    "end": 383.73900000000003,
+    "text": "configure an API connection.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 385.04,
+    "end": 387.02200000000005,
+    "text": "Now check the executable paths,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 387.50300000000004,
+    "end": 389.765,
+    "text": "import all five Python packages,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 390.045,
+    "end": 391.266,
+    "text": "and run pip check.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 391.747,
+    "end": 393.949,
+    "text": "Each command should finish without an error.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 394.189,
+    "end": 396.031,
+    "text": "These are basic installation checks,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 396.29100000000005,
+    "end": 398.093,
+    "text": "not proof that a solver model is",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 398.093,
+    "end": 398.593,
+    "text": "correct.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 398.97400000000005,
+    "end": 401.736,
+    "text": "Gmsh and C G X graphical windows",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 401.736,
+    "end": 404.039,
+    "text": "also need a working desktop or display",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 404.039,
+    "end": 404.71900000000005,
+    "text": "connection.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 405.78,
+    "end": 406.80100000000004,
+    "text": "For your next session,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 407.021,
+    "end": 409.183,
+    "text": "return to the working folder and activate",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 409.223,
+    "end": 410.10400000000004,
+    "text": "F E M again.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 410.22400000000005,
+    "end": 411.94500000000005,
+    "text": "When finished, use deactivate.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 412.18600000000004,
+    "end": 415.048,
+    "text": "If pip reports an externally managed environment,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 415.148,
+    "end": 417.25,
+    "text": "check that you activated the virtual environment",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 417.25,
+    "end": 417.73,
+    "text": "first.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 417.83000000000004,
+    "end": 419.752,
+    "text": "Keep project installs inside it,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 419.872,
+    "end": 421.093,
+    "text": "without sudo pip.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 422.21299999999997,
+    "end": 424.275,
+    "text": "You now have the installation steps for",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 424.275,
+    "end": 425.937,
+    "text": "the toolkit in your command sheet.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 426.297,
+    "end": 428.6,
+    "text": "Keep the commands and checks for repeatable",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 428.6,
+    "end": 429.12,
+    "text": "setup.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 429.5,
+    "end": 432.50300000000004,
+    "text": "Next, build one small mesh and solver",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 432.50300000000004,
+    "end": 434.28499999999997,
+    "text": "example, verify the result,",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 434.345,
+    "end": 436.48699999999997,
+    "text": "and only then expand the automation.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 436.968,
+    "end": 439.11,
+    "text": "The command sheet and captions are included",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 439.11,
+    "end": 440.331,
+    "text": "with this tutorial.",
+    "origin": "Ubuntu_FEM_Install.srt"
+  },
+  {
+    "start": 441.9536666666666,
+    "end": 443.49566666666664,
+    "text": "Let us turn the theory",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 443.61566666666664,
+    "end": 446.50066666666663,
+    "text": "into a practical finite element workflow.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 446.90166666666664,
+    "end": 450.8676666666666,
+    "text": "We will use Gmsh, CalculiX, and Python.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 451.3886666666666,
+    "end": 453.1716666666666,
+    "text": "Each tool has a clear job.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 454.2126666666666,
+    "end": 455.9346666666666,
+    "text": "Gmsh builds the geometry",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 455.9346666666666,
+    "end": 457.11566666666664,
+    "text": "and generates the mesh.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 457.4966666666666,
+    "end": 460.6986666666666,
+    "text": "CalculiX then solves the finite element model,",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 460.9196666666666,
+    "end": 462.8406666666666,
+    "text": "for structural or thermal problems.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 463.40166666666664,
+    "end": 464.86366666666663,
+    "text": "Keeping those jobs separate",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 464.86366666666663,
+    "end": 467.2256666666666,
+    "text": "makes the workflow easier to inspect and\nrepeat.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 468.1066666666666,
+    "end": 469.6886666666666,
+    "text": "Here is the Ubuntu setup.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 469.8696666666666,
+    "end": 471.6526666666666,
+    "text": "Install the mesher and solver,",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 471.9536666666666,
+    "end": 474.79866666666663,
+    "text": "add OpenCode, and create a Python environment.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 474.95966666666664,
+    "end": 476.9426666666666,
+    "text": "These commands give us the tools",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 476.9426666666666,
+    "end": 477.9046666666666,
+    "text": "for the workflow.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 478.62566666666663,
+    "end": 480.6676666666666,
+    "text": "Think of the calculation in three steps.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 481.0476666666666,
+    "end": 483.4096666666666,
+    "text": "First, generate the mesh with Gmsh.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 483.8506666666666,
+    "end": 486.57266666666663,
+    "text": "Next, solve the physics with CalculiX.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 487.1126666666666,
+    "end": 489.21466666666663,
+    "text": "Then, use Python to validate",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 489.21466666666663,
+    "end": 490.5756666666666,
+    "text": "and visualize the results.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 490.6356666666666,
+    "end": 491.6966666666666,
+    "text": "Remember the sequence:",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 491.99766666666665,
+    "end": 493.5586666666666,
+    "text": "mesh, solve, and validate.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 494.51966666666664,
+    "end": 497.5836666666666,
+    "text": "An AI agent can prepare simulation files,",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 497.8436666666666,
+    "end": 501.2676666666666,
+    "text": "run commands, and help analyze solver output.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 501.66866666666664,
+    "end": 503.0296666666666,
+    "text": "But we still have to check",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 503.0296666666666,
+    "end": 506.05366666666663,
+    "text": "the boundary conditions, mesh convergence,",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 506.3136666666666,
+    "end": 507.57466666666664,
+    "text": "and physical accuracy.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 507.9956666666666,
+    "end": 510.5586666666666,
+    "text": "Automation does not replace verification.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 511.80066666666664,
+    "end": 513.4626666666666,
+    "text": "Start with one reliable,",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 513.4826666666667,
+    "end": 515.6456666666666,
+    "text": "reproducible simulation workflow.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 515.9466666666666,
+    "end": 516.9076666666666,
+    "text": "Check it carefully.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 517.3286666666665,
+    "end": 520.2326666666667,
+    "text": "Then introduce more advanced AI automation.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 520.8736666666666,
+    "end": 522.5966666666666,
+    "text": "Build trust in the calculation",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  },
+  {
+    "start": 522.5966666666666,
+    "end": 524.1786666666666,
+    "text": "before expanding the automation.",
+    "origin": "Gmsh_CalculiX_Professional.srt"
+  }
+]

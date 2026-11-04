@@ -13,3 +13,5 @@ __pycache__/
 *.safetensors
 .env*
 !.env.example
+.jupyterlite.doit.db*
+AIagentsinSTEM-jupyterlite.tgz

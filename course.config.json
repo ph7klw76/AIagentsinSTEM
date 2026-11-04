@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "title": "AI agents in STEM",
+  "subtitle": "From a convincing answer to checkable scientific evidence",
+  "language": "en",
+  "producer": "individual",
+  "author": "Dr Woon Kai Lin",
+  "repository": "https://github.com/ph7klw76/AIagentsinSTEM",
+  "basePath": "/AIagentsinSTEM/",
+  "activeEdition": "original-supplied-ten-video-course",
+  "polishedReplacement": {
+    "status": "not-activated",
+    "youtubeUrl": null
+  },
+  "lessons": [
+    {
+      "id": "01",
+      "order": "1",
+      "title": "AI, solvers and scientific responsibility",
+      "youtubeId": "vpvanBLwJX8",
+      "originalYoutubeId": "vpvanBLwJX8",
+      "frames": 9408,
+      "topic": "foundations",
+      "outcome": "Separate fluent explanations, deterministic computation and physical validation.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Start"
+        },
+        {
+          "time": 153.73333333333332,
+          "label": "Why solvers matter"
+        },
+        {
+          "time": 275,
+          "label": "Scientific responsibility"
+        }
+      ],
+      "question": {
+        "id": "Q01",
+        "time": 270.8333333333333,
+        "review": 153.73333333333332,
+        "prompt": "A deterministic solver returns the same result twice. What can you conclude?",
+        "answers": [
+          {
+            "text": "Its calculation is repeatable under the same conditions; physical correctness still needs checks.",
+            "correct": true,
+            "feedback": "Yes. Repeatability is valuable, but boundary conditions, units, numerical accuracy and model validity still need independent checks."
+          },
+          {
+            "text": "The result must represent the real system accurately.",
+            "correct": false,
+            "feedback": "Repeating a wrong boundary condition repeats the same wrong result. Repeatability does not establish physical accuracy."
+          },
+          {
+            "text": "An AI agent can now approve the result without reviewing inputs.",
+            "correct": false,
+            "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+          }
+        ],
+        "frame": 8125
+      }
+    },
+    {
+      "id": "02",
+      "order": "2",
+      "title": "Build a reproducible computing environment",
+      "youtubeId": "ajpn28cfWvQ",
+      "originalYoutubeId": "ajpn28cfWvQ",
+      "frames": 15807,
+      "topic": "environment",
+      "outcome": "Distinguish installation, successful execution and numerical validation.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Start"
+        },
+        {
+          "time": 183.63333333333333,
+          "label": "Install the scientific tools"
+        },
+        {
+          "time": 441.53333333333336,
+          "label": "Gmsh and CalculiX"
+        }
+      ],
+      "question": {
+        "id": "Q02",
+        "time": 493.6,
+        "review": 441.53333333333336,
+        "prompt": "Gmsh and CalculiX are installed and a test job completes. What should you do next?",
+        "answers": [
+          {
+            "text": "Check a small reference problem, its units and boundary conditions, and retain versions and outputs.",
+            "correct": true,
+            "feedback": "Correct. A reproducible reference case checks the numerical workflow beyond successful installation."
+          },
+          {
+            "text": "Treat successful installation as proof that every future simulation is valid.",
+            "correct": false,
+            "feedback": "Installation only establishes software availability. Each model still has assumptions and discretization errors."
+          },
+          {
+            "text": "Delete the input files because the completion message is sufficient evidence.",
+            "correct": false,
+            "feedback": "A completion message cannot reconstruct the problem. Keep the inputs, versions and numerical outputs needed for review."
+          }
+        ],
+        "frame": 14808
+      }
+    },
+    {
+      "id": "03",
+      "order": "3",
+      "title": "Tools, skills and checked agent workflows",
+      "youtubeId": "05wxHQrqpoo",
+      "originalYoutubeId": "05wxHQrqpoo",
+      "frames": 16660,
+      "topic": "agents",
+      "outcome": "Explain how tool access, reusable instructions and solver evidence play different roles.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Generations of engineering AI"
+        },
+        {
+          "time": 71.4,
+          "label": "MCP and tools"
+        },
+        {
+          "time": 210.833,
+          "label": "Skills and handoffs"
+        },
+        {
+          "time": 377.467,
+          "label": "The checked workflow"
+        }
+      ],
+      "question": {
+        "id": "Q03",
+        "time": 427.3,
+        "review": 377.467,
+        "prompt": "An agent has MCP tool access and a SKILL.md file. Which evidence supports accepting its numerical result?",
+        "answers": [
+          {
+            "text": "Inspectable inputs and solver outputs checked against the stated requirements and a reference case.",
+            "correct": true,
+            "feedback": "Yes. Tool access enables actions and a skill guides the method; evidence and verification support the result."
+          },
+          {
+            "text": "The existence of the skill file proves the physics is correct.",
+            "correct": false,
+            "feedback": "Instructions can be incomplete or applied incorrectly. A skill file is a method, not a numerical validation result."
+          },
+          {
+            "text": "A fluent explanation is enough even if the solver was never run.",
+            "correct": false,
+            "feedback": "A persuasive explanation is not an observed computation. Check that the claimed action actually ran and inspect its outputs."
+          }
+        ],
+        "frame": 12819
+      }
+    },
+    {
+      "id": "04",
+      "order": "4",
+      "title": "Working code can still contain wrong physics",
+      "youtubeId": "XoXujuXajZM",
+      "originalYoutubeId": "XoXujuXajZM",
+      "frames": 7486,
+      "topic": "verification",
+      "outcome": "Audit material properties, units and model scope independently of syntax.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Check model inputs"
+        },
+        {
+          "time": 78.8,
+          "label": "Teach the scientific method"
+        },
+        {
+          "time": 143.567,
+          "label": "Inspect the result"
+        }
+      ],
+      "question": {
+        "id": "Q04",
+        "time": 136.03333333333333,
+        "review": 78.8,
+        "prompt": "A script runs without errors but its elastic modulus uses the wrong units. What is the appropriate response?",
+        "answers": [
+          {
+            "text": "Correct the units and rerun the model, then compare with an independent physical or analytical check.",
+            "correct": true,
+            "feedback": "Correct. Syntax success does not repair incorrect physical quantities; the corrected model needs a fresh check."
+          },
+          {
+            "text": "Keep the result because the program exited successfully.",
+            "correct": false,
+            "feedback": "An exit code tests execution, not the physical meaning of the numbers."
+          },
+          {
+            "text": "Relabel the plotted units without changing the calculation.",
+            "correct": false,
+            "feedback": "Changing a label does not correct the material parameter used by the solver. Repair the input and regenerate the result."
+          }
+        ],
+        "frame": 4081
+      }
+    },
+    {
+      "id": "05",
+      "order": "5",
+      "title": "ORCA: access, method and supporting evidence",
+      "youtubeId": "M6E1RQA_uJc",
+      "originalYoutubeId": "M6E1RQA_uJc",
+      "frames": 16554,
+      "topic": "chemistry",
+      "outcome": "Design a reusable computational chemistry workflow with explicit assumptions and checks.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "ORCA workflow"
+        },
+        {
+          "time": 134.7,
+          "label": "Reusable repository"
+        },
+        {
+          "time": 285.7,
+          "label": "Skill anatomy"
+        },
+        {
+          "time": 418.467,
+          "label": "Support files"
+        }
+      ],
+      "question": {
+        "id": "Q05",
+        "time": 495.26666666666665,
+        "review": 418.467,
+        "prompt": "Which addition makes a reusable ORCA skill scientifically useful?",
+        "answers": [
+          {
+            "text": "Explicit charge, multiplicity, method and basis choices, convergence checks, and preserved inputs and outputs.",
+            "correct": true,
+            "feedback": "Yes. The electronic state and numerical settings define the calculation; inspect convergence and retain evidence."
+          },
+          {
+            "text": "A tool connection alone, with default settings left unexamined.",
+            "correct": false,
+            "feedback": "Access does not specify the electronic state or establish a suitable method. Defaults need justification for the system."
+          },
+          {
+            "text": "Only a final energy number, with all intermediate evidence removed.",
+            "correct": false,
+            "feedback": "An isolated energy number omits the geometry, state, method and convergence evidence needed to interpret or reproduce it."
+          }
+        ],
+        "frame": 14858
+      }
+    },
+    {
+      "id": "05a",
+      "order": "5.1",
+      "title": "ORCA demonstration: verify before saving the skill",
+      "youtubeId": "w8YkeB9KeHc",
+      "originalYoutubeId": "w8YkeB9KeHc",
+      "frames": 4962,
+      "topic": "chemistry-demo",
+      "outcome": "Distinguish scheduling status from a completed and checked ORCA result.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Test a small case"
+        },
+        {
+          "time": 65,
+          "label": "Inspect the output"
+        },
+        {
+          "time": 125,
+          "label": "Preserve the procedure"
+        }
+      ],
+      "question": {
+        "id": "Q05A",
+        "time": 112.83333333333333,
+        "review": 65,
+        "prompt": "SLURM returns a job ID for an ORCA calculation. What does that establish?",
+        "answers": [
+          {
+            "text": "The scheduler accepted the submission; completion and scientific checks still need evidence.",
+            "correct": true,
+            "feedback": "Correct. Inspect job completion, ORCA normal termination, convergence and the relevant numerical results."
+          },
+          {
+            "text": "The geometry is a verified minimum.",
+            "correct": false,
+            "feedback": "A submission ID says nothing about optimization convergence or vibrational stability. A minimum requires suitable further checks."
+          },
+          {
+            "text": "The energy is accurate for the intended scientific question.",
+            "correct": false,
+            "feedback": "Scheduling status cannot validate the chosen electronic structure method or its accuracy."
+          }
+        ],
+        "frame": 3385
+      }
+    },
+    {
+      "id": "06",
+      "order": "6",
+      "title": "Circuit design with measurable acceptance criteria",
+      "youtubeId": "37sAYWVOSOU",
+      "originalYoutubeId": "37sAYWVOSOU",
+      "frames": 8256,
+      "topic": "circuits",
+      "outcome": "Separate AI coordination, ngspice circuit analysis and KiCad board checks.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "From proposal to evidence"
+        },
+        {
+          "time": 57.43333333333333,
+          "label": "Acceptance criteria"
+        },
+        {
+          "time": 121.7,
+          "label": "Coordinate and calculate"
+        },
+        {
+          "time": 199.8,
+          "label": "Simulation to PCB"
+        }
+      ],
+      "question": {
+        "id": "Q06",
+        "time": 178.63333333333333,
+        "review": 57.43333333333333,
+        "prompt": "An amplifier meets the requested low-frequency gain. Is that enough to accept it?",
+        "answers": [
+          {
+            "text": "No. Check the bandwidth and the other specified operating constraints as well.",
+            "correct": true,
+            "feedback": "Correct. Acceptance requires all relevant requirements, including bandwidth, operating point and the validity of the model."
+          },
+          {
+            "text": "Yes. A matching gain guarantees the required bandwidth.",
+            "correct": false,
+            "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+          },
+          {
+            "text": "Yes, if the schematic looks professionally drawn.",
+            "correct": false,
+            "feedback": "Diagram quality is not performance evidence. Use the netlist, model and measured or simulated response."
+          }
+        ],
+        "frame": 5359
+      }
+    },
+    {
+      "id": "06a",
+      "order": "6.1",
+      "title": "Circuit demonstration: a failed requirement is evidence",
+      "youtubeId": "uNGvR8jHTDc",
+      "originalYoutubeId": "uNGvR8jHTDc",
+      "frames": 4498,
+      "topic": "circuit-demo",
+      "outcome": "Interpret an AC response and retain the failure rather than changing the requirement.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "No evidence, no pass"
+        },
+        {
+          "time": 57,
+          "label": "Gain and bandwidth"
+        },
+        {
+          "time": 120,
+          "label": "Model scope"
+        }
+      ],
+      "question": {
+        "id": "Q06A",
+        "time": 93.26666666666667,
+        "review": 57,
+        "prompt": "A small-signal model has about 10× gain but a cutoff near 100 kHz against a 150 kHz minimum. What is the result?",
+        "answers": [
+          {
+            "text": "The design fails the bandwidth requirement, even though its low-frequency gain is acceptable.",
+            "correct": true,
+            "feedback": "Correct. About 100 kHz is below the 150 kHz minimum. Preserve the failure and revise the design or model with justification."
+          },
+          {
+            "text": "It passes because the low-frequency gain is about 10×.",
+            "correct": false,
+            "feedback": "Meeting gain does not compensate for failing the stated minimum bandwidth."
+          },
+          {
+            "text": "It passes if the horizontal axis is relabelled in MHz.",
+            "correct": false,
+            "feedback": "A unit conversion does not change the physical cutoff or the acceptance threshold."
+          }
+        ],
+        "frame": 2798
+      }
+    },
+    {
+      "id": "07",
+      "order": "7",
+      "title": "Match the model to the physics",
+      "youtubeId": "OCIPs5DRukI",
+      "originalYoutubeId": "OCIPs5DRukI",
+      "frames": 10505,
+      "topic": "multiphysics",
+      "outcome": "Separate a lost monitoring connection from simulation failure and request evidence about the current job state.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Choose the physical model"
+        },
+        {
+          "time": 110.7,
+          "label": "Interfaces and HPC"
+        },
+        {
+          "time": 201.7,
+          "label": "GROMACS workflow"
+        },
+        {
+          "time": 277.53333333333336,
+          "label": "Monitor with uncertainty"
+        }
+      ],
+      "question": {
+        "id": "Q07",
+        "time": 318.1666666666667,
+        "review": 277.53333333333336,
+        "prompt": "The monitoring connection to an HPC simulation drops. What can you conclude?",
+        "answers": [
+          {
+            "text": "The current state is unknown; retain the last verified progress and inspect scheduler and simulation outputs.",
+            "correct": true,
+            "feedback": "Correct. A lost monitoring connection limits what is known about the current job; it does not establish a physical or numerical failure."
+          },
+          {
+            "text": "The molecular system is definitely unstable.",
+            "correct": false,
+            "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+          },
+          {
+            "text": "The simulation has definitely completed successfully.",
+            "correct": false,
+            "feedback": "A lost connection cannot confirm completion. Obtain a current scheduler status and inspect the expected output files."
+          }
+        ],
+        "frame": 9545
+      }
+    },
+    {
+      "id": "08",
+      "order": "8",
+      "title": "Bilayer case study: define the observable",
+      "youtubeId": "k-cVIztvjDE",
+      "originalYoutubeId": "k-cVIztvjDE",
+      "frames": 11099,
+      "topic": "bilayer",
+      "outcome": "Distinguish local water contacts, deep-water occupancy and uncertainty in a defined analysis region.",
+      "chapters": [
+        {
+          "time": 0,
+          "label": "Can we trust the simulation?"
+        },
+        {
+          "time": 150,
+          "label": "Define water occupancy"
+        },
+        {
+          "time": 240,
+          "label": "Check distributions and sampling"
+        },
+        {
+          "time": 330,
+          "label": "Trace the evidence"
+        }
+      ],
+      "question": {
+        "id": "Q08",
+        "time": 295.76666666666665,
+        "review": 150,
+        "prompt": "A low mean local water-contact count is reported. What follows from that mean alone?",
+        "answers": [
+          {
+            "text": "It does not establish zero penetration; inspect the defined region, distribution, sampling and uncertainty.",
+            "correct": true,
+            "feedback": "Correct. A small mean can include intermittent or spatially localized occupancy. Local contacts and deep-water counts describe different subsets."
+          },
+          {
+            "text": "Water never enters any part of the bilayer.",
+            "correct": false,
+            "feedback": "A nonzero or rounded low mean is not a universal zero-event claim. Check the event definition and full distribution."
+          },
+          {
+            "text": "Local contacts and deep-water occupancy are interchangeable observables.",
+            "correct": false,
+            "feedback": "They count different subsets defined by geometry and distance criteria. Keep the definitions separate."
+          }
+        ],
+        "frame": 8873
+      }
+    }
+  ]
+}

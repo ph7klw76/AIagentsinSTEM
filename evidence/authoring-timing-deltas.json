@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-11-04T09:38:53.380074+00:00",
+  "status": "new authoring schedule revised before publication",
+  "priorPublishedQuizSchedule": null,
+  "reason": "Place new questions in measured quiet intervals; align remediation with acoustic source section starts. Q07 now tests the monitoring uncertainty actually discussed in its video.",
+  "mediaTotalFrames": 105235,
+  "mediaRetimingChanges": 0,
+  "changes": [
+    {
+      "lesson": "01",
+      "draftQuestionSeconds": 270,
+      "finalQuestionSeconds": 270.8333333333333,
+      "deltaSeconds": 0.8333333333333144,
+      "measuredQuietInterval": {
+        "time": 270.8333333333333,
+        "silenceStart": 270.703083,
+        "silenceEnd": 273.547437,
+        "deltaFromDraft": 0.8333333333333144
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "02",
+      "draftQuestionSeconds": 490,
+      "finalQuestionSeconds": 493.6,
+      "deltaSeconds": 3.6000000000000227,
+      "measuredQuietInterval": {
+        "time": 493.6,
+        "silenceStart": 493.466687,
+        "silenceEnd": 494.550854,
+        "deltaFromDraft": 3.6000000000000227
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "03",
+      "draftQuestionSeconds": 429,
+      "finalQuestionSeconds": 427.3,
+      "deltaSeconds": -1.6999999999999886,
+      "measuredQuietInterval": {
+        "time": 427.3,
+        "silenceStart": 427.178562,
+        "silenceEnd": 428.270146,
+        "deltaFromDraft": -1.6999999999999886
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "04",
+      "draftQuestionSeconds": 134,
+      "finalQuestionSeconds": 136.03333333333333,
+      "deltaSeconds": 2.0333333333333314,
+      "measuredQuietInterval": {
+        "time": 136.03333333333333,
+        "silenceStart": 135.925688,
+        "silenceEnd": 137.310875,
+        "deltaFromDraft": 2.0333333333333314
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "05",
+      "draftQuestionSeconds": 500,
+      "finalQuestionSeconds": 495.26666666666665,
+      "deltaSeconds": -4.7333333333333485,
+      "measuredQuietInterval": {
+        "time": 495.26666666666665,
+        "silenceStart": 495.160354,
+        "silenceEnd": 495.951708,
+        "deltaFromDraft": -4.7333333333333485
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "05a",
+      "draftQuestionSeconds": 114,
+      "finalQuestionSeconds": 112.83333333333333,
+      "deltaSeconds": -1.1666666666666714,
+      "measuredQuietInterval": {
+        "time": 112.83333333333333,
+        "silenceStart": 112.726396,
+        "silenceEnd": 113.164708,
+        "deltaFromDraft": -1.1666666666666714
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "06",
+      "draftQuestionSeconds": 183,
+      "finalQuestionSeconds": 178.63333333333333,
+      "deltaSeconds": -4.366666666666674,
+      "measuredQuietInterval": {
+        "time": 178.63333333333333,
+        "silenceStart": 178.509583,
+        "silenceEnd": 179.162271,
+        "deltaFromDraft": -4.366666666666674
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "06a",
+      "draftQuestionSeconds": 99,
+      "finalQuestionSeconds": 93.26666666666667,
+      "deltaSeconds": -5.733333333333334,
+      "measuredQuietInterval": {
+        "time": 93.26666666666667,
+        "silenceStart": 93.143312,
+        "silenceEnd": 94.5,
+        "deltaFromDraft": -5.733333333333334
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "07",
+      "draftQuestionSeconds": 312,
+      "finalQuestionSeconds": 318.1666666666667,
+      "deltaSeconds": 6.166666666666686,
+      "measuredQuietInterval": {
+        "time": 318.1666666666667,
+        "silenceStart": 318.05510400000003,
+        "silenceEnd": 318.879125,
+        "deltaFromDraft": 6.166666666666686
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    },
+    {
+      "lesson": "08",
+      "draftQuestionSeconds": 294,
+      "finalQuestionSeconds": 295.76666666666665,
+      "deltaSeconds": 1.7666666666666515,
+      "measuredQuietInterval": {
+        "time": 295.76666666666665,
+        "silenceStart": 295.637896,
+        "silenceEnd": 296.749812,
+        "deltaFromDraft": 1.7666666666666515
+      },
+      "mediaFrameDelta": 0,
+      "mediaDurationDeltaSeconds": 0
+    }
+  ]
+}

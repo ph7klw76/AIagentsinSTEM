@@ -1,0 +1,761 @@
+{
+  "timestamp": "2026-11-04T10:19:05.566Z",
+  "context": "actual final local v03 editions; no upload",
+  "results": [
+    {
+      "lesson": "01",
+      "sourceFile": "Chapter1.mp4",
+      "sourceSha256": "ea816601917eab332da2bc6a8bd9117899edb9f9bc0820173550c1efb6d09b6b",
+      "outputFile": "AIagentsSTEM_01_1080p30_v03.mp4",
+      "sha256": "11d973a9a97498958c288ea37894b67eef1c293b6d5e76b7d77d0244a3c1e5a3",
+      "wavSha256": "062aa064e17be82c339387ff70dc4f99ea8da4be190f9f76f62942376e0572a7",
+      "durationSeconds": 313.6,
+      "frames": "9408",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.50",
+      "gainDb": 0.5,
+      "encodedLoudnessLUFS": "-16.00",
+      "encodedTruePeakDBTP": "-3.90",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 59033472,
+          "end_time": "153.733000",
+          "tags": {
+            "title": "Start"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 59033472,
+          "start_time": "153.733000",
+          "end": 105600000,
+          "end_time": "275.000000",
+          "tags": {
+            "title": "Why solvers matter"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 105600000,
+          "start_time": "275.000000",
+          "end": 120422400,
+          "end_time": "313.600000",
+          "tags": {
+            "title": "Scientific responsibility"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:42:21.157038+00:00"
+    },
+    {
+      "lesson": "02",
+      "sourceFile": "Chapter2.mp4",
+      "sourceSha256": "c0b62e5037bd87e2609bd42624f45842bbca42d6b6a3af6973457d38398779f9",
+      "outputFile": "AIagentsSTEM_02_1080p30_v03.mp4",
+      "sha256": "9eebb7c48bc0260c0c81c0effa6234c8a4759785d79fa7b673a80eff32c74cfd",
+      "wavSha256": "4e6ea13509b436b48381c166e6031f96522b68d65e678dee4f4321236ace5cd9",
+      "durationSeconds": 526.9,
+      "frames": "15807",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.52",
+      "gainDb": -0.75,
+      "encodedLoudnessLUFS": "-17.28",
+      "encodedTruePeakDBTP": "-1.99",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 70515072,
+          "end_time": "183.633000",
+          "tags": {
+            "title": "Start"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 70515072,
+          "start_time": "183.633000",
+          "end": 169548672,
+          "end_time": "441.533000",
+          "tags": {
+            "title": "Install the scientific tools"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 169548672,
+          "start_time": "441.533000",
+          "end": 202329600,
+          "end_time": "526.900000",
+          "tags": {
+            "title": "Gmsh and CalculiX"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:43:01.199566+00:00"
+    },
+    {
+      "lesson": "03",
+      "sourceFile": "Chapter3.mp4",
+      "sourceSha256": "83231be2d9d2202c22d55100aa6ce39befa9f78f57fbe61dfc3ad4d8de1c93e2",
+      "outputFile": "AIagentsSTEM_03_1080p30_v03.mp4",
+      "sha256": "f42e2f9b8b746bf11554d5becf3b67084b4d744b628bfa70a57f71204769b328",
+      "wavSha256": "fada2017cd6958df06637fc43fae2fa835cb3020a037d831c232999e01ba46f4",
+      "durationSeconds": 555.3333333333334,
+      "frames": "16660",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.56",
+      "gainDb": 0.5599999999999987,
+      "encodedLoudnessLUFS": "-16.00",
+      "encodedTruePeakDBTP": "-4.03",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 27417600,
+          "end_time": "71.400000",
+          "tags": {
+            "title": "Generations of engineering AI"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 27417600,
+          "start_time": "71.400000",
+          "end": 80959872,
+          "end_time": "210.833000",
+          "tags": {
+            "title": "MCP and tools"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 80959872,
+          "start_time": "210.833000",
+          "end": 144947328,
+          "end_time": "377.467000",
+          "tags": {
+            "title": "Skills and handoffs"
+          }
+        },
+        {
+          "id": 3,
+          "time_base": "1/384000",
+          "start": 144947328,
+          "start_time": "377.467000",
+          "end": 213247872,
+          "end_time": "555.333000",
+          "tags": {
+            "title": "The checked workflow"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:43:40.518498+00:00"
+    },
+    {
+      "lesson": "04",
+      "sourceFile": "Chapter4.mp4",
+      "sourceSha256": "aa2790abe08621a87345593c7d736bad353b85c8816215e4e8e54efd26b95f91",
+      "outputFile": "AIagentsSTEM_04_1080p30_v03.mp4",
+      "sha256": "59d86626ddbea7c7aed134310eea7070bdcb1cfb2eeffd73ddf9e29f72b412a4",
+      "wavSha256": "215a6dee99c410afbb9ddb3bd09b8f55f8d47e5198f7b447bd5f6229e2107c6f",
+      "durationSeconds": 249.53333333333333,
+      "frames": "7486",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.58",
+      "gainDb": 0.5799999999999983,
+      "encodedLoudnessLUFS": "-16.00",
+      "encodedTruePeakDBTP": "-3.72",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 30259200,
+          "end_time": "78.800000",
+          "tags": {
+            "title": "Check model inputs"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 30259200,
+          "start_time": "78.800000",
+          "end": 55129728,
+          "end_time": "143.567000",
+          "tags": {
+            "title": "Teach the scientific method"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 55129728,
+          "start_time": "143.567000",
+          "end": 95820672,
+          "end_time": "249.533000",
+          "tags": {
+            "title": "Inspect the result"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:43:58.460398+00:00"
+    },
+    {
+      "lesson": "05",
+      "sourceFile": "Chapter5-orca.mp4",
+      "sourceSha256": "8198acf2309a24c2e9ccee64d9aebc6d3a1c923f41b6f4ed0c3ca7efe8b53d65",
+      "outputFile": "AIagentsSTEM_05_1080p30_v03.mp4",
+      "sha256": "08d44d97605a3d321d774ed0eaed003f6cd59336c33ad583b6dd0d5615af094f",
+      "wavSha256": "b023d86e692c5df7c939742fa102271d27bdb61aaf4b8abbf5606858eefc4349",
+      "durationSeconds": 551.8,
+      "frames": "16554",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.51",
+      "gainDb": 0.5100000000000016,
+      "encodedLoudnessLUFS": "-16.01",
+      "encodedTruePeakDBTP": "-4.00",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 51724800,
+          "end_time": "134.700000",
+          "tags": {
+            "title": "ORCA workflow"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 51724800,
+          "start_time": "134.700000",
+          "end": 109708800,
+          "end_time": "285.700000",
+          "tags": {
+            "title": "Reusable repository"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 109708800,
+          "start_time": "285.700000",
+          "end": 160691328,
+          "end_time": "418.467000",
+          "tags": {
+            "title": "Skill anatomy"
+          }
+        },
+        {
+          "id": 3,
+          "time_base": "1/384000",
+          "start": 160691328,
+          "start_time": "418.467000",
+          "end": 211891200,
+          "end_time": "551.800000",
+          "tags": {
+            "title": "Support files"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:44:36.828732+00:00"
+    },
+    {
+      "lesson": "05a",
+      "sourceFile": "Chapter5-Oraca Demo.mp4",
+      "sourceSha256": "79523278b3c53ce6522f8c92e1958ae9278bfa3f1f4c2cfc07913e291105b38c",
+      "outputFile": "AIagentsSTEM_05a_1080p30_v03.mp4",
+      "sha256": "1b2cf44595b250af521f7f7021be25327721149712034c4736a41ae10485c918",
+      "wavSha256": "949d6ff649c58d0ae5eb81e0ea5e4b7373209c74a6707daafad6273b9862ca58",
+      "durationSeconds": 165.4,
+      "frames": "4962",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 1,
+      "sourceLoudnessLUFS": "-16.67",
+      "gainDb": 0.3900000000000001,
+      "encodedLoudnessLUFS": "-16.28",
+      "encodedTruePeakDBTP": "-1.86",
+      "colorTags": {
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/720000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 46800000,
+          "end_time": "65.000000",
+          "tags": {
+            "title": "Test a small case"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/720000",
+          "start": 46800000,
+          "start_time": "65.000000",
+          "end": 90000000,
+          "end_time": "125.000000",
+          "tags": {
+            "title": "Inspect the output"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/720000",
+          "start": 90000000,
+          "start_time": "125.000000",
+          "end": 119088000,
+          "end_time": "165.400000",
+          "tags": {
+            "title": "Preserve the procedure"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:44:45.431373+00:00"
+    },
+    {
+      "lesson": "06",
+      "sourceFile": "Chapter6-kidcad.mp4",
+      "sourceSha256": "c42e8fdc36640e74dddb9811d2cfa9c177bdab095732735e3c2d8e878918939c",
+      "outputFile": "AIagentsSTEM_06_1080p30_v03.mp4",
+      "sha256": "17e187d9a1f2b6c7dde79e57d9719e075acbbd82371efc242edca897db5f9683",
+      "wavSha256": "4549824f75a24f04a4196886dc3b4fd2a00ace70d0cff2b984cf467f52a7820f",
+      "durationSeconds": 275.2,
+      "frames": "8256",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.64",
+      "gainDb": 0.6400000000000006,
+      "encodedLoudnessLUFS": "-16.01",
+      "encodedTruePeakDBTP": "-4.73",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 22054272,
+          "end_time": "57.433000",
+          "tags": {
+            "title": "From proposal to evidence"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 22054272,
+          "start_time": "57.433000",
+          "end": 46732800,
+          "end_time": "121.700000",
+          "tags": {
+            "title": "Acceptance criteria"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 46732800,
+          "start_time": "121.700000",
+          "end": 76723200,
+          "end_time": "199.800000",
+          "tags": {
+            "title": "Coordinate and calculate"
+          }
+        },
+        {
+          "id": 3,
+          "time_base": "1/384000",
+          "start": 76723200,
+          "start_time": "199.800000",
+          "end": 105676800,
+          "end_time": "275.200000",
+          "tags": {
+            "title": "Simulation to PCB"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:45:05.240620+00:00"
+    },
+    {
+      "lesson": "06a",
+      "sourceFile": "Chapter 5-kidcard demostration.mp4",
+      "sourceSha256": "d1e1f4610071223f662423030653f368180dfc23e673e26d3de448114dd9d4d8",
+      "outputFile": "AIagentsSTEM_06a_1080p30_v03.mp4",
+      "sha256": "8773d1b5ce8d5ecd699af532a7ffbe25c12321412c68e975075fe3731f446f71",
+      "wavSha256": "6bbe4da14c49f83d6a346c98209fad8632999311062e38cafde97210721f5f93",
+      "durationSeconds": 149.93333333333334,
+      "frames": "4498",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 1,
+      "sourceLoudnessLUFS": "-16.59",
+      "gainDb": 0.3900000000000001,
+      "encodedLoudnessLUFS": "-16.20",
+      "encodedTruePeakDBTP": "-1.94",
+      "colorTags": {
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/720000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 41040000,
+          "end_time": "57.000000",
+          "tags": {
+            "title": "No evidence, no pass"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/720000",
+          "start": 41040000,
+          "start_time": "57.000000",
+          "end": 86400000,
+          "end_time": "120.000000",
+          "tags": {
+            "title": "Gain and bandwidth"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/720000",
+          "start": 86400000,
+          "start_time": "120.000000",
+          "end": 107951760,
+          "end_time": "149.933000",
+          "tags": {
+            "title": "Model scope"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:45:13.390942+00:00"
+    },
+    {
+      "lesson": "07",
+      "sourceFile": "Chapter7.mp4",
+      "sourceSha256": "c04255d21f1e600bf7e13c327975e1cde3e8fea58d19df85c06810e6cb26370c",
+      "outputFile": "AIagentsSTEM_07_1080p30_v03.mp4",
+      "sha256": "82424583c17cdcbd1bb004c08fd8580bf95d5fdfbf2eea5b198250a06c4dc6a0",
+      "wavSha256": "d566ac7335f78ff1036df749bc13023f79fede8684529df01e447a99329d1d0b",
+      "durationSeconds": 350.1666666666667,
+      "frames": "10505",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 2,
+      "sourceLoudnessLUFS": "-16.58",
+      "gainDb": 0.5799999999999983,
+      "encodedLoudnessLUFS": "-16.00",
+      "encodedTruePeakDBTP": "-4.35",
+      "colorTags": {
+        "color_range": "untagged",
+        "color_space": "untagged",
+        "color_primaries": "untagged",
+        "color_transfer": "untagged"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/384000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 42508800,
+          "end_time": "110.700000",
+          "tags": {
+            "title": "Choose the physical model"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/384000",
+          "start": 42508800,
+          "start_time": "110.700000",
+          "end": 77452800,
+          "end_time": "201.700000",
+          "tags": {
+            "title": "Interfaces and HPC"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/384000",
+          "start": 77452800,
+          "start_time": "201.700000",
+          "end": 106572672,
+          "end_time": "277.533000",
+          "tags": {
+            "title": "GROMACS workflow"
+          }
+        },
+        {
+          "id": 3,
+          "time_base": "1/384000",
+          "start": 106572672,
+          "start_time": "277.533000",
+          "end": 134464128,
+          "end_time": "350.167000",
+          "tags": {
+            "title": "Monitor with uncertainty"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:45:38.007964+00:00"
+    },
+    {
+      "lesson": "08",
+      "sourceFile": "Chapter8-case study.mp4",
+      "sourceSha256": "e187650bfc2ab1e6aa72dd7283f5acc75b0e256d574664539bf51d2cdcc0c8e4",
+      "outputFile": "AIagentsSTEM_08_1080p30_v03.mp4",
+      "sha256": "08e82ba78fe1e84be18401f7bb2c7d6a560bf6a163e79a695a89904302734d64",
+      "wavSha256": "dd71aa0d99a8dbd5f66a6ba5206f547215a78127ea423a36ccd9fe64b6a238e9",
+      "durationSeconds": 369.96666666666664,
+      "frames": "11099",
+      "fps": "30/1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioSampleRate": "48000",
+      "channels": 1,
+      "sourceLoudnessLUFS": "-16.42",
+      "gainDb": -0.33000000000000007,
+      "encodedLoudnessLUFS": "-16.76",
+      "encodedTruePeakDBTP": "-2.01",
+      "colorTags": {
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      "fullDecode": "pass",
+      "picture": "stream-copy; no new render or visual edits",
+      "narrationMaster": "48 kHz 24-bit PCM from complete chapter AAC; source compression remains",
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/720000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 108000000,
+          "end_time": "150.000000",
+          "tags": {
+            "title": "Can we trust the simulation?"
+          }
+        },
+        {
+          "id": 1,
+          "time_base": "1/720000",
+          "start": 108000000,
+          "start_time": "150.000000",
+          "end": 172800000,
+          "end_time": "240.000000",
+          "tags": {
+            "title": "Define water occupancy"
+          }
+        },
+        {
+          "id": 2,
+          "time_base": "1/720000",
+          "start": 172800000,
+          "start_time": "240.000000",
+          "end": 237600000,
+          "end_time": "330.000000",
+          "tags": {
+            "title": "Check distributions and sampling"
+          }
+        },
+        {
+          "id": 3,
+          "time_base": "1/720000",
+          "start": 237600000,
+          "start_time": "330.000000",
+          "end": 266376240,
+          "end_time": "369.967000",
+          "tags": {
+            "title": "Trace the evidence"
+          }
+        }
+      ],
+      "timestampChangesSeconds": 0,
+      "newYoutubeUrl": null,
+      "verifiedAt": "2026-11-04T09:45:56.770943+00:00"
+    }
+  ]
+}
