@@ -1,0 +1,4489 @@
+{
+  "timestamp": "2026-11-04T11:01:05.194Z",
+  "revision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+  "status": "historical failures with diagnosed corrections",
+  "results": [
+    {
+      "test": "browser-real-chapter-queue-c4507--visible-playback-and-reset-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "timestamp": "2026-11-04T10:48:08.758Z",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-02",
+      "viewport": "desktop",
+      "status": "pass",
+      "context": "embedded",
+      "sourceId": "ajpn28cfWvQ",
+      "queuedBeforeReady": true,
+      "requestedChapter": {
+        "time": 183.63333333333333,
+        "label": "Install the scientific tools"
+      },
+      "advancingFrames": [
+        {
+          "time": 183.834613,
+          "width": 1280
+        },
+        {
+          "time": 184.463928,
+          "width": 1280
+        }
+      ],
+      "sameFrameSource": "exports/lesson-02.html",
+      "resetTime": 0,
+      "errors": []
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-01-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "01",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:12.825Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 270.950224,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.950224,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.929025,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:15.726Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:15.747Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:18.551Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:22.523Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:23.548Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-01",
+      "screenshot": "youtube-desktop-embedded-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:45:29.652Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-01-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "01",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:48:10.341Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 270.958515,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "The result must represent the real system accurately.",
+          "feedback": "Repeating a wrong boundary condition repeats the same wrong result. Repeatability does not establish physical accuracy."
+        },
+        "stablePause": {
+          "time": 270.958515,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.971787,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:48:12.854Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:48:12.884Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:48:15.975Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:48:20.486Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:48:21.514Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-01",
+      "screenshot": "youtube-phone-embedded-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:48:27.992Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-02-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "02",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:28.689Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 493.716871,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "wrongFeedback": {
+          "answer": "Delete the input files because the completion message is sufficient evidence.",
+          "feedback": "A completion message cannot reconstruct the problem. Keep the inputs, versions and numerical outputs needed for review."
+        },
+        "stablePause": {
+          "time": 493.716871,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "reviewSeek": {
+          "time": 441.73743,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/ajpn28cfWvQ?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-02.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:32.511Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:32.532Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:35.312Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:39.289Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:40.323Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-02",
+      "screenshot": "youtube-desktop-embedded-02-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:45:45.991Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-02-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "02",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:48:45.363Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 493.729082,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "wrongFeedback": {
+          "answer": "Delete the input files because the completion message is sufficient evidence.",
+          "feedback": "A completion message cannot reconstruct the problem. Keep the inputs, versions and numerical outputs needed for review."
+        },
+        "stablePause": {
+          "time": 493.729082,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "reviewSeek": {
+          "time": 441.706605,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/ajpn28cfWvQ?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-02.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:48:49.666Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:48:49.689Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:48:52.660Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:48:57.172Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:48:58.197Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-02",
+      "screenshot": "youtube-phone-embedded-02-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:49:04.074Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-03-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "03",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:46.246Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 427.419905,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "wrongFeedback": {
+          "answer": "A fluent explanation is enough even if the solver was never run.",
+          "feedback": "A persuasive explanation is not an observed computation. Check that the claimed action actually ran and inspect its outputs."
+        },
+        "stablePause": {
+          "time": 427.419905,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "reviewSeek": {
+          "time": 377.562496,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/05wxHQrqpoo?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-03.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:50.573Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:50.595Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:54.044Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:57.979Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:59.024Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-03",
+      "screenshot": "youtube-desktop-embedded-03-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:05.421Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-03-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "03",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:49:21.149Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 427.434049,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "wrongFeedback": {
+          "answer": "A fluent explanation is enough even if the solver was never run.",
+          "feedback": "A persuasive explanation is not an observed computation. Check that the claimed action actually ran and inspect its outputs."
+        },
+        "stablePause": {
+          "time": 427.434049,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "reviewSeek": {
+          "time": 377.708785,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/05wxHQrqpoo?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-03.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:49:24.522Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:49:24.544Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:49:27.542Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:49:32.009Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:49:33.037Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-03",
+      "screenshot": "youtube-phone-embedded-03-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:49:39.477Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-04-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "04",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:02.599Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 136.1636,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "wrongFeedback": {
+          "answer": "Keep the result because the program exited successfully.",
+          "feedback": "An exit code tests execution, not the physical meaning of the numbers."
+        },
+        "stablePause": {
+          "time": 136.1636,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "reviewSeek": {
+          "time": 79.05498,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/XoXujuXajZM?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-04.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:06.083Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:06.108Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:08.902Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:12.839Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:13.876Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-04",
+      "screenshot": "youtube-desktop-embedded-04-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:19.988Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-04-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "04",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:49:58.525Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 136.150001,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "wrongFeedback": {
+          "answer": "Keep the result because the program exited successfully.",
+          "feedback": "An exit code tests execution, not the physical meaning of the numbers."
+        },
+        "stablePause": {
+          "time": 136.150001,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "reviewSeek": {
+          "time": 79.03187,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/XoXujuXajZM?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-04.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:50:01.847Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:50:01.874Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:50:04.844Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:50:09.345Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:50:10.389Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-04",
+      "screenshot": "youtube-phone-embedded-04-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:50:16.847Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-05-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:20.585Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 495.406212,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "wrongFeedback": {
+          "answer": "Only a final energy number, with all intermediate evidence removed.",
+          "feedback": "An isolated energy number omits the geometry, state, method and convergence evidence needed to interpret or reproduce it."
+        },
+        "stablePause": {
+          "time": 495.406212,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "reviewSeek": {
+          "time": 418.720289,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/M6E1RQA_uJc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:23.927Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:23.945Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:26.691Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:30.621Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:31.668Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-05",
+      "screenshot": "youtube-desktop-embedded-05-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:37.222Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-05-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:50:34.488Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 495.385997,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "wrongFeedback": {
+          "answer": "Only a final energy number, with all intermediate evidence removed.",
+          "feedback": "An isolated energy number omits the geometry, state, method and convergence evidence needed to interpret or reproduce it."
+        },
+        "stablePause": {
+          "time": 495.385997,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "reviewSeek": {
+          "time": 418.705253,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/M6E1RQA_uJc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:50:37.942Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:50:37.972Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:50:41.213Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:50:45.741Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:50:46.776Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-05",
+      "screenshot": "youtube-phone-embedded-05-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:50:52.654Z",
+      "logs": [
+        {
+          "level": "error",
+          "message": "Permissions policy violation: compute-pressure is not allowed in this document.",
+          "timestamp": "2026-11-04T10:50:37.452Z",
+          "url": "https://www.youtube.com/s/player/4a1e575f/player_embed.vflset/en_US/base.js"
+        }
+      ],
+      "vendorDiagnostics": {
+        "events": [
+          {
+            "level": "error",
+            "message": "Permissions policy violation: compute-pressure is not allowed in this document.",
+            "timestamp": "2026-11-04T10:50:37.452Z",
+            "url": "https://www.youtube.com/s/player/4a1e575f/player_embed.vflset/en_US/base.js"
+          }
+        ],
+        "scope": "Exact optional YouTube compute-pressure policy denial; all decoded playback, question, review, retry and Summary checks passed. No application errors exempted."
+      },
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-05a-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05a",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:37.571Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 112.951318,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "wrongFeedback": {
+          "answer": "The energy is accurate for the intended scientific question.",
+          "feedback": "Scheduling status cannot validate the chosen electronic structure method or its accuracy."
+        },
+        "stablePause": {
+          "time": 112.951318,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "reviewSeek": {
+          "time": 65.238995,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/w8YkeB9KeHc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05a.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:41.014Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:41.032Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:43.780Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:47.727Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:48.766Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-05a",
+      "screenshot": "youtube-desktop-embedded-05a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:54.916Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-05a-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05a",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:10.184Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 112.953026,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "wrongFeedback": {
+          "answer": "The energy is accurate for the intended scientific question.",
+          "feedback": "Scheduling status cannot validate the chosen electronic structure method or its accuracy."
+        },
+        "stablePause": {
+          "time": 112.953026,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "reviewSeek": {
+          "time": 65.241889,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/w8YkeB9KeHc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05a.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:13.384Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:13.423Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:16.782Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:21.355Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:22.396Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-05a",
+      "screenshot": "youtube-phone-embedded-05a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:51:28.820Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-06-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:55.521Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 178.746031,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "wrongFeedback": {
+          "answer": "Yes. A matching gain guarantees the required bandwidth.",
+          "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+        },
+        "stablePause": {
+          "time": 178.746031,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "reviewSeek": {
+          "time": 57.683751,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/37sAYWVOSOU?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:58.378Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:58.400Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:01.180Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:05.093Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:06.147Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-06",
+      "screenshot": "youtube-desktop-embedded-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:12.288Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-06-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:28.633Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 178.772628,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "wrongFeedback": {
+          "answer": "Yes, if the schematic looks professionally drawn.",
+          "feedback": "Diagram quality is not performance evidence. Use the netlist, model and measured or simulated response."
+        },
+        "stablePause": {
+          "time": 178.772628,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "reviewSeek": {
+          "time": 57.70594,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/37sAYWVOSOU?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:32.508Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:32.532Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:35.626Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:40.169Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:41.198Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-06",
+      "screenshot": "youtube-phone-embedded-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:51:48.131Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-06a-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06a",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:12.447Z",
+      "checks": {
+        "questionReady": {
+          "polls": 9
+        },
+        "timedPause": {
+          "time": 93.408299,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "wrongFeedback": {
+          "answer": "It passes because the low-frequency gain is about 10×.",
+          "feedback": "Meeting gain does not compensate for failing the stated minimum bandwidth."
+        },
+        "stablePause": {
+          "time": 93.408299,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "reviewSeek": {
+          "time": 57.265076,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/uNGvR8jHTDc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06a.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:16.765Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:16.784Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:19.524Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:23.426Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:24.458Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-06a",
+      "screenshot": "youtube-desktop-embedded-06a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:30.067Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-06a-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06a",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:46.651Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 93.403443,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "wrongFeedback": {
+          "answer": "It passes because the low-frequency gain is about 10×.",
+          "feedback": "Meeting gain does not compensate for failing the stated minimum bandwidth."
+        },
+        "stablePause": {
+          "time": 93.403443,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "reviewSeek": {
+          "time": 57.239943,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/uNGvR8jHTDc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06a.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:51.003Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:51.032Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:54.057Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:58.606Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:59.633Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-06a",
+      "screenshot": "youtube-phone-embedded-06a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:05.592Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-07-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "07",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:28.282Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 318.306973,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "wrongFeedback": {
+          "answer": "The molecular system is definitely unstable.",
+          "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+        },
+        "stablePause": {
+          "time": 318.306973,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "reviewSeek": {
+          "time": 277.76948,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/OCIPs5DRukI?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-07.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:31.436Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:31.454Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:34.429Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:38.354Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:39.389Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-07",
+      "screenshot": "youtube-desktop-embedded-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:46.015Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-07-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "07",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:52:05.900Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 318.249121,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "wrongFeedback": {
+          "answer": "The molecular system is definitely unstable.",
+          "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+        },
+        "stablePause": {
+          "time": 318.249121,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "reviewSeek": {
+          "time": 277.760971,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/OCIPs5DRukI?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-07.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:52:10.253Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:52:10.275Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:52:13.336Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:52:17.841Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:52:18.876Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-07",
+      "screenshot": "youtube-phone-embedded-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:25.827Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-08-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "08",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:46.362Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 295.92285,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "wrongFeedback": {
+          "answer": "Local contacts and deep-water occupancy are interchangeable observables.",
+          "feedback": "They count different subsets defined by geometry and distance criteria. Keep the definitions separate."
+        },
+        "stablePause": {
+          "time": 295.92285,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "reviewSeek": {
+          "time": 150.206535,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 865,
+          "scrollWidth": 865,
+          "height": 525
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/k-cVIztvjDE?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-08.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 865,
+            "height": 486.5625
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:49.953Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:49.993Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:53.007Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:56.939Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:57.972Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-08",
+      "screenshot": "youtube-desktop-embedded-08-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:48:03.608Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-embedded-08-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "08",
+      "context": "embedded",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:52:26.145Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 295.876752,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "wrongFeedback": {
+          "answer": "Water never enters any part of the bilayer.",
+          "feedback": "A nonzero or rounded low mean is not a universal zero-event claim. Check the event definition and full distribution."
+        },
+        "stablePause": {
+          "time": 295.876752,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "reviewSeek": {
+          "time": 150.232792,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/k-cVIztvjDE?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&widget_referrer=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-08.html&aoriginsup=1&aorigins=https%3A%2F%2Fph7klw76.github.io&gporigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2F&vf=1",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:52:30.040Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:52:30.063Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:52:33.113Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:52:37.662Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:52:38.691Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/#lesson-08",
+      "screenshot": "youtube-phone-embedded-08-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:44.662Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-01-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "01",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:14.052Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 270.982288,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.982288,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.880792,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:15.019Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:15.043Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:18.032Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:21.540Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:22.570Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-01.html",
+      "screenshot": "youtube-desktop-standalone-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:45:28.313Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-01-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "01",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:48:29.809Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 270.967683,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "wrongFeedback": {
+          "answer": "An AI agent can now approve the result without reviewing inputs.",
+          "feedback": "A solver cannot decide whether the supplied problem represents the intended system. The scientist remains responsible for inputs and interpretation."
+        },
+        "stablePause": {
+          "time": 270.967683,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621
+        },
+        "reviewSeek": {
+          "time": 153.966722,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 313.621,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/vpvanBLwJX8?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-01.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:48:30.713Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:48:30.731Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:48:33.869Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:48:37.964Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:48:38.995Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-01.html",
+      "screenshot": "youtube-phone-standalone-01-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:48:45.072Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-02-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "02",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:31.731Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 493.738684,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "wrongFeedback": {
+          "answer": "Treat successful installation as proof that every future simulation is valid.",
+          "feedback": "Installation only establishes software availability. Each model still has assumptions and discretization errors."
+        },
+        "stablePause": {
+          "time": 493.738684,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "reviewSeek": {
+          "time": 441.739792,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 526.921,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/ajpn28cfWvQ?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-02.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:32.701Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:32.719Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:35.606Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:39.128Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:40.168Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-02.html",
+      "screenshot": "youtube-desktop-standalone-02-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:45:45.404Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-02-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "02",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:49:05.878Z",
+      "checks": {
+        "questionReady": {
+          "polls": 12
+        },
+        "timedPause": {
+          "time": 493.738737,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "wrongFeedback": {
+          "answer": "Delete the input files because the completion message is sufficient evidence.",
+          "feedback": "A completion message cannot reconstruct the problem. Keep the inputs, versions and numerical outputs needed for review."
+        },
+        "stablePause": {
+          "time": 493.738737,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921
+        },
+        "reviewSeek": {
+          "time": 441.733005,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 526.921,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/ajpn28cfWvQ?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-02.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:49:06.809Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:49:06.826Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:49:10.202Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:49:14.284Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:49:15.314Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-02.html",
+      "screenshot": "youtube-phone-standalone-02-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:49:20.854Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-03-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "03",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:45:48.216Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 427.447465,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "wrongFeedback": {
+          "answer": "The existence of the skill file proves the physics is correct.",
+          "feedback": "Instructions can be incomplete or applied incorrectly. A skill file is a method, not a numerical validation result."
+        },
+        "stablePause": {
+          "time": 427.447465,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "reviewSeek": {
+          "time": 377.673772,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 555.361,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/05wxHQrqpoo?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-03.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:45:48.769Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:45:48.790Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:45:51.882Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:45:55.481Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:45:56.506Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-03.html",
+      "screenshot": "youtube-desktop-standalone-03-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:02.261Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-03-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "03",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:49:41.403Z",
+      "checks": {
+        "questionReady": {
+          "polls": 15
+        },
+        "timedPause": {
+          "time": 427.404596,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "wrongFeedback": {
+          "answer": "A fluent explanation is enough even if the solver was never run.",
+          "feedback": "A persuasive explanation is not an observed computation. Check that the claimed action actually ran and inspect its outputs."
+        },
+        "stablePause": {
+          "time": 427.404596,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361
+        },
+        "reviewSeek": {
+          "time": 377.672012,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 555.361,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/05wxHQrqpoo?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-03.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:49:42.320Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:49:42.337Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:49:46.543Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:49:50.649Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:49:51.678Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-03.html",
+      "screenshot": "youtube-phone-standalone-03-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:49:58.197Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-04-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "04",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:07.354Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 136.19066,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "wrongFeedback": {
+          "answer": "Relabel the plotted units without changing the calculation.",
+          "feedback": "Changing a label does not correct the material parameter used by the solver. Repair the input and regenerate the result."
+        },
+        "stablePause": {
+          "time": 136.19066,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "reviewSeek": {
+          "time": 79.022236,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 249.561,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/XoXujuXajZM?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-04.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:08.288Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:08.301Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:11.183Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:14.720Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:15.758Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-04.html",
+      "screenshot": "youtube-desktop-standalone-04-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:21.522Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-04-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "04",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:50:18.836Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 136.156519,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "wrongFeedback": {
+          "answer": "Relabel the plotted units without changing the calculation.",
+          "feedback": "Changing a label does not correct the material parameter used by the solver. Repair the input and regenerate the result."
+        },
+        "stablePause": {
+          "time": 136.156519,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561
+        },
+        "reviewSeek": {
+          "time": 79.026165,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 249.561,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/XoXujuXajZM?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-04.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:50:19.751Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:50:19.768Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:50:22.887Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:50:26.991Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:50:28.027Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-04.html",
+      "screenshot": "youtube-phone-standalone-04-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:50:34.130Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-05-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:25.769Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 495.381401,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "wrongFeedback": {
+          "answer": "A tool connection alone, with default settings left unexamined.",
+          "feedback": "Access does not specify the electronic state or establish a suitable method. Defaults need justification for the system."
+        },
+        "stablePause": {
+          "time": 495.381401,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "reviewSeek": {
+          "time": 418.698829,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 551.821,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/M6E1RQA_uJc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:26.704Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:26.723Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:29.851Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:33.368Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:34.401Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05.html",
+      "screenshot": "youtube-desktop-standalone-05-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:39.630Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-05-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:50:55.104Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 495.382448,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "wrongFeedback": {
+          "answer": "A tool connection alone, with default settings left unexamined.",
+          "feedback": "Access does not specify the electronic state or establish a suitable method. Defaults need justification for the system."
+        },
+        "stablePause": {
+          "time": 495.382448,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821
+        },
+        "reviewSeek": {
+          "time": 418.677313,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 551.821,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/M6E1RQA_uJc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:50:56.026Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:50:56.043Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:50:59.205Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:03.316Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:04.349Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05.html",
+      "screenshot": "youtube-phone-standalone-05-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:51:09.884Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-05a-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05a",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:41.512Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 112.944283,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "wrongFeedback": {
+          "answer": "The geometry is a verified minimum.",
+          "feedback": "A submission ID says nothing about optimization convergence or vibrational stability. A minimum requires suitable further checks."
+        },
+        "stablePause": {
+          "time": 112.944283,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "reviewSeek": {
+          "time": 65.239077,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 165.441,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/w8YkeB9KeHc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05a.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:42.417Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:42.435Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:46:45.295Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:46:48.842Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:46:49.881Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05a.html",
+      "screenshot": "youtube-desktop-standalone-05a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:46:55.595Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-05a-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "05a",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:12.927Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 112.958233,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "wrongFeedback": {
+          "answer": "The energy is accurate for the intended scientific question.",
+          "feedback": "Scheduling status cannot validate the chosen electronic structure method or its accuracy."
+        },
+        "stablePause": {
+          "time": 112.958233,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441
+        },
+        "reviewSeek": {
+          "time": 65.140811,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 165.441,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/w8YkeB9KeHc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-05a.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:13.893Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:13.914Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:17.089Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:21.204Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:22.231Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05a.html",
+      "screenshot": "youtube-phone-standalone-05a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:51:28.280Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-06-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:46:57.460Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 178.774395,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "wrongFeedback": {
+          "answer": "Yes. A matching gain guarantees the required bandwidth.",
+          "feedback": "Gain and bandwidth are separate requirements. A circuit may match one while failing the other."
+        },
+        "stablePause": {
+          "time": 178.774395,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "reviewSeek": {
+          "time": 57.67857,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 275.221,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/37sAYWVOSOU?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:46:58.376Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:46:58.393Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:01.268Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:04.801Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:05.827Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06.html",
+      "screenshot": "youtube-desktop-standalone-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:12.072Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-06-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:30.732Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 178.745866,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "wrongFeedback": {
+          "answer": "Yes, if the schematic looks professionally drawn.",
+          "feedback": "Diagram quality is not performance evidence. Use the netlist, model and measured or simulated response."
+        },
+        "stablePause": {
+          "time": 178.745866,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221
+        },
+        "reviewSeek": {
+          "time": 57.670721,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 275.221,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/37sAYWVOSOU?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:31.279Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:31.303Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:34.484Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:51:38.573Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:51:39.600Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06.html",
+      "screenshot": "youtube-phone-standalone-06-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:51:46.133Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-06a-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06a",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:14.255Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 93.423075,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "wrongFeedback": {
+          "answer": "It passes if the horizontal axis is relabelled in MHz.",
+          "feedback": "A unit conversion does not change the physical cutoff or the acceptance threshold."
+        },
+        "stablePause": {
+          "time": 93.423075,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "reviewSeek": {
+          "time": 57.255719,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 149.961,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/uNGvR8jHTDc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06a.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:15.165Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:15.180Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:18.136Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:21.670Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:22.708Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06a.html",
+      "screenshot": "youtube-desktop-standalone-06a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:27.923Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-06a-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "06a",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:51:52.280Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 93.386362,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "wrongFeedback": {
+          "answer": "It passes if the horizontal axis is relabelled in MHz.",
+          "feedback": "A unit conversion does not change the physical cutoff or the acceptance threshold."
+        },
+        "stablePause": {
+          "time": 93.386362,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961
+        },
+        "reviewSeek": {
+          "time": 57.23998,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 149.961,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/uNGvR8jHTDc?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-06a.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:51:53.207Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:51:53.225Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:51:56.384Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:52:00.493Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:52:01.525Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06a.html",
+      "screenshot": "youtube-phone-standalone-06a-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:07.058Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-07-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "07",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:31.939Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 318.315497,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "wrongFeedback": {
+          "answer": "The molecular system is definitely unstable.",
+          "feedback": "A connection failure is an operational observation. Molecular instability requires evidence from the trajectory and simulator outputs."
+        },
+        "stablePause": {
+          "time": 318.315497,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "reviewSeek": {
+          "time": 277.774432,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 350.201,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/OCIPs5DRukI?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-07.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:32.866Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:32.881Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:36.001Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:39.538Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:40.571Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-07.html",
+      "screenshot": "youtube-desktop-standalone-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:47:46.800Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-07-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "07",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:52:10.594Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 318.213865,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "wrongFeedback": {
+          "answer": "The simulation has definitely completed successfully.",
+          "feedback": "A lost connection cannot confirm completion. Obtain a current scheduler status and inspect the expected output files."
+        },
+        "stablePause": {
+          "time": 318.213865,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201
+        },
+        "reviewSeek": {
+          "time": 277.776779,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 350.201,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/OCIPs5DRukI?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-07.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:52:12.093Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:52:12.110Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:52:15.247Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:52:19.307Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:52:20.340Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-07.html",
+      "screenshot": "youtube-phone-standalone-07-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:26.905Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-08-desktop",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "08",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "desktop",
+      "started": "2026-11-04T10:47:48.530Z",
+      "checks": {
+        "questionReady": {
+          "polls": 10
+        },
+        "timedPause": {
+          "time": 295.902175,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "wrongFeedback": {
+          "answer": "Water never enters any part of the bilayer.",
+          "feedback": "A nonzero or rounded low mean is not a universal zero-event claim. Check the event definition and full distribution."
+        },
+        "stablePause": {
+          "time": 295.902175,
+          "paused": true,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "reviewSeek": {
+          "time": 150.178184,
+          "paused": false,
+          "width": 1280,
+          "readyState": 4,
+          "duration": 370.001,
+          "polls": 1
+        },
+        "retryReady": {
+          "polls": 9
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 1365,
+          "scrollWidth": 1365,
+          "height": 900
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/k-cVIztvjDE?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-08.html&aoriginsup=1&vf=1",
+            "width": 1200,
+            "height": 675
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:47:49.458Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:47:49.472Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:47:52.407Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:47:55.962Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:47:56.994Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-08.html",
+      "screenshot": "youtube-desktop-standalone-08-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:48:02.226Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 1365,
+          "height": 900
+        }
+      }
+    },
+    {
+      "test": "browser-real-YouTube-streaming-standalone-08-phone",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "lesson": "08",
+      "context": "standalone",
+      "edition": "youtube",
+      "viewport": "phone",
+      "started": "2026-11-04T10:52:28.745Z",
+      "checks": {
+        "questionReady": {
+          "polls": 11
+        },
+        "timedPause": {
+          "time": 295.873923,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "wrongFeedback": {
+          "answer": "Water never enters any part of the bilayer.",
+          "feedback": "A nonzero or rounded low mean is not a universal zero-event claim. Check the event definition and full distribution."
+        },
+        "stablePause": {
+          "time": 295.873923,
+          "paused": true,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001
+        },
+        "reviewSeek": {
+          "time": 150.235136,
+          "paused": false,
+          "width": 854,
+          "readyState": 4,
+          "duration": 370.001,
+          "polls": 1
+        },
+        "fullscreenReturns": 2,
+        "retryReady": {
+          "polls": 10
+        },
+        "retryScore": "1/1",
+        "summary": {
+          "statements": 2,
+          "score": "2/2",
+          "continuation": true
+        },
+        "contentGeometry": {
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 844
+        },
+        "sourceFrames": [
+          {
+            "src": "https://www.youtube.com/embed/k-cVIztvjDE?origin=https%3A%2F%2Fph7klw76.github.io&autoplay=0&controls=0&disablekb=1&fs=0&loop=0&rel=0&showinfo=0&iv_load_policy=3&wmode=opaque&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fph7klw76.github.io%2FAIagentsinSTEM%2Fexports%2Flesson-08.html&aoriginsup=1&vf=6",
+            "width": 390,
+            "height": 219.375
+          }
+        ]
+      },
+      "events": [
+        {
+          "name": "checkpoint-seek-requested",
+          "time": "2026-11-04T10:52:29.676Z"
+        },
+        {
+          "name": "play-before-question",
+          "time": "2026-11-04T10:52:29.696Z"
+        },
+        {
+          "name": "review-click",
+          "time": "2026-11-04T10:52:32.821Z"
+        },
+        {
+          "name": "correct-adaptivity-continue",
+          "time": "2026-11-04T10:52:36.935Z"
+        },
+        {
+          "name": "summary-seek",
+          "time": "2026-11-04T10:52:37.969Z"
+        }
+      ],
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-08.html",
+      "screenshot": "youtube-phone-standalone-08-correct.png",
+      "status": "pass",
+      "completed": "2026-11-04T10:52:43.483Z",
+      "logs": [],
+      "environment": {
+        "kind": "real YouTube streaming, isolated local browser",
+        "browser": "145.0.7632.6",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "test": "public fresh JupyterLite automatic run before kernel readiness",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "fail",
+      "error": "180-second execution timeout; kernel eventually Idle but all cells remained unexecuted.",
+      "diagnosis": "Run All was requested before the initial kernel session was ready. All runtime downloads returned HTTP 200; no Python traceback.",
+      "artifacts": ".local/browser-public-final/browser-JupyterLite-fresh--a1f73-fic-results-and-three-plots-desktop/trace.zip",
+      "resolution": "Wait for visible Python (Pyodide) | Idle, handle an optional kernel chooser, then Run All. The corrected fresh public test passed in 20.9 seconds."
+    },
+    {
+      "test": "public phone chapter reset observation",
+      "testedRevision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "fail",
+      "error": "Frame was detached while collecting resetTime from the recreated internal YouTube iframe.",
+      "diagnosis": "H5P resetTask legitimately recreates the provider iframe. Observe the same outer H5P instance through documented getContext(), while retaining actual decoded advancing-playback checks before reset.",
+      "artifacts": ".local/browser-public-final/browser-real-chapter-queue-c4507--visible-playback-and-reset-phone/trace.zip"
+    }
+  ],
+  "counts": {
+    "executed": 43,
+    "passed": 41,
+    "failed": 2
+  },
+  "artifactIdentity": [
+    {
+      "path": "app.js",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/app.js?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 3938,
+      "sha256": "62c26fea0d109e5b6ab1d1775320b38e8434f95f5dcefdda60616443a8fa67eb",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-01.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-01.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 8614,
+      "sha256": "edd9294cfa54076e0a71cea92051b4be0fbacc02f9e71f40d3623ab023da6cb6",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-01.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-01.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 8622,
+      "sha256": "458cca6419ccd8871bb10ceabe0dda55611e5e5ffc69d8a935767fc82eaba49f",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-02.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-02.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 14187,
+      "sha256": "12993a572263bc0be786646d9eea2ee9051acfcacefda062ddcf9bc15bc79112",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-02.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-02.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 14195,
+      "sha256": "25045d4d019bd525ea0a1e0bc570ccb36d59fa6d45e09a37178ef47fa9f52f69",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-03.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-03.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 15317,
+      "sha256": "244ca5fee3195c551eb3749dfdf449551b339b0d140edf3ee611b90788ee35b1",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-03.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-03.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 15325,
+      "sha256": "e69040febc548fa224f4eacb1e0589b8586f55afcd2d9b4add0ba97be1882ab5",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-04.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-04.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 6951,
+      "sha256": "168eee0db5096822c8c670e389c16b2b7377653c92c8b1cab4483f4fd98be167",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-04.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-04.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 6959,
+      "sha256": "d8379d081546884acb1ab2c99519c449fdd2cbd065d99d48c9465f93f37cfa5a",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-05.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-05.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 15245,
+      "sha256": "35c1764c440257920272b0ead5dc3cb83eeabbab32b678b0b30114204c49b7b9",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-05.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-05.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 15253,
+      "sha256": "ca37e3476f2f9a432b34f48d00f9aabd5238422e1d519ec396a3f70b96b21d0c",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-05a.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-05a.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4421,
+      "sha256": "c79d54b4541b5dcc29bc4974369ad83ac0df97d54c7882bdfc631704c690ee39",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-05a.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-05a.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4429,
+      "sha256": "be572bed5fd6e2fe7bca4ea7b325f3a0f9cdd618023c23f82810890a31532dcf",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-06.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-06.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 7858,
+      "sha256": "2ac136dfabd48fc6a45d17934fd7839fe765cec04273c7cb8fc600effca16e33",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-06.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-06.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 7866,
+      "sha256": "f23ebd6e5c74afac892abaaabdd6c4b6dd4eb2236debd4c84405c76924f66ea2",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-06a.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-06a.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4030,
+      "sha256": "ff3c325f65fe7a15945338496a7f2df93662fa781c668be6235d5c7f6fd30ec4",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-06a.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-06a.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4038,
+      "sha256": "723322246c544d2403d9c839b341b6c46f4c870f5dfbc6e7ed9f8d16221ece4b",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-07.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-07.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 9629,
+      "sha256": "1ed29ea52f7ad30efdae6a0a2630a6bc90716add51d2d7d7ed8168474d9bd0b1",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-07.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-07.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 9637,
+      "sha256": "ede9978d46a9abb788e0596d49f2e216b77742bf3730bf069169563ea247ef06",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "captions/lesson-08.srt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-08.srt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 9647,
+      "sha256": "b3a13513f49ffcbec700fb07859ff049256d8db717caf17c7078ec9d76d46c7e",
+      "contentType": "application/x-subrip"
+    },
+    {
+      "path": "captions/lesson-08.vtt",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/captions/lesson-08.vtt?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 9655,
+      "sha256": "d4740b1128bf5f6a221fbaf6e2aa8a0aa2a32a6e7250b450f3f42df086eee72e",
+      "contentType": "text/vtt; charset=utf-8"
+    },
+    {
+      "path": "course.config.json",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/course.config.json?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 18747,
+      "sha256": "f223c7d5a2d5004de324798151d8fdcd886abb5dd1eba5ae493b9a61ce7b7854",
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "downloads/lesson-01-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-01-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201406,
+      "sha256": "39901aaf7ec72ff6686e08cd569103b4ecc07b2dbdec5241ff0b6c851fe10f9b",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-01.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-01.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203403,
+      "sha256": "33456a067e59ccd0ea3c77daca30de2885ed068e1a8412643a84a0ab6a6e465c",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-02-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-02-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201420,
+      "sha256": "dbba001eb007f94732dedc44789eeed6e725953ff2bed195266a7502dad8f271",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-02.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-02.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203412,
+      "sha256": "d317671b7b318b16f493fe361c293af8561646b896130330098676c5b8cc8afe",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-03-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-03-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201412,
+      "sha256": "ec37bc6eed4b17c36bd361495edcfe1ad1d7b11e7da66901faeb79baa73c3f2c",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-03.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-03.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203447,
+      "sha256": "751d0156992ba7d33af16810b201d788d42f047b62046c01c17cfcadc55fdcd9",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-04-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-04-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201391,
+      "sha256": "7886f871657f511ce2b187873063eae07c61c4bb2abc6f7dbf781992466692ee",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-04.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-04.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203414,
+      "sha256": "71f85d03d791317c935e91eafc82ebb75b9351eb42ae3ebcd1d897721dcfbe71",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-05-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-05-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201422,
+      "sha256": "9ad68ef8ebed965ed033f4665091fe6f3d0f29e9e98d2f6d4f47ba210a344273",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-05.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-05.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203454,
+      "sha256": "822ab3950bb600288609e5850861212fa5f75166ddbe4054115d444a8ae6d3be",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-05a-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-05a-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201397,
+      "sha256": "eb60700f50a78051eb476bbe9c2d6ce28b8cdd8776544e9c7257436e8a7800a2",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-05a.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-05a.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203403,
+      "sha256": "e1900ad165c2a750aeea68037c7d7a6f02011f48e04e15cdca0fe15f1e6c45d6",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-06-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-06-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201378,
+      "sha256": "3613f70441e6651425fe2a643b7f1fe17f0300f6a76e1a640d54e02fd60d57d3",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-06.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-06.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203443,
+      "sha256": "a533948b42ec926c6168e8f9928c4d2cd4249f50ad7b5caf382bc7eed361ee46",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-06a-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-06a-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201389,
+      "sha256": "983fdbba0f1c403d5649f945fccf4c05f58689f69b2690ba97e1f2d15a89973a",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-06a.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-06a.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203420,
+      "sha256": "0cdeafc3e6d797b746c04db13d37a11a382739c5da5f964457790ac60a8d0c9e",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-07-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-07-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201388,
+      "sha256": "92e5f871a22b8d522a7c7cafd5ab394e57add1103d4bac6b2d74d7e85df64045",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-07.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-07.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203416,
+      "sha256": "b047ee9db7c3f43f4a1a31c5be1f5e2714a92748f233e2a4d17cf98bde320159",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-08-practice.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-08-practice.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4201417,
+      "sha256": "0aa035210b8cb627d5d9f4241d7a2f37d7e15d2ed308a481fdfecb585aca72be",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "downloads/lesson-08.h5p",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/downloads/lesson-08.h5p?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 4203461,
+      "sha256": "45f8dc5d916be1a672ce77d0136c4b64d4b08b48be8ba8703ab0b82e1d030b0f",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "exports/lesson-01-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-01-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464115,
+      "sha256": "1282bc1c8120e5715828ab58fd40d8148557628698fde6c970b4316c5059efcf",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-01.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-01.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595522,
+      "sha256": "ac64b9fcff4c9225692ff0e3e0bf0c631f9e5f55b6111c998821d714cd6f1c6e",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-02-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-02-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464076,
+      "sha256": "f2f6f36e1d954fb967159e8758b885207aeee33a20f9b04d56166777ebc08550",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-02.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-02.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595509,
+      "sha256": "b7ddb52575a55b15d793b8602655725c0fd9aafbe0431ce1bfbf238a2dd5327a",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-03-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-03-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464112,
+      "sha256": "5c1dd51b00e95216d83886728c99d0d41c363da74ab39f0cf0e1a128a8d40c12",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-03.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-03.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595663,
+      "sha256": "e1f59ed56ff526164059ca81192023c6ea49eeeda695934196a8bbcb65408017",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-04-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-04-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464067,
+      "sha256": "49b67fb6fbbf12cf4ebd044672d2412f30fb948b74c090ec4bce840c9c3be48d",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-04.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-04.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595538,
+      "sha256": "fb06ae3c95c7798914a915516c24117c092e80e56aca88bd32ba040adc5f94e9",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-05-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464103,
+      "sha256": "5cf5c2e3f0ea87230445a7e573eec353e3208ad4f4e87820efd443c6ba701462",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-05.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595624,
+      "sha256": "2a8fb165051a5a4779ad0150005e2956b8a85defcfb3396ab2470d34e8c7d225",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-05a-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05a-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464038,
+      "sha256": "034fab4a932682fd10776cdfd3e3ddb0a17be01a9e8c3b902393d994f0365cdb",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-05a.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-05a.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595403,
+      "sha256": "09e77f847e9bc8f4788a7f66f5ab4ca09ccb04da147a21749b2e7cc4d265f572",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-06-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464031,
+      "sha256": "2a0a1758a1ce1edac6e3efccdb2dffd6c38f2e9e26ee7ae35545e5fad099ddf2",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-06.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595611,
+      "sha256": "85dd32e01551f5b7313160dbaf44c4ac5eee7eb807a7b2ddaabddb5bad10a310",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-06a-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06a-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464091,
+      "sha256": "c03e4a3768546e3af31f031abb98a6ff5ff91911f70718ad7deb494c625c035b",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-06a.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-06a.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595547,
+      "sha256": "da4a0b7f306371b4a8810e8a590aa26c3a5d73f44af2c8d6f03a82ec7b93dc67",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-07-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-07-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464105,
+      "sha256": "3fdc29b3fe151c9cfe33ebcce406276fd1cc203a0cebc03f5cfc8ad7a76cd078",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-07.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-07.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595704,
+      "sha256": "bf8587e665dbace3669e22ad5e9efd0a8d392a704e6574ec396f67ce57581987",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-08-practice.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-08-practice.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 464129,
+      "sha256": "8fe985bca8f4255d40a0e8244dc17f276c4249aa7c875b903efe4fafec634fc2",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "exports/lesson-08.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/exports/lesson-08.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1595729,
+      "sha256": "0f474a3d6d0efbba2252d51a7c602f9375b580fe615062770b7ce33d179ed09c",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "favicon.svg",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/favicon.svg?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 235,
+      "sha256": "7369a8a0aa0d2da600aba85c6f826e83caf36f6afbfce54f1a752b8f3d716777",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "index.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/index.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 7633,
+      "sha256": "4e7ed98316e13e19433894fe5122b090a2d449cc3a1e36518c9104a81e6306e0",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lab/stem-evidence.ipynb",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/lab/stem-evidence.ipynb?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 11725,
+      "sha256": "714de391cf79e674fbb7e7e66ae5aa189f05fc8f9f9b9ad8eb967520b71e14dc",
+      "contentType": "application/x-ipynb+json"
+    },
+    {
+      "path": "lite/api/contents/all.json",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/lite/api/contents/all.json?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 1046,
+      "sha256": "e2dbe114d6382fcc1516d64ac2ad0dbc4958dc3c577328f3a20d4cfd3d4f8bfe",
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "lite/files/stem-evidence.ipynb",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/lite/files/stem-evidence.ipynb?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 11725,
+      "sha256": "714de391cf79e674fbb7e7e66ae5aa189f05fc8f9f9b9ad8eb967520b71e14dc",
+      "contentType": "application/x-ipynb+json"
+    },
+    {
+      "path": "lite/lab/index.html",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/lite/lab/index.html?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 6644,
+      "sha256": "1be315e4be2b11c5e96d0a177ffb07a617e30f520019aa43cec8329d34289fdc",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "style.css",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/style.css?verify=b5004c8d33b818e25869d820a2d1130f3539887a",
+      "status": "pass",
+      "bytes": 7461,
+      "sha256": "48960be656f50ecd2df7ccc2b232b1362d3c95cd426362299b7e64fcab8cefe9",
+      "contentType": "text/css; charset=utf-8"
+    }
+  ]
+}

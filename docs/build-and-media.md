@@ -16,6 +16,8 @@ Use a Python environment with NumPy/SciPy for synchronization checks. The local 
 
 The final picture is stream-copied H.264 at 1920×1080 and 30 fps. A static audio gain targets approximately −16 LUFS, bounded by peak headroom; measured AAC peaks must remain ≤−1 dBTP. The 48 kHz/24-bit WAV is an uncompressed delivery master derived from the complete chapter AAC, so source compression remains. It is not claimed to restore a lost studio recording. Source color tags are reported exactly; untagged source pictures are not silently described as a color-converted new render.
 
+On first JupyterLite use, wait for the kernel status to read **Idle** before **Run → Run All Cells**. The regression test checks that actual state, handles the optional kernel chooser and fails promptly on a Python traceback. Windows finalization excludes the manifest itself using normalized paths. A borderless HTML root and a small iframe-height allowance accommodate fractional pixel rounding without clipping content or using document height as a feedback loop.
+
 Verification compares actual decoded RGB frames at opening, review, checkpoint and closing with each original. It correlates decoded final AAC with the WAV at three speech anchors, counts frames during full audio/video decoding, checks chapters and confirms the originals' hashes. Media durations and pictures retain zero timing changes. Questions are newly authored; there was no old H5P question schedule in the empty repository, so their old-to-new delta is not defined.
 
 For isolated finished-MP4 H5P review:

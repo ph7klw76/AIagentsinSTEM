@@ -6,7 +6,7 @@
  let player,ready=false,pending=null,lastSize=0;
  const status=document.getElementById('player-status');
  function send(kind,payload={}){if(embedded)parent.postMessage({channel:'stem-h5p-v1',lesson:LESSON.id,kind,...payload},location.origin)}
- function resize(){const content=document.querySelector('.h5p-content');const h=Math.ceil(content?.getBoundingClientRect().height||0)+2;if(h>100&&h!==lastSize){lastSize=h;send('resize',{height:h})}}
+ function resize(){const content=document.querySelector('.h5p-content');const h=Math.ceil(content?.getBoundingClientRect().height||0)+4;if(h>100&&h!==lastSize){lastSize=h;send('resize',{height:h})}}
  function seek(time,requestId){
   if(!Number.isFinite(time)||time<0||time>LESSON.duration)return;
   if(!ready){pending={time,requestId};status.textContent='Chapter queued while the video loads.';return}

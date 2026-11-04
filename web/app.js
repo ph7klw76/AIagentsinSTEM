@@ -14,7 +14,9 @@ function load(index){
  status.textContent='Loading the interactive player…';
  $('chapters').replaceChildren(...l.chapters.map(c=>{const b=document.createElement('button');b.type='button';b.textContent=`${time(c.time)} ${c.label}`;b.addEventListener('click',()=>seek(c.time));return b}));
  frame.title=`${l.order}. ${l.title} — native H5P interactive video`;
- frame.style.height='';frame.src=`exports/lesson-${l.id}.html`;
+ // Keep controls below a stable 16:9 placeholder while the native content loads.
+ // The child still reports its exact content height, including fullscreen changes.
+ frame.style.height=`${Math.ceil(frame.getBoundingClientRect().width*9/16)+40}px`;frame.src=`exports/lesson-${l.id}.html`;
  for(const [id,href]of Object.entries({'youtube-link':`https://youtu.be/${l.youtubeId}`,'srt-link':`captions/lesson-${l.id}.srt`,'vtt-link':`captions/lesson-${l.id}.vtt`,'practice-link':`exports/lesson-${l.id}-practice.html`,'h5p-download':`downloads/lesson-${l.id}.h5p`,'html-download':`exports/lesson-${l.id}.html`,'practice-download':`downloads/lesson-${l.id}-practice.h5p`}))$(id).href=href;
  $('previous').disabled=index===0;$('next').disabled=index===config.lessons.length-1;
  document.querySelectorAll('[data-lesson]').forEach((b,i)=>b.setAttribute('aria-current',String(i===index)));

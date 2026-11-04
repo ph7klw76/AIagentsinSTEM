@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-04T11:37:20.163215+00:00",
+  "revision": "503c246ffd42cdb6ba102574e9c18a26857695db",
+  "workflow": "https://github.com/ph7klw76/AIagentsinSTEM/actions/runs/41819083772",
+  "result": "failed; retained as history, not converted to a pass",
+  "environment": "Hosted Linux Chromium 156.0.8078.4, synthetic native-MP4 fixtures",
+  "observations": [
+    {
+      "case": "desktop embedded 06",
+      "observed": "Player was at 0:42 from the beginning and parent status was Player ready; the requested checkpoint had not applied. No script/resource error was logged.",
+      "correction": "Preserve a stable 16:9 loading placeholder, wait for the actual selected player document and activate external checkpoint by keyboard."
+    },
+    {
+      "case": "desktop standalone 07",
+      "observed": "Correct radio selected, but Check remained unsubmitted; there was no score or marked feedback.",
+      "correction": "Use a stable native Check pointer action, retaining the exact score assertion; independently verify retry timestamp is paused before answering."
+    }
+  ],
+  "diagnosticAcquisition": "Only selected small screenshot/JSON entries read from authenticated CI ZIP using explicit HTTP byte ranges after full archive transfer stalled. No claim that the full failed artifact digest was verified.",
+  "followup": "Six targeted actual finished-MP4 runs passed after the control/readiness corrections (three repeats per failing case). A new exact-head full CI run remains required."
+}

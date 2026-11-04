@@ -32,11 +32,12 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
  // before using chapter controls outside that fullscreen element.
  const leaveFullscreen=async()=>{const exit=root.getByRole('button',{name:'Exit Fullscreen',exact:true});if(await exit.count()&&await exit.isVisible()){await exit.press('Enter');r.checks.fullscreenReturns=(r.checks.fullscreenReturns||0)+1;await tab.playwright.waitForTimeout(300)}};
  const seekReady=async()=>{for(let i=0;i<160;i++){if((await tab.playwright.locator('#player-status').textContent()).startsWith('Ready at '))return;await tab.playwright.waitForTimeout(250)}throw Error('Queued seek did not become ready')};
- const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).click();await seekReady()};
+ const jump=async()=>{await leaveFullscreen();await tab.playwright.getByRole('button',{name:'Return to checkpoint',exact:true}).press('Enter');await seekReady()};
  const visible=(locator,ms)=>locator.waitFor(runner==='playwright'?{state:'visible',timeout:ms}:{state:'visible',timeoutMs:ms});
  try{
   if(context==='embedded')await tab.playwright.locator(`[data-lesson="${lesson.id}"]`).click();
   r.url=await tab.url();
+  for(let poll=0;poll<120;poll++){if(await root.locator(`.h5p-content[data-content-id="lesson-${lesson.id}"]`).count())break;if(poll===119)throw Error('Selected player document did not load');await tab.playwright.waitForTimeout(250)}
   await visible(root.getByRole('button',{name:'Play (k)',exact:true}),30000);
   await jump();mark('checkpoint-seek-requested');
   await root.getByRole('button',{name:'Play (k)',exact:true}).press('Enter');mark('play-before-question');
@@ -50,7 +51,7 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
   const wrong=root.getByRole('radio').filter({hasNotText:correct}).first();
   const wrongText=await wrong.innerText();const answer=lesson.question.answers.find(a=>!a.correct&&wrongText.includes(a.text));
   if(!answer)throw Error('Cannot identify the selected distractor');
-  await wrong.check();await root.getByRole('button',{name:/^Check the answers/}).press('Enter');
+  await wrong.check();await root.getByRole('button',{name:/^Check the answers/}).click();
   await visible(root.getByText(answer.feedback,{exact:true}),5000);
   r.checks.wrongFeedback={answer:answer.text,feedback:answer.feedback};
   const second=await readMedia(root,edition);
@@ -60,7 +61,9 @@ export async function exerciseLesson(tab,lesson,{context='embedded',edition='you
   r.checks.reviewSeek=await reviewReady(tab,root,lesson,edition);
   await jump();await root.getByRole('button',{name:'Play (k)',exact:true}).press('Enter');
   r.checks.retryReady=await questionReady(tab,root,correct);
-  await root.getByRole('radio',{name:correct}).check();await root.getByRole('button',{name:/^Check the answers/}).press('Enter');
+  await visible(root.getByRole('button',{name:'Play (k)',exact:true}),5000);await tab.getAXState({emit:false});
+  r.checks.retryPause=await readMedia(root,edition);if(!r.checks.retryPause.paused||Math.abs(r.checks.retryPause.time-lesson.question.time)>.6)throw Error('Retry timestamp did not pause');
+  await root.getByRole('radio',{name:correct}).check();await root.getByRole('button',{name:/^Check the answers/}).click();
   await visible(root.getByText('You got 1 out of 1 points',{exact:true}),5000);
   r.checks.retryScore='1/1';
   await fs.mkdir(outputDir,{recursive:true});
