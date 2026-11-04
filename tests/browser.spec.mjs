@@ -44,18 +44,22 @@ for(const l of cfg.lessons){
  });
 }
 test('JupyterLite: fresh kernel, all cells, scientific results and three plots',async({page},info)=>{
- test.skip(info.project.name!=='desktop','Desktop browser kernel execution; phone layouts tested in lesson cases');test.setTimeout(240000);
+ test.skip(info.project.name!=='desktop','Desktop browser kernel execution; phone layouts tested in lesson cases');test.setTimeout(300000);
  const logs=diagnostics(page),runtimeRequests=[];page.on('response',r=>{if(/pyodide(?:\.mjs|\.js|\.asm\.wasm|-lock\.json)/.test(r.url()))runtimeRequests.push({url:r.url(),status:r.status()})});await page.goto('/AIagentsinSTEM/lite/lab/index.html?path=stem-evidence.ipynb');
  await page.getByRole('button',{name:'Python (Pyodide)',exact:true}).waitFor({state:'visible',timeout:90000});
- await page.getByRole('menuitem',{name:'Run',exact:true}).click();await page.getByRole('menuitem',{name:'Run All Cells',exact:true}).click();
- const chooser=page.getByRole('dialog');if(await chooser.count()&&await chooser.isVisible()){
-  const select=chooser.locator('select');if(await select.count())await select.selectOption({label:'Python (Pyodide)'});await chooser.getByRole('button',{name:'Select',exact:true}).click();
+ const started=Date.now(),idle=page.getByRole('button',{name:/^Python \(Pyodide\)\s*\|\s*Idle$/});let selections=0;
+ while(!await idle.isVisible()){
+  const chooser=page.locator('.jp-Dialog').filter({hasText:'Select Kernel'});
+  if(await chooser.count()&&await chooser.isVisible()){await chooser.locator('select').selectOption({label:'Python (Pyodide)'});await chooser.getByRole('button',{name:/^Select(?: Kernel)?$/}).click();selections++}
+  if(Date.now()-started>90000)throw Error('Python kernel did not reach Idle before execution');await page.waitForTimeout(250);
  }
- await page.waitForFunction(()=>Array.from(document.querySelectorAll('.jp-OutputArea-output')).some(e=>e.textContent.includes('LAB_COMPLETE:')),{}, {timeout:180000,polling:250});
+ const kernelReadiness={status:'Idle',milliseconds:Date.now()-started,chooserSelections:selections};
+ await page.getByRole('menuitem',{name:'Run',exact:true}).click();await page.getByRole('menuitem',{name:'Run All Cells',exact:true}).click();
+ const execution=Date.now();while(true){const text=(await page.locator('.jp-OutputArea-output').allTextContents()).join('\n');if(text.includes('Traceback (most recent call last)'))throw Error(`Python cell failed: ${text}`);if(text.includes('LAB_COMPLETE:'))break;if(Date.now()-execution>180000)throw Error('Notebook execution did not complete after kernel readiness');await page.waitForTimeout(250)}
  const outputs=await page.locator('.jp-OutputArea-output').allTextContents();const text=outputs.join('\n');
  expect(text).toContain('BAR_END_UM 11.904761904761905');expect(text).toContain("'bandwidth_pass': False");expect(text).toContain("'nonzero_fraction': 0.1");expect(text).not.toContain('Traceback');
  const images=page.locator('.jp-OutputArea-output img');await expect(images).toHaveCount(3);for(const i of await images.all())expect(await i.evaluate(e=>e.naturalWidth)).toBeGreaterThan(300);
- expect(logs).toEqual([]);await fs.writeFile(info.outputPath('pyodide.json'),JSON.stringify({status:'pass',url:page.url(),context:'fresh hosted-build browser Pyodide',environment:{browser:await page.context().browser().version(),runtimeRequests},outputs,plots:3,errors:logs,timestamp:new Date().toISOString()},null,2));
+ expect(logs).toEqual([]);await fs.writeFile(info.outputPath('pyodide.json'),JSON.stringify({status:'pass',url:page.url(),context:'fresh hosted-build browser Pyodide',environment:{browser:await page.context().browser().version(),runtimeRequests},kernelReadiness,outputs,plots:3,errors:logs,timestamp:new Date().toISOString()},null,2));
 });
 
 if(process.env.COURSE_REAL_STREAM==='1')test('real chapter queue: same player, visible playback and reset',async({page},info)=>{
@@ -76,8 +80,12 @@ if(process.env.COURSE_REAL_STREAM==='1')test('real chapter queue: same player, v
  await frame.getByRole('button',{name:'Pause (k)',exact:true}).press('Enter');
  const exit=frame.getByRole('button',{name:'Exit Fullscreen',exact:true});if(await exit.count()&&await exit.isVisible())await exit.press('Enter');
  await page.getByRole('button',{name:'Reset lesson',exact:true}).click();
- await expect.poll(()=>video.evaluate(v=>v.currentTime)).toBeLessThan(1);
+ // Reset legitimately recreates YouTube's internal iframe. Observe the stable
+ // H5P instance through its documented context API, rather than a stale provider frame.
+ const h5pFrame=page.frames().find(f=>f.url().includes('/exports/lesson-02.html'));
+ await expect.poll(()=>h5pFrame.evaluate(()=>window.H5P.instances[0].getContext().value)).toBeLessThan(1);
+ const resetTime=await h5pFrame.evaluate(()=>window.H5P.instances[0].getContext().value);
  expect(await page.locator('#lesson-frame').getAttribute('src')).toBe(before);
- await fs.writeFile(info.outputPath('chapter-queue.json'),JSON.stringify({timestamp:new Date().toISOString(),url:page.url(),viewport:info.project.name,status:'pass',context:'embedded',sourceId:l.youtubeId,queuedBeforeReady:true,requestedChapter:l.chapters[1],advancingFrames:[a,b],sameFrameSource:before,resetTime:await video.evaluate(v=>v.currentTime),errors:logs},null,2));
- expect(logs).toEqual([]);
+ expect(logs.filter(e=>!isVendorPressure(e))).toEqual([]);
+ await fs.writeFile(info.outputPath('chapter-queue.json'),JSON.stringify({timestamp:new Date().toISOString(),url:page.url(),viewport:info.project.name,status:'pass',context:'embedded',sourceId:l.youtubeId,queuedBeforeReady:true,requestedChapter:l.chapters[1],advancingFrames:[a,b],sameFrameSource:before,resetTime,resetTimeSource:'Documented H5P getContext() after provider iframe recreation; same outer H5P retained',errors:logs,vendorPressureDiagnostics:logs.filter(isVendorPressure)},null,2));
 });

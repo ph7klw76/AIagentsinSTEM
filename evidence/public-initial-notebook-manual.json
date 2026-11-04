@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-11-04T10:51:59.944Z",
+  "revision": "b5004c8d33b818e25869d820a2d1130f3539887a",
+  "url": "https://ph7klw76.github.io/AIagentsinSTEM/lite/lab/index.html",
+  "context": "actual public JupyterLite; first notebook execution in in-app browser",
+  "status": "pass",
+  "outputs": [
+    "{\n  \"status\": \"pass\",\n  \"bar_extension_m\": 1.1904761904761905e-05,\n  \"bar_force_N\": 1000,\n  \"bar_elements_tested\": [\n    1,\n    2,\n    4,\n    8,\n    16\n  ],\n  \"amplifier_cutoff_hz\": 100010.0,\n  \"bandwidth_requirement_hz\": 150000,\n  \"bandwidth_pass\": false,\n  \"synthetic_occupancy\": {\n    \"frames\": 20,\n    \"mean\": 0.1,\n    \"nonzero_fraction\": 0.1,\n    \"maximum\": 1\n  },\n  \"limits\": \"1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer.\"\n}\n",
+    "SCIENTIFIC_CHECKS {'status': 'pass', 'bar_extension_m': 1.1904761904761905e-05, 'bar_force_N': 1000, 'bar_elements_tested': [1, 2, 4, 8, 16], 'amplifier_cutoff_hz': 100010.0, 'bandwidth_requirement_hz': 150000, 'bandwidth_pass': False, 'synthetic_occupancy': {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}, 'limits': '1D small-strain uniform bar, single-pole small-signal circuit, synthetic occupancy; not validation of the recorded external solvers or real bilayer.'}\n",
+    "",
+    "BAR_END_UM 11.904761904761905\n",
+    "",
+    "CIRCUIT_ACCEPTANCE {'gain_pass': True, 'bandwidth_pass': False, 'accepted': False}\nTRANSFER {'gain_pass': False, 'bandwidth_pass': True}\n",
+    "",
+    "SYNTHETIC_OCCUPANCY {'frames': 20, 'mean': 0.1, 'nonzero_fraction': 0.1, 'maximum': 1}\nLAB_COMPLETE: 3 figures; independent bar/circuit checks; synthetic occupancy; transfer task\n"
+  ],
+  "plots": [
+    {
+      "complete": true,
+      "height": 353,
+      "width": 609
+    },
+    {
+      "complete": true,
+      "height": 357,
+      "width": 621
+    },
+    {
+      "complete": true,
+      "height": 290,
+      "width": 790
+    }
+  ],
+  "logs": [
+    {
+      "level": "warn",
+      "message": "Disabling terminals plugin because they are not available on the server",
+      "timestamp": "2026-11-04T10:50:22.492Z",
+      "url": "https://ph7klw76.github.io/AIagentsinSTEM/lite/build/jlab_core.41dc500.js"
+    }
+  ]
+}
