@@ -63,3 +63,5 @@ See [build and media guide](docs/build-and-media.md) and [third-party notices](T
 ## Section 9 — Interactive workshop
 
 [Watch the workshop held on 6 November 2026](https://ph7klw76.github.io/AIagentsinSTEM/workshop-09/). The 26:48 professional edit includes the original voice, existing results, English captions, chapter navigation, review questions, and downloadable reflection notes. Source: `web/workshop-09/`.
+
+Section 9 YouTube source: https://youtu.be/XlVUdMu1Ueg. The uploaded MP4 remains available as a download fallback.
