@@ -59,3 +59,7 @@ The workflow builds and checks feature-branch pull requests and pushes to `main`
 For a new upload, keep the original IDs for rollback, verify the actual new URL and decoded playback, update central configuration, regenerate and test both native and HTML exports, then publish the reviewed revision. A local MP4, an HTTP 200 response or a source push does not establish that a new YouTube edition is available.
 
 See [build and media guide](docs/build-and-media.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Section 9 — Interactive workshop
+
+[Watch the workshop held on 6 November 2026](https://ph7klw76.github.io/AIagentsinSTEM/workshop-09/). The 26:48 professional edit includes the original voice, existing results, English captions, chapter navigation, review questions, and downloadable reflection notes. Source: `web/workshop-09/`.

@@ -1,0 +1,1427 @@
+WEBVTT
+
+1
+00:00:00.187 --> 00:00:02.477
+It’s not about
+
+2
+00:00:03.653 --> 00:00:07.369
+completing the simulation
+anymore. It’s about whether your
+
+3
+00:00:07.399 --> 00:00:11.807
+simulation makes sense
+or relates to the real world.
+
+4
+00:00:15.000 --> 00:00:20.495
+here we are going to learn how to use
+an AI agent for science and engineering.
+
+5
+00:00:21.067 --> 00:00:24.643
+Because people say AI tends to
+
+6
+00:00:24.673 --> 00:00:28.847
+hallucinate and can give wrong answers.
+
+7
+00:00:29.893 --> 00:00:38.617
+Of course, AI cannot be used to solve
+any complex simulation problem.
+
+8
+00:00:39.223 --> 00:00:43.283
+But if you use an AI agent
+
+9
+00:00:43.313 --> 00:00:51.257
+with software that does the actual
+calculations, then you can
+
+10
+00:00:52.093 --> 00:00:55.247
+make it very, very powerful.
+
+11
+00:00:55.845 --> 00:00:59.361
+The limitation of the large
+language model is that
+
+12
+00:01:00.175 --> 00:01:03.889
+when using a stochastic optimizer,
+
+13
+00:01:04.825 --> 00:01:08.187
+you have some randomness in the system.
+
+14
+00:01:08.187 --> 00:01:12.119
+It will be inherently non-deterministic,
+
+15
+00:01:12.905 --> 00:01:16.849
+but for science, you want
+it to be deterministic.
+
+16
+00:01:20.035 --> 00:01:24.569
+Numerical calculations rely
+on formulas and software.
+
+17
+00:01:25.115 --> 00:01:28.723
+For example, in a scientific
+calculation, you use
+
+18
+00:01:28.753 --> 00:01:32.129
+a Maxwell equation solver,
+a circuit simulator,
+
+19
+00:01:32.946 --> 00:01:36.399
+or Python, for example.
+
+20
+00:01:38.405 --> 00:01:41.779
+Of course, there is a range
+of software that can be used.
+
+21
+00:01:43.063 --> 00:01:45.502
+What we want is to
+
+22
+00:01:45.998 --> 00:01:51.258
+merge the large language
+model and the scientific and
+
+23
+00:01:51.288 --> 00:01:56.548
+engineering software together,
+so that the result of some
+
+24
+00:01:56.578 --> 00:02:02.303
+calculation or simulation
+is done by commercial or
+
+25
+00:02:02.333 --> 00:02:08.282
+standard scientific software,
+so that there is some
+
+26
+00:02:08.998 --> 00:02:12.672
+ground truth from the numerical method,
+
+27
+00:02:13.698 --> 00:02:15.159
+which can be checked.
+
+28
+00:02:15.885 --> 00:02:21.247
+Because an LLM cannot solve
+many-body interaction problems,
+
+29
+00:02:21.277 --> 00:02:25.965
+such as a many-electron problem. If you
+
+30
+00:02:25.995 --> 00:02:30.207
+ask an LLM to do that, it will fail. So
+
+31
+00:02:30.237 --> 00:02:34.025
+we have some solutions
+to the many-body problem by
+
+32
+00:02:34.055 --> 00:02:38.069
+approximation in certain
+software, for example,
+
+33
+00:02:38.099 --> 00:02:43.009
+Gaussian, which looks at
+molecular electronic structure,
+
+34
+00:02:43.695 --> 00:02:50.711
+which the LLM can use to do the calculation.
+
+35
+00:02:51.211 --> 00:02:56.395
+Why do we use deterministic solvers?
+
+36
+00:02:57.019 --> 00:03:02.785
+Because the results can be reproduced,
+audited, and moved between systems,
+
+37
+00:03:03.451 --> 00:03:07.415
+from a laptop to a server to the HPC,
+
+38
+00:03:08.019 --> 00:03:11.835
+and it can be used to teach a
+
+39
+00:03:11.865 --> 00:03:16.765
+physics or engineering student,
+rather than being a black box.
+
+40
+00:03:17.625 --> 00:03:18.465
+There is commercial software,
+
+41
+00:03:21.019 --> 00:03:26.985
+which may suit certification workflows,
+and there are open-source tools.
+
+42
+00:03:28.120 --> 00:03:31.675
+The LLM doesn’t invent
+the results inside the software.
+
+43
+00:03:32.079 --> 00:03:34.795
+The solutions come from
+
+44
+00:03:35.289 --> 00:03:37.725
+that deterministic software.
+
+45
+00:03:40.392 --> 00:03:44.240
+In this system, we’re going to use
+
+46
+00:03:44.270 --> 00:03:48.530
+a DeepSeek Flash API as an interface.
+
+47
+00:03:49.125 --> 00:03:51.500
+We use DeepSeek because it is cheaper
+
+48
+00:03:52.155 --> 00:03:55.130
+than the closed software.
+
+49
+00:03:59.550 --> 00:04:03.885
+We use OpenCode as the agent,
+
+50
+00:04:04.920 --> 00:04:11.783
+and an MCP tool server to interface
+with the software. This is the key.
+
+51
+00:04:12.904 --> 00:04:16.421
+The LLM is powerful
+
+52
+00:04:18.645 --> 00:04:23.251
+as long as you allow it to access
+
+53
+00:04:23.281 --> 00:04:29.809
+certain software that you use every day,
+for calculation, for design, whatever.
+
+54
+00:04:30.201 --> 00:04:36.289
+There are four generations of engineering AI.
+
+55
+00:04:36.375 --> 00:04:38.539
+We are at this stage now.
+
+56
+00:04:40.985 --> 00:04:42.809
+What does MCP connect?
+
+57
+00:04:45.365 --> 00:04:52.985
+MCP is an interface, like USB.
+It connects your application
+
+58
+00:04:53.015 --> 00:04:55.449
+to the LLM.
+
+59
+00:04:56.895 --> 00:05:00.921
+As long as it gets connected,
+
+60
+00:05:01.675 --> 00:05:04.171
+then you can do whatever you want.
+
+61
+00:05:06.785 --> 00:05:08.932
+In the AI application,
+
+62
+00:05:10.358 --> 00:05:16.063
+which acts as the MCP host, the MCP
+client discovers the available tools.
+
+63
+00:05:18.063 --> 00:05:27.575
+And this server connects you
+with all those tools. All
+
+64
+00:05:28.200 --> 00:05:34.805
+these MCP clients and the server
+are handled by the AI itself.
+
+65
+00:05:34.970 --> 00:05:38.345
+You can ask the AI to communicate for you.
+
+66
+00:05:40.200 --> 00:05:41.370
+No more headache.
+
+67
+00:05:41.925 --> 00:05:43.920
+Test and verify that
+the connection is working.
+
+68
+00:05:46.745 --> 00:05:48.140
+Here, of course,
+
+69
+00:05:48.705 --> 00:05:52.960
+I prefer to use Ubuntu, Linux.
+
+70
+00:05:54.555 --> 00:05:58.090
+Using Windows, then Windows 11,
+
+71
+00:05:58.555 --> 00:06:01.530
+you can use Ubuntu on WSL.
+
+72
+00:06:06.935 --> 00:06:16.440
+Because lots of the free tools in science
+and engineering are available on Linux.
+
+73
+00:06:16.960 --> 00:06:19.295
+Go to opencode.ai.
+
+74
+00:06:20.635 --> 00:06:26.760
+Here’s the website. Go
+there and click Download.
+
+75
+00:06:27.280 --> 00:06:31.245
+Or you want the Windows system,
+
+76
+00:06:32.310 --> 00:06:36.115
+you just click download and then install it.
+
+77
+00:06:36.673 --> 00:06:43.007
+If using Ubuntu, you open a terminal,
+you copy and paste the command. Then you
+
+78
+00:06:44.683 --> 00:06:46.917
+have installed OpenCode.
+
+79
+00:06:47.395 --> 00:06:53.670
+I prefer the Ubuntu terminal version because I
+
+80
+00:06:54.545 --> 00:06:58.825
+can run some calculation through GPU because
+
+81
+00:06:58.855 --> 00:07:03.360
+some software actually support only Linux if
+
+82
+00:07:04.815 --> 00:07:09.560
+I want to use the GPU for
+certain calculation. To
+
+83
+00:07:10.145 --> 00:07:13.980
+start OpenCode in the terminal,
+you just type “opencode.”
+
+84
+00:07:14.533 --> 00:07:15.680
+If you use the terminal,
+
+85
+00:07:17.816 --> 00:07:20.550
+this is what you will see.
+
+86
+00:07:20.998 --> 00:07:22.085
+You have OpenCode.
+
+87
+00:07:23.330 --> 00:07:30.250
+Now I want to connect to AI System.
+
+88
+00:07:30.698 --> 00:07:31.750
+I can connect.
+
+89
+00:07:32.688 --> 00:07:35.870
+There are a lot of services here.
+
+90
+00:07:38.438 --> 00:07:41.904
+I choose DeepSeek. It
+
+91
+00:07:42.940 --> 00:07:48.316
+will add a connection, so
+you have to have an API key.
+
+92
+00:07:48.818 --> 00:07:52.172
+I say, “Testing one, two, three,”
+
+93
+00:07:52.868 --> 00:07:56.122
+to see whether everything is
+connected, loud and clear.
+
+94
+00:07:56.588 --> 00:08:01.402
+[Audience] OpenCode terminal and OpenCode
+desktop. Which one should I download?
+
+95
+00:08:02.198 --> 00:08:03.632
+I'm a little bit confused.
+
+96
+00:08:04.188 --> 00:08:07.102
+You are using Windows.
+
+97
+00:08:07.562 --> 00:08:10.478
+Windows x64, not ARM64.
+
+98
+00:08:10.882 --> 00:08:14.678
+ARM is for a different processor.
+
+99
+00:08:14.722 --> 00:08:18.278
+Usually people use x64 for an Intel processor.
+
+100
+00:08:19.972 --> 00:08:22.028
+[Audience] Okay, got it. Thank you, Professor.
+
+101
+00:08:24.740 --> 00:08:26.355
+We want to install
+
+102
+00:08:27.150 --> 00:08:31.324
+Gmsh and CalculiX.
+
+103
+00:08:34.410 --> 00:08:35.868
+I want to ask
+
+104
+00:08:38.002 --> 00:08:43.690
+the AI to install Gmsh and CalculiX. You
+
+105
+00:08:44.915 --> 00:08:48.791
+write this: “Install Gmsh
+and CalculiX. Connect with
+
+106
+00:08:48.821 --> 00:08:55.370
+an MCP server in this environment so I
+can run calculations through OpenCode.”
+
+107
+00:08:56.062 --> 00:09:01.558
+The AI will actually install
+the software for you automatically,
+
+108
+00:09:02.522 --> 00:09:05.018
+set everything for you automatically.
+
+109
+00:09:05.541 --> 00:09:09.315
+It will also verify
+whether it works or not, so
+
+110
+00:09:10.069 --> 00:09:12.643
+we'll do some simple calculation to
+
+111
+00:09:12.673 --> 00:09:15.562
+check yes connected whether everything work
+
+112
+00:09:15.813 --> 00:09:18.597
+Everything has been installed.
+
+113
+00:09:19.147 --> 00:09:23.913
+You can see that you also
+do some verification test.
+
+114
+00:09:25.107 --> 00:09:27.657
+The software is installed and working, as
+
+115
+00:09:27.687 --> 00:09:30.463
+shown by running a calculation through it.
+
+116
+00:09:32.647 --> 00:09:35.715
+You will see CalculiX
+being connected under MCP.
+
+117
+00:09:36.285 --> 00:09:39.232
+All the commands are handled by AI so
+
+118
+00:09:40.458 --> 00:09:43.752
+that I don’t have to handle those details.
+
+119
+00:09:46.462 --> 00:09:52.758
+And one important thing that
+makes AI so powerful is SKILL.md.
+
+120
+00:09:54.800 --> 00:09:59.560
+For example, create a SKILL.md
+for the AI agent and
+
+121
+00:09:59.590 --> 00:10:04.574
+rigorously verify the correctness
+and accuracy of the skill for
+
+122
+00:10:04.690 --> 00:10:08.790
+CalculiX and Gmsh against the software
+
+123
+00:10:08.820 --> 00:10:13.144
+manuals, and copy this into OpenCode.
+
+124
+00:10:13.686 --> 00:10:16.426
+The SKILL.md may take a while to
+
+125
+00:10:16.458 --> 00:10:19.612
+create because you read
+a document, understand it,
+
+126
+00:10:20.288 --> 00:10:21.882
+and then create a SKILL.md.
+
+127
+00:10:22.374 --> 00:10:25.190
+What it did, during
+the creation of the SKILL.md,
+
+128
+00:10:25.914 --> 00:10:28.630
+was test a simple example
+
+129
+00:10:31.134 --> 00:10:37.940
+in the software to see how the command
+changes and whether it works or not, so
+
+130
+00:10:38.404 --> 00:10:45.740
+the skill can be written and refined
+by AI through iteration with
+
+131
+00:10:47.454 --> 00:10:51.520
+the software. With rapid iteration, you
+
+132
+00:10:53.934 --> 00:10:55.750
+check what does and doesn’t work.
+
+133
+00:10:56.260 --> 00:11:01.094
+“DeepSeek is cheaper but takes a long
+time. Which one do you prefer?”
+
+134
+00:11:01.720 --> 00:11:04.182
+Well, for my demonstration,
+
+135
+00:11:04.728 --> 00:11:08.518
+I prefer to use DeepSeek,
+because eventually, if you want
+
+136
+00:11:08.548 --> 00:11:11.582
+to run it in a business, the cost is
+
+137
+00:11:11.612 --> 00:11:16.588
+important but for you if you
+want to explore the frontier
+
+138
+00:11:17.232 --> 00:11:21.058
+then using Astra and
+
+139
+00:11:21.088 --> 00:11:25.388
+Sol is a possibility.
+
+140
+00:11:26.328 --> 00:11:28.302
+The skill is created, you see.
+
+141
+00:11:29.556 --> 00:11:31.560
+You copy it to the skills folder.
+
+142
+00:11:31.590 --> 00:11:33.504
+If you are using Astra, whatever,
+
+143
+00:11:34.530 --> 00:11:37.184
+or Sol to create it, you have
+to copy it into this directory.
+
+144
+00:11:37.756 --> 00:11:40.577
+You have some domain knowledge.
+
+145
+00:11:40.608 --> 00:11:45.833
+Add it to the skill, and it
+becomes very powerful.
+
+146
+00:11:51.138 --> 00:11:53.688
+Let’s look at an example.
+
+147
+00:11:53.996 --> 00:11:56.010
+When you have a problem,
+
+148
+00:11:56.736 --> 00:11:58.870
+it helps to break it into phases.
+
+149
+00:12:02.586 --> 00:12:05.680
+“Use the CalculiX skill, Gmsh, and MCP to
+
+150
+00:12:05.710 --> 00:12:09.940
+simulate a steel bar stretched
+by 0.01 mm at the end.
+
+151
+00:12:10.496 --> 00:12:13.336
+Calculate the resulting stress, validate the
+
+152
+00:12:13.366 --> 00:12:18.200
+simulation against the theoretical
+prediction, and visualize the result.
+
+153
+00:12:19.616 --> 00:12:21.790
+Organize the workflow into distinct phases,
+
+154
+00:12:22.096 --> 00:12:24.816
+including verification of the MCP connection,
+
+155
+00:12:24.846 --> 00:12:27.790
+model preparation, simulation,
+validation, and visualization.”
+
+156
+00:12:28.152 --> 00:12:34.364
+I just copy this one into here.
+
+157
+00:12:37.480 --> 00:12:39.694
+Then it will do the simulation for me.
+
+158
+00:12:40.162 --> 00:12:43.318
+It produces the results in this
+folder, which you can check.
+
+159
+00:12:44.332 --> 00:12:50.508
+The calculations and result
+figures can all be found there.
+
+160
+00:12:53.078 --> 00:12:55.342
+Of course the result can be wrong as
+
+161
+00:12:55.372 --> 00:12:59.028
+long as your material property is
+wrong or your assumption is wrong.
+
+162
+00:12:59.692 --> 00:13:02.832
+You need to know what you want to do.
+
+163
+00:13:18.546 --> 00:13:24.710
+For example, “Accelerating engineering
+for the physical world,” by OpenAI,
+
+164
+00:13:28.130 --> 00:13:31.974
+Using an LLM to design
+
+165
+00:13:32.838 --> 00:13:37.662
+something very complicated, electronics.
+
+166
+00:13:39.958 --> 00:13:42.182
+This is a very complex thing.
+
+167
+00:13:42.188 --> 00:13:43.828
+I will ask
+
+168
+00:13:44.588 --> 00:13:48.022
+AI to organize it into different phases.
+
+169
+00:13:49.140 --> 00:13:52.496
+What I do is based on this link,
+
+170
+00:13:54.080 --> 00:13:57.704
+what free tools, along
+with MCP and Codex, can help
+
+171
+00:13:57.734 --> 00:14:00.990
+design this? Create different
+phases of a prompt to
+
+172
+00:14:01.020 --> 00:14:04.516
+implement the device and illustrate
+in the link as close as possible.
+
+173
+00:14:05.160 --> 00:14:07.356
+For reverse engineering.
+
+174
+00:14:08.312 --> 00:14:14.598
+It spent about 40 minutes
+thinking, so it helped me
+
+175
+00:14:14.628 --> 00:14:17.084
+to develop different phases.
+
+176
+00:14:21.062 --> 00:14:25.576
+These are the actual phases.
+
+177
+00:14:27.308 --> 00:14:29.702
+I paste them into Codex, and
+
+178
+00:14:30.888 --> 00:14:37.882
+it starts to do it for me. It
+spends 60 minutes, one hour,
+
+179
+00:14:38.988 --> 00:14:43.312
+maybe 70 minutes. It takes a few
+hours to complete everything.
+
+180
+00:14:44.232 --> 00:14:45.708
+That’s the whole design.
+
+181
+00:14:47.312 --> 00:14:52.060
+At the end, I ask it to visualize
+the whole design for me.
+
+182
+00:14:53.740 --> 00:14:55.796
+It created a video of it.
+
+183
+00:14:56.438 --> 00:14:57.948
+It designed it using
+
+184
+00:14:58.404 --> 00:15:02.436
+FreeCAD, and then all
+
+185
+00:15:02.872 --> 00:15:08.208
+the different software to reverse
+engineer what OpenAI has done,
+
+186
+00:15:10.564 --> 00:15:13.578
+using 6.1 Sol Ultra.
+
+187
+00:15:27.694 --> 00:15:30.695
+It's the FreeCAD design of the model.
+
+188
+00:15:30.726 --> 00:15:38.040
+There’s also an electronics
+design in another folder.
+
+189
+00:15:40.496 --> 00:15:45.050
+This is the power of an LLM
+
+190
+00:15:47.176 --> 00:15:51.300
+along with the tools that it can use.
+
+191
+00:15:51.749 --> 00:15:58.044
+FreeCAD does the mechanical design.
+KiCad designs the electronic components.
+
+192
+00:15:58.368 --> 00:16:00.852
+One thing to watch for is that the
+
+193
+00:16:01.658 --> 00:16:06.092
+AI can produce a lot of files.
+
+194
+00:16:06.749 --> 00:16:10.348
+Make sure you have enough memory.
+
+195
+00:16:10.688 --> 00:16:13.262
+You see, under “Reverse engineering,”
+
+196
+00:16:13.934 --> 00:16:20.128
+to do that complex thing, It takes
+about 10.5 gigabytes for my folder.
+
+197
+00:16:20.941 --> 00:16:22.138
+Here it has lot of things.
+
+198
+00:16:22.542 --> 00:16:28.978
+Electronics, firmware, interface,
+mechanical, because it’s a complex thing.
+
+199
+00:16:29.438 --> 00:16:32.248
+It produces a lot of output.
+
+200
+00:16:34.988 --> 00:16:42.504
+Skill is important. Of course, you can
+use powerful AI to produce the SKILL.md.
+
+201
+00:16:44.658 --> 00:16:48.792
+You can organize a skill into
+references, assets, and scripts.
+
+202
+00:16:49.578 --> 00:16:52.872
+As an AI agent can connect to the software,
+
+203
+00:16:55.148 --> 00:16:56.802
+then everything is open for you.
+
+204
+00:16:58.998 --> 00:17:03.012
+We talk about MCP, but some
+
+205
+00:17:03.042 --> 00:17:07.807
+of these are done through Konnect. This
+
+206
+00:17:07.838 --> 00:17:11.574
+kind of thing usually AI
+can figure out by itself
+
+207
+00:17:12.078 --> 00:17:19.668
+I repeat, as long as a program
+like KiCad, for example, exposes
+
+208
+00:17:19.698 --> 00:17:23.792
+an API, a command-line interface,
+a scriptable application, or even MCP,
+
+209
+00:17:25.888 --> 00:17:27.324
+you can talk with OpenCode.
+
+210
+00:17:28.557 --> 00:17:31.032
+OpenCode can control that software.
+
+211
+00:17:31.562 --> 00:17:35.854
+How do I identify the important problem?
+For example, I want to design a chip.
+
+212
+00:17:36.558 --> 00:17:37.614
+I see a chip.
+
+213
+00:17:37.688 --> 00:17:44.112
+I want to find free software
+that will let me design a chip.
+
+214
+00:17:44.704 --> 00:17:51.246
+AI will suggest the freeware for
+you. So for example, this thing.
+
+215
+00:17:51.376 --> 00:17:55.102
+Then you can ask the AI to download
+it and configure it so that it can be
+
+216
+00:17:55.132 --> 00:17:57.388
+controlled by OpenCode.
+
+217
+00:17:57.846 --> 00:18:00.180
+What is limited is the
+
+218
+00:18:00.888 --> 00:18:04.182
+ability of the LLM. The LLM is very powerful.
+
+219
+00:18:05.638 --> 00:18:10.452
+And because some of the
+software required to run
+
+220
+00:18:10.482 --> 00:18:17.522
+on your computer is also limited
+by your power of your own computer.
+
+221
+00:18:20.288 --> 00:18:26.092
+I connect OpenCode to a supercomputer.
+
+222
+00:18:26.648 --> 00:18:33.962
+I wanted to see how powerful the LLM is
+for solving one of my difficult problems.
+
+223
+00:18:37.088 --> 00:18:40.338
+I want to run a molecular dynamics simulation.
+
+224
+00:18:40.368 --> 00:18:44.904
+Molecular dynamics is a long workflow.
+
+225
+00:18:45.602 --> 00:18:51.808
+Because I connected OpenCode With
+
+226
+00:18:54.352 --> 00:19:00.618
+the HPC, because one of my students
+has had a problem for a year
+
+227
+00:19:01.954 --> 00:19:05.470
+unable to solve it. I
+
+228
+00:19:06.292 --> 00:19:10.948
+asked AI to work out exactly
+what the problem was.
+
+229
+00:19:11.378 --> 00:19:14.472
+Because one of my students have a big
+
+230
+00:19:14.502 --> 00:19:18.198
+problem in terms of stability
+of the simulation and
+
+231
+00:19:19.592 --> 00:19:21.088
+accuracy of simulation,
+
+232
+00:19:21.438 --> 00:19:25.880
+Ask the AI to figure out the problem,
+
+233
+00:19:26.776 --> 00:19:30.930
+figure out the solution, so it
+can iterate and find the answer.
+
+234
+00:19:31.500 --> 00:19:33.062
+It's actually quite fast. See,
+
+235
+00:19:33.732 --> 00:19:38.268
+Of course, I do not give the password
+to the LLM. I store it somewhere.
+
+236
+00:19:42.852 --> 00:19:50.508
+When I connect to the supercomputer,
+it uses a stored password to connect.
+
+237
+00:19:51.312 --> 00:19:53.760
+Do not reveal a password to the LLM.
+
+238
+00:19:54.424 --> 00:19:56.850
+Very important thing. Security is important.
+
+239
+00:19:57.624 --> 00:20:01.312
+Through this, I can use quantum
+mechanics to quantify my molecules
+
+240
+00:20:03.708 --> 00:20:05.482
+and create a force field
+through quantum mechanics,
+
+241
+00:20:06.748 --> 00:20:09.668
+and then run the simulation
+to test everything for
+
+242
+00:20:09.698 --> 00:20:13.222
+me, even analyze the result for me in one go.
+
+243
+00:20:14.048 --> 00:20:18.698
+The limitation is the simulation itself.
+
+244
+00:20:19.148 --> 00:20:24.052
+Of course, there’s
+something called OpenAI Dot,
+
+245
+00:20:25.358 --> 00:20:28.772
+which can monitor the progress of your work.
+
+246
+00:20:30.250 --> 00:20:34.980
+If you’re using Codex or ChatGPT,
+
+247
+00:20:35.704 --> 00:20:42.510
+your workflow might take
+a few days or a week, so
+
+248
+00:20:42.734 --> 00:20:46.484
+OpenAI Dot can monitor
+it and keep you informed,
+
+249
+00:20:46.514 --> 00:20:51.810
+or tell you whether there
+is a problem or an error.
+
+250
+00:20:52.334 --> 00:20:58.400
+Here’s one example where I’m using OpenAI Dot.
+
+251
+00:20:59.110 --> 00:21:05.946
+I’m asking it to update me. It says it
+failed. Then I ask, “Why did it fail?”
+
+252
+00:21:05.976 --> 00:21:08.350
+If it knows why it failed, it can
+
+253
+00:21:10.736 --> 00:21:13.626
+actually, uh, correct it and make it work.
+
+254
+00:21:13.838 --> 00:21:15.752
+One thing is important.
+
+255
+00:21:16.218 --> 00:21:19.332
+At the beginning, you need to teach the AI,
+
+256
+00:21:20.278 --> 00:21:22.928
+for example, how to connect to the HPC and
+
+257
+00:21:22.958 --> 00:21:25.832
+how many processors or how much RAM to use.
+
+258
+00:21:26.458 --> 00:21:32.404
+I ask it to study HPC job submission,
+
+259
+00:21:34.238 --> 00:21:39.762
+how submission works, then train the skill
+
+260
+00:21:42.328 --> 00:21:45.502
+so you can reuse it to help
+
+261
+00:21:46.228 --> 00:21:48.202
+run successful simulations.
+
+262
+00:21:48.598 --> 00:21:50.842
+Here’s an example of AI
+
+263
+00:21:51.498 --> 00:21:56.114
+being used to run a simulation.
+It’s fluid dynamics.
+
+264
+00:21:57.068 --> 00:21:59.662
+It agrees with the experimental data.
+
+265
+00:22:05.708 --> 00:22:10.614
+AI orchestrates the whole workflow.
+
+266
+00:22:13.246 --> 00:22:16.140
+Another one I’ll show you is on GitHub.
+
+267
+00:22:17.968 --> 00:22:22.324
+It is an AI research system
+running on your own computer,
+
+268
+00:22:23.778 --> 00:22:26.812
+with whatever account and API key you choose.
+
+269
+00:22:31.378 --> 00:22:38.972
+K-Dense AI has created
+a remarkable set of skills,
+
+270
+00:22:40.328 --> 00:22:43.744
+including Scientific Agents
+and Science Superpowers.
+
+271
+00:22:46.978 --> 00:22:48.812
+There are also Lab Instrument MCPs.
+
+272
+00:22:49.342 --> 00:22:53.368
+There are agent skills you
+
+273
+00:22:54.132 --> 00:22:57.108
+can find here. You can
+
+274
+00:22:58.272 --> 00:23:07.038
+integrate them into your harness
+by installing the skills. Then the
+
+275
+00:23:07.924 --> 00:23:14.718
+OpenCode will install the skill set where
+your LLM can use the skill set later.
+
+276
+00:23:15.598 --> 00:23:17.892
+The skill set can always
+improve. There can be errors.
+
+277
+00:23:18.288 --> 00:23:20.404
+I use an AI agent to create
+
+278
+00:23:21.114 --> 00:23:24.908
+an interactive lecture
+
+279
+00:23:28.248 --> 00:23:30.942
+And a video like this.
+
+280
+00:23:31.758 --> 00:23:36.132
+I asked what kind of
+
+281
+00:23:36.598 --> 00:23:40.718
+free tools would let me
+
+282
+00:23:40.748 --> 00:23:46.654
+create interactive software that
+encourages critical thinking.
+
+283
+00:23:48.048 --> 00:23:49.232
+It gave us a suggestion.
+
+284
+00:23:49.738 --> 00:23:52.842
+The SKILL.md is important.
+
+285
+00:23:53.614 --> 00:23:54.788
+It makes it reusable.
+
+286
+00:23:57.852 --> 00:24:00.328
+If you’re unhappy with the result,
+
+287
+00:24:00.972 --> 00:24:02.428
+upgrade the skill.
+
+288
+00:24:02.750 --> 00:24:05.878
+The skill set becomes more and more powerful.
+
+289
+00:24:07.614 --> 00:24:09.148
+It's like teaching a genius.
+
+290
+00:24:10.092 --> 00:24:11.948
+It just gives direction.
+
+291
+00:24:12.174 --> 00:24:14.756
+If the outcome is not to your satisfaction,
+
+292
+00:24:14.786 --> 00:24:17.268
+you give it another suggestion or direction.
+
+293
+00:24:17.676 --> 00:24:22.030
+I also use it to create “AI Agents in STEM,”
+
+294
+00:24:22.926 --> 00:24:26.700
+a series of 8-10 lectures,
+
+295
+00:24:28.716 --> 00:24:32.760
+with me talking using a
+
+296
+00:24:33.376 --> 00:24:39.420
+rendering of my face and voice using
+my GPU here. The data is local.
+
+297
+00:24:40.026 --> 00:24:43.220
+My voice will stay on my local desktop.
+
+298
+00:24:45.286 --> 00:24:49.680
+We show in detail how AI agents work
+
+299
+00:24:51.166 --> 00:24:52.840
+and what problems they can solve.
+
+300
+00:24:53.188 --> 00:24:55.490
+“Should I use OpenCode or Codex?”
+
+301
+00:24:55.916 --> 00:25:01.130
+OpenCode can connect
+to whatever LLM API you want.
+
+302
+00:25:02.546 --> 00:25:04.140
+Codex is for ChatGPT.
+
+303
+00:25:06.776 --> 00:25:08.050
+There’s a difference,
+
+304
+00:25:09.556 --> 00:25:11.070
+because you can choose whatever you want.
+
+305
+00:25:13.830 --> 00:25:16.944
+[Audience] Just a few
+words, if you don’t mind.
+
+306
+00:25:17.430 --> 00:25:20.310
+Is this applicable for [unclear], for example,
+
+307
+00:25:20.340 --> 00:25:25.086
+for a molecule, especially that you
+work on the [unclear] molecules?
+
+308
+00:25:25.540 --> 00:25:30.534
+And, for example, you go with two
+parts, and then you said…
+
+309
+00:25:30.860 --> 00:25:32.996
+[Presenter] Of course, it is applicable.
+
+310
+00:25:33.740 --> 00:25:36.626
+You want to run a simulation with ORCA.
+
+311
+00:25:37.080 --> 00:25:41.898
+You can ask the LLM to connect with
+
+312
+00:25:41.928 --> 00:25:46.854
+ORCA to do a simulation, again, TD-DFT.
+
+313
+00:25:47.630 --> 00:25:48.798
+It’s all there.
+
+314
+00:25:49.624 --> 00:25:56.732
+For synthesis, the AI has to be able
+to access a synthesis database and find
+
+315
+00:25:56.762 --> 00:25:58.018
+the best way of synthesis.
+
+316
+00:25:58.586 --> 00:26:02.140
+Whatever the computer can do,
+
+317
+00:26:03.636 --> 00:26:07.980
+just allow the AI to use the tool
+that can do this faster for you.
+
+318
+00:26:10.454 --> 00:26:13.008
+It’s also important to formulate a question.
+
+319
+00:26:13.932 --> 00:26:15.408
+The right direction is important.
+
+320
+00:26:16.044 --> 00:26:20.638
+And find a simulation that
+agrees with experiment.
+
+321
+00:26:20.824 --> 00:26:26.228
+What constraints do you need
+to put in as the AI simulates?
+
+322
+00:26:26.812 --> 00:26:32.088
+Being able to audit the evidence
+of your simulation becomes important,
+
+323
+00:26:32.342 --> 00:26:33.978
+rather than running a simulation.
+
+324
+00:26:35.938 --> 00:26:37.170
+Computing becomes easy,
+
+325
+00:26:38.216 --> 00:26:41.330
+but defining a good problem
+and proving the result will matter.
+
+326
+00:26:41.476 --> 00:26:43.500
+A proven result connects
+back to the real world.
+

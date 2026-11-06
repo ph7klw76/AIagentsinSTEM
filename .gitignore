@@ -15,3 +15,5 @@ __pycache__/
 !.env.example
 .jupyterlite.doit.db*
 AIagentsinSTEM-jupyterlite.tgz
+
+!web/workshop-09/workshop.mp4

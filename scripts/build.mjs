@@ -13,6 +13,7 @@ for(const lesson of c.lessons){
  console.log('Exported',lesson.id);
 }
 for(const name of ['index.html','style.css','app.js','favicon.svg'])await fs.copyFile(`web/${name}`,`${output}/${name}`);
+await fs.cp('web/workshop-09',`${output}/workshop-09`,{recursive:true});
 await fs.copyFile('course.config.json',`${output}/course.config.json`);
 if(!preview){
  await fs.mkdir('dist/captions',{recursive:true});await fs.mkdir('dist/lab',{recursive:true});await fs.mkdir('dist/evidence',{recursive:true});
